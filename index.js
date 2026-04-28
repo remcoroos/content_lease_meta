@@ -96,15 +96,30 @@ async function processFeed() {
           gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' }
       ];
 
+      const cloudinaryPublicId = `content_lease_meta/${id.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
+
       try {
         const cloudinaryConfig = cloudinary.config();
         const hasCloudinary = process.env.CLOUDINARY_URL || (cloudinaryConfig.cloud_name && cloudinaryConfig.api_key);
 
         if (originalImage && hasCloudinary) {
-          // Fetch mode: Cloudinary haalt de bronafbeelding zelf op en past transformaties toe.
-          // Geen upload nodig — maakt feed generatie seconden snel in plaats van uren.
-          metaImage = cloudinary.url(originalImage, {
-            type: 'fetch',
+          // Upload bronafbeelding als die nog niet bestaat, anders skip
+          try {
+            await cloudinary.uploader.upload(originalImage, {
+              public_id: cloudinaryPublicId,
+              overwrite: false,
+              unique_filename: false
+            });
+            console.log(`  ↑ Uploaded ${id}`);
+          } catch (uploadErr) {
+            if (uploadErr.http_code === 400 || uploadErr.message?.includes('already exists')) {
+              console.log(`  ✓ Exists  ${id}`);
+            } else {
+              throw uploadErr;
+            }
+          }
+
+          metaImage = cloudinary.url(cloudinaryPublicId, {
             transformation,
             secure: true,
             format: 'jpg',
