@@ -1,8 +1,11 @@
-const axios = require('axios');
-const xml2js = require('xml2js');
-const cloudinary = require('cloudinary').v2;
-const fs = require('fs-extra');
-const path = require('path');
+import axios from 'axios';
+import xml2js from 'xml2js';
+import { v2 as cloudinary } from 'cloudinary';
+import fs from 'fs-extra';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 if (process.env.CLOUDINARY_URL) {
   // CLOUDINARY_URL auto-configures if present

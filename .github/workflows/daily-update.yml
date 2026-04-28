@@ -6,6 +6,9 @@ on:
   workflow_dispatch:
     # Allows manual triggering from Vercel
 
+permissions:
+  contents: write
+
 jobs:
   generate-feed:
     runs-on: ubuntu-latest

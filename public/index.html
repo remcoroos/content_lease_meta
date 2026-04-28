@@ -3,314 +3,424 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Content Lease | Feed Monitor</title>
+    <title>Content Lease | Meta Feed Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
         :root {
-            --bg-color: #f4f2f7; /* Lichtpaarse achtergrond uit text file */
-            --card-bg: #ffffff;
-            --text-main: #1c0a30; /* Donkerpaars */
-            --text-muted: #776d83; /* Grijspaars */
-            --border-color: #e8e2e2;
-            --accent: #6d3ef3; /* Paars */
-            --accent-green: #2fb25d; /* Groen */
-            --accent-yellow: #f4be04; /* Geel */
+            --navy: #38485F;
+            --orange: #E73E1D;
+            --orange-light: rgba(231, 62, 29, 0.08);
+            --border: #E2E8F0;
+            --muted: #807E7D;
+            --bg: #F7F8FA;
+            --white: #ffffff;
+            --green: #2fb25d;
+            --yellow: #f4be04;
         }
+
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            font-family: 'Inter', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--navy);
             min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 48px 16px;
             -webkit-font-smoothing: antialiased;
         }
-        .monitor-wrapper {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 40px;
-            max-width: 520px;
+
+        .page {
             width: 100%;
-            box-sizing: border-box;
-            box-shadow: 0 10px 40px rgba(109, 62, 243, 0.08);
+            max-width: 560px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
         }
+
+        /* Header */
         .header {
-            margin-bottom: 30px;
-        }
-        .eyebrow {
-            font-size: 12px;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            color: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             margin-bottom: 8px;
-            font-weight: 700;
         }
-        h1 {
-            margin: 0;
-            font-size: 26px;
-            font-weight: 700;
-            letter-spacing: -0.5px;
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
-        .status-indicator {
+        .logo-mark {
+            width: 32px;
+            height: 32px;
+            background: var(--orange);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo-mark svg { width: 18px; height: 18px; fill: white; }
+        .logo-text {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--navy);
+            letter-spacing: -0.3px;
+        }
+        .logo-text span {
+            color: var(--orange);
+        }
+        .status-pill {
             display: inline-flex;
             align-items: center;
-            margin-top: 12px;
-            font-size: 14px;
+            gap: 6px;
+            font-size: 12px;
             font-weight: 500;
-            color: var(--text-muted);
-            background: #f4f2f7;
-            padding: 6px 12px;
+            color: var(--muted);
+            background: var(--white);
+            border: 1px solid var(--border);
+            padding: 5px 12px;
             border-radius: 20px;
         }
         .dot {
-            width: 8px;
-            height: 8px;
-            background: #cdcdcd; 
+            width: 7px;
+            height: 7px;
             border-radius: 50%;
-            margin-right: 8px;
+            background: #cbd5e1;
+            flex-shrink: 0;
         }
-        .dot.active {
-            background: var(--accent-green);
-            box-shadow: 0 0 0 3px rgba(47, 178, 93, 0.2);
-        }
-        .dot.error {
-            background: #f87171;
-            box-shadow: 0 0 0 3px rgba(248, 113, 113, 0.2);
-        }
+        .dot.active { background: var(--green); box-shadow: 0 0 0 3px rgba(47,178,93,0.2); }
+        .dot.error { background: #f87171; box-shadow: 0 0 0 3px rgba(248,113,113,0.2); }
         .dot.processing {
-            background: var(--accent-yellow);
-            box-shadow: 0 0 0 3px rgba(244, 190, 4, 0.2);
-            animation: pulse 1.5s infinite;
+            background: var(--yellow);
+            box-shadow: 0 0 0 3px rgba(244,190,4,0.2);
+            animation: blink 1.4s infinite;
         }
-        @keyframes pulse {
-            0% { opacity: 1; }
-            50% { opacity: 0.5; }
-            100% { opacity: 1; }
-        }
-        
-        .url-box {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            margin-bottom: 25px;
-            background: #f9f9fb;
-            padding: 16px;
+        @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+        /* Card */
+        .card {
+            background: var(--white);
+            border: 1px solid var(--border);
             border-radius: 12px;
-            border: 1px solid var(--border-color);
+            padding: 24px;
         }
-        .url-box label {
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--text-main);
+
+        .card-label {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: var(--orange);
+            margin-bottom: 16px;
         }
-        .url-input-group {
+
+        /* URL input */
+        .input-row {
             display: flex;
             gap: 8px;
         }
-        .url-input-group input {
-            flex-grow: 1;
-            padding: 12px 14px;
-            border: 1px solid #d1d1d6;
+        .input-row input {
+            flex: 1;
+            padding: 10px 14px;
+            border: 1px solid var(--border);
             border-radius: 8px;
-            background: #ffffff;
-            color: var(--text-main);
             font-family: inherit;
             font-size: 13px;
+            color: var(--navy);
             outline: none;
-            transition: border-color 0.2s;
+            transition: border-color 0.15s;
         }
-        .url-input-group input:focus {
-            border-color: var(--accent);
-        }
+        .input-row input:focus { border-color: var(--orange); }
         .btn-save {
-            background: var(--text-main);
+            background: var(--navy);
             color: white;
             border: none;
-            padding: 0 16px;
+            padding: 0 18px;
             border-radius: 8px;
+            font-family: inherit;
             font-size: 13px;
             font-weight: 600;
             cursor: pointer;
-            transition: opacity 0.2s;
+            transition: opacity 0.15s;
+            white-space: nowrap;
         }
-        .btn-save:hover {
-            opacity: 0.85;
-        }
+        .btn-save:hover { opacity: 0.85; }
 
-        .data-grid {
+        /* Stats */
+        .stats {
+            display: flex;
+            gap: 0;
+        }
+        .stat {
+            flex: 1;
             display: flex;
             flex-direction: column;
-            gap: 15px;
-            margin-bottom: 30px;
+            gap: 4px;
         }
-        .data-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-bottom: 15px;
-            border-bottom: 1px solid var(--border-color);
+        .stat + .stat {
+            padding-left: 24px;
+            border-left: 1px solid var(--border);
+            margin-left: 24px;
         }
-        .data-item:last-child {
-            border-bottom: none;
-            padding-bottom: 0;
-        }
-        .data-label {
-            font-size: 14px;
-            color: var(--text-muted);
+        .stat-label {
+            font-size: 12px;
+            color: var(--muted);
             font-weight: 500;
         }
-        .data-value {
-            font-size: 15px;
-            font-weight: 600;
+        .stat-value {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--navy);
+            letter-spacing: -0.5px;
         }
 
-        .actions {
-            display: flex;
-            gap: 12px;
-            flex-direction: column;
-        }
-        
-        .button {
+        /* Actions */
+        .actions { display: flex; flex-direction: column; gap: 10px; }
+
+        .btn {
             display: flex;
             align-items: center;
             justify-content: center;
-            background: var(--accent);
-            color: #fff;
-            border: none;
-            padding: 14px 20px;
+            gap: 8px;
+            padding: 13px 20px;
             border-radius: 8px;
+            font-family: inherit;
             font-size: 14px;
             font-weight: 600;
-            text-decoration: none;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.15s;
+            border: none;
+            text-decoration: none;
             width: 100%;
-            box-sizing: border-box;
-            gap: 8px;
         }
-        .button:hover {
-            background: #5b30d6;
-            transform: translateY(-1px);
+        .btn-primary {
+            background: var(--orange);
+            color: white;
         }
-        .button:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-            transform: none;
+        .btn-primary:hover { background: #d03317; }
+        .btn-primary:disabled { opacity: 0.55; cursor: not-allowed; }
+        .btn-outline {
+            background: var(--white);
+            color: var(--navy);
+            border: 1.5px solid var(--border);
         }
-        .btn-secondary {
-            background: #ffffff;
-            color: var(--accent);
-            border: 2px solid var(--accent);
-        }
-        .btn-secondary:hover {
-            background: #fcfaff;
-            transform: translateY(-1px);
-        }
-        .footer {
-            margin-top: 35px;
-            font-size: 13px;
-            color: var(--text-muted);
-            text-align: center;
-            background: #f4f2f7;
-            padding: 16px;
+        .btn-outline:hover { border-color: var(--navy); }
+
+        /* What it does */
+        .explain {
+            border: 1px solid var(--border);
             border-radius: 12px;
+            overflow: hidden;
         }
+        .explain-header {
+            background: var(--navy);
+            padding: 16px 24px;
+            font-size: 13px;
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.2px;
+        }
+        .explain-body {
+            background: var(--white);
+            padding: 20px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .explain-row {
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+        }
+        .explain-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: var(--orange-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 15px;
+        }
+        .explain-text strong {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--navy);
+            display: block;
+            margin-bottom: 2px;
+        }
+        .explain-text p {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        /* Divider */
+        .divider {
+            border: none;
+            border-top: 1px solid var(--border);
+        }
+
+        /* Toast */
         .toast {
             position: fixed;
             top: 20px;
             right: 20px;
-            background: var(--accent-green);
+            background: var(--navy);
             color: white;
-            padding: 12px 24px;
+            padding: 10px 20px;
             border-radius: 8px;
+            font-size: 13px;
             font-weight: 600;
-            font-size: 14px;
-            box-shadow: 0 4px 12px rgba(47, 178, 93, 0.3);
-            transform: translateY(-100px);
+            box-shadow: 0 4px 16px rgba(56,72,95,0.2);
+            transform: translateY(-80px);
             opacity: 0;
             transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         }
-        .toast.show {
-            transform: translateY(0);
-            opacity: 1;
+        .toast.show { transform: translateY(0); opacity: 1; }
+
+        .powered {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: center;
+            padding-top: 4px;
         }
+        .powered a { color: var(--orange); text-decoration: none; font-weight: 500; }
     </style>
 </head>
 <body>
 
-<div class="toast" id="toast">Opgeslagen!</div>
+<div class="toast" id="toast"></div>
 
-<div class="monitor-wrapper">
+<div class="page">
+
+    <!-- Header -->
     <div class="header">
-        <div class="eyebrow">Content Lease</div>
-        <h1>Meta Feed Dashboard</h1>
-        <div class="status-indicator">
+        <div class="logo">
+            <div class="logo-mark">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 3h18v4H3zM3 10h11v4H3zM3 17h14v4H3z"/></svg>
+            </div>
+            <div class="logo-text">Content<span>Lease</span> Feed</div>
+        </div>
+        <div class="status-pill">
             <div class="dot" id="status-dot"></div>
-            <span id="status-text">Verbinden met server...</span>
+            <span id="status-text">Verbinden...</span>
         </div>
     </div>
 
-    <div class="url-box">
-        <label for="feed-url">Bron URL (XML Feed)</label>
-        <div class="url-input-group">
+    <!-- Feed URL -->
+    <div class="card">
+        <div class="card-label">Bron Feed URL</div>
+        <div class="input-row">
             <input type="text" id="feed-url" placeholder="https://...">
             <button class="btn-save" onclick="saveUrl()" id="save-btn">Opslaan</button>
         </div>
     </div>
 
-    <div class="data-grid">
-        <div class="data-item">
-            <span class="data-label">Laatste Synchronisatie</span>
-            <span class="data-value" id="last-sync">...</span>
-        </div>
-        <div class="data-item">
-            <span class="data-label">Gevalideerde Voertuigen</span>
-            <span class="data-value" id="vehicle-count">...</span>
+    <!-- Stats -->
+    <div class="card">
+        <div class="card-label">Statistieken</div>
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-label">Laatste sync</div>
+                <div class="stat-value" id="last-sync">—</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Voertuigen</div>
+                <div class="stat-value" id="vehicle-count">—</div>
+            </div>
         </div>
     </div>
 
-    <div class="actions">
-        <button class="button" onclick="forceUpdate()" id="update-btn">
-            <span>🔄</span> Nu Synchroniseren & Genereren
-        </button>
-        <a href="/meta-product-feed.xml" class="button btn-secondary" target="_blank">
-            <span>📄</span> Bekijk Gegenereerde XML
-        </a>
+    <!-- Actions -->
+    <div class="card">
+        <div class="card-label">Acties</div>
+        <div class="actions">
+            <button class="btn btn-primary" onclick="forceUpdate()" id="update-btn">
+                ↻ Nu synchroniseren
+            </button>
+            <a href="/meta-product-feed.xml" class="btn btn-outline" target="_blank">
+                ↗ Bekijk XML feed
+            </a>
+        </div>
     </div>
 
-    <div class="footer">
-        Powered door Cloudinary Meta Optimalisatie.<br>
-        Vormgeving: Content Lease styling (Paars / Groen).
+    <!-- What it does -->
+    <div class="explain">
+        <div class="explain-header">Wat doet deze tool?</div>
+        <div class="explain-body">
+            <div class="explain-row">
+                <div class="explain-icon">📥</div>
+                <div class="explain-text">
+                    <strong>Haalt voertuigdata op</strong>
+                    <p>De tool leest automatisch de voertuigfeed uit het Google Merchant Center export van jouw klant.</p>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="explain-row">
+                <div class="explain-icon">🖼️</div>
+                <div class="explain-text">
+                    <strong>Optimaliseert afbeeldingen voor Meta</strong>
+                    <p>Elke afbeelding wordt omgezet naar 1080×1080 px (vierkant formaat) — het formaat dat het beste presteert in Facebook en Instagram Ads.</p>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="explain-row">
+                <div class="explain-icon">✏️</div>
+                <div class="explain-text">
+                    <strong>Plaatst relevante informatie op de afbeelding</strong>
+                    <p>Merk, model, kilometerstand, bouwjaar en vraagprijs worden automatisch als tekst op de foto gezet — zodat de advertentie direct duidelijk is, ook zonder tekst in de caption.</p>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="explain-row">
+                <div class="explain-icon">📤</div>
+                <div class="explain-text">
+                    <strong>Genereert een kant-en-klare Meta product feed</strong>
+                    <p>De output is een XML feed die direct gekoppeld kan worden aan de Meta Commerce Manager of Business Manager voor dynamische advertenties.</p>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="explain-row">
+                <div class="explain-icon">🔄</div>
+                <div class="explain-text">
+                    <strong>Automatische dagelijkse update</strong>
+                    <p>De feed wordt elke nacht om 06:00 uur vernieuwd, zodat nieuwe voertuigen en prijswijzigingen automatisch in de advertenties verschijnen.</p>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="powered">
+        Gebouwd door <a href="https://infotrade.nl" target="_blank">InfoTrade</a> · Cloudinary feed optimalisatie
+    </div>
+
 </div>
 
 <script>
     function showToast(msg) {
-        const toast = document.getElementById('toast');
-        toast.textContent = msg;
-        toast.classList.add('show');
-        setTimeout(() => toast.classList.remove('show'), 3000);
+        const t = document.getElementById('toast');
+        t.textContent = msg;
+        t.classList.add('show');
+        setTimeout(() => t.classList.remove('show'), 3000);
     }
 
     async function saveUrl() {
         const input = document.getElementById('feed-url');
         const btn = document.getElementById('save-btn');
         btn.textContent = '...';
-        
         try {
             const res = await fetch('/api/config', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ feedUrl: input.value })
             });
-            if (res.ok) {
-                showToast('Bron URL succesvol opgeslagen!');
-            } else {
-                throw new Error('Fout bij opslaan');
-            }
+            if (res.ok) showToast('Feed URL opgeslagen');
+            else throw new Error('Fout bij opslaan');
         } catch (e) {
             alert(e.message);
         } finally {
@@ -321,21 +431,20 @@
     async function forceUpdate() {
         const btn = document.getElementById('update-btn');
         btn.disabled = true;
-        btn.innerHTML = '<span>⏳</span> Bezig met genereren...';
-        
+        btn.textContent = '⏳ Bezig met starten...';
         try {
             const res = await fetch('/api/trigger', { method: 'POST' });
             const data = await res.json();
             if (res.ok) {
-                showToast('Sync gestart op de achtergrond!');
-                checkStatus(); // Start checking
+                showToast('Synchronisatie gestart');
+                checkStatus();
             } else {
                 throw new Error(data.error || 'Server error');
             }
         } catch (e) {
-            alert('Fout bij starten update: ' + e.message);
+            alert('Fout: ' + e.message);
             btn.disabled = false;
-            btn.innerHTML = '<span>🔄</span> Nu Synchroniseren & Genereren';
+            btn.textContent = '↻ Nu synchroniseren';
         }
     }
 
@@ -345,31 +454,24 @@
         try {
             const res = await fetch('/api/status');
             const { isProcessing } = await res.json();
-            
             const dot = document.getElementById('status-dot');
             const text = document.getElementById('status-text');
             const btn = document.getElementById('update-btn');
 
             if (isProcessing) {
                 dot.className = 'dot processing';
-                text.textContent = 'Bezig met genereren (GitHub)...';
+                text.textContent = 'Bezig (2-4 min)...';
                 btn.disabled = true;
-                btn.innerHTML = '<span>⏳</span> Bezig (kan 2-4 min duren)...';
-                
-                if (!statusInterval) {
-                    statusInterval = setInterval(checkStatus, 3000);
-                }
+                btn.textContent = '⏳ Verwerken via GitHub...';
+                if (!statusInterval) statusInterval = setInterval(checkStatus, 3000);
             } else {
                 if (statusInterval) {
                     clearInterval(statusInterval);
                     statusInterval = null;
-                    initDashboard(); // Refresh stats
+                    initDashboard();
                 }
-                
                 btn.disabled = false;
-                btn.innerHTML = '<span>🔄</span> Nu Synchroniseren & Genereren';
-                
-                // Let initDashboard set the final healthy status
+                btn.textContent = '↻ Nu synchroniseren';
             }
         } catch (e) {
             console.error(e);
@@ -378,34 +480,28 @@
 
     async function initDashboard() {
         try {
-            // Get Config
             const confRes = await fetch('/api/config');
             if (confRes.ok) {
                 const conf = await confRes.json();
                 document.getElementById('feed-url').value = conf.feedUrl || '';
             }
 
-            const bust = '?' + new Date().getTime();
-            
+            const bust = '?' + Date.now();
+
             const txtRes = await fetch('/last_updated.txt' + bust);
             if (txtRes.ok) {
                 const dateStr = await txtRes.text();
-                const lastSync = new Date(dateStr.trim());
-                
-                const formatter = new Intl.DateTimeFormat('nl-NL', {
-                    day: '2-digit', month: 'short', year: 'numeric',
-                    hour: '2-digit', minute: '2-digit'
-                });
-                document.getElementById('last-sync').textContent = formatter.format(lastSync);
+                const d = new Date(dateStr.trim());
+                document.getElementById('last-sync').textContent = new Intl.DateTimeFormat('nl-NL', {
+                    day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
+                }).format(d);
 
-                const dot = document.getElementById('status-dot');
-                const text = document.getElementById('status-text');
-                
-                // Only set to active if not currently processing
-                fetch('/api/status').then(r => r.json()).then(data => {
-                    if (!data.isProcessing) {
+                fetch('/api/status').then(r => r.json()).then(({ isProcessing }) => {
+                    const dot = document.getElementById('status-dot');
+                    const text = document.getElementById('status-text');
+                    if (!isProcessing) {
                         dot.className = 'dot active';
-                        text.textContent = 'Systeem gezond & gereed';
+                        text.textContent = 'Systeem gereed';
                     }
                 });
             } else {
@@ -417,22 +513,19 @@
             const xmlRes = await fetch('/meta-product-feed.xml' + bust);
             if (xmlRes.ok) {
                 const xmlText = await xmlRes.text();
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(xmlText, "application/xml");
-                const items = xmlDoc.querySelectorAll('item');
-                document.getElementById('vehicle-count').textContent = items.length + ' Voertuigen';
+                const xmlDoc = new DOMParser().parseFromString(xmlText, 'application/xml');
+                document.getElementById('vehicle-count').textContent = xmlDoc.querySelectorAll('item').length;
             } else {
-                document.getElementById('vehicle-count').textContent = '0 Voertuigen';
+                document.getElementById('vehicle-count').textContent = '0';
             }
-            
-            checkStatus();
 
+            checkStatus();
         } catch (e) {
             console.error(e);
-            document.getElementById('status-text').textContent = 'Systeem offline';
+            document.getElementById('status-text').textContent = 'Offline';
         }
     }
-    
+
     initDashboard();
 </script>
 </body>
