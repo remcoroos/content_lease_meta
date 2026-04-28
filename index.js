@@ -81,8 +81,6 @@ async function processFeed() {
         subOverlayTitle = subOverlayTitle.substring(0, MAX_SUB_LENGTH).replace(/\s+\S*$/, '') + ' ...';
       }
 
-      const cloudinaryPublicId = `content_lease_meta/${id.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
-
       let metaImage = originalImage;
 
       const transformation = [
@@ -103,33 +101,15 @@ async function processFeed() {
         const hasCloudinary = process.env.CLOUDINARY_URL || (cloudinaryConfig.cloud_name && cloudinaryConfig.api_key);
 
         if (originalImage && hasCloudinary) {
-          // Check if already uploaded — skip re-upload to keep runs fast
-          let alreadyExists = false;
-          try {
-            await cloudinary.api.resource(cloudinaryPublicId);
-            alreadyExists = true;
-          } catch {
-            // Not found — needs upload
-          }
-
-          if (!alreadyExists) {
-            await cloudinary.uploader.upload(originalImage, {
-              public_id: cloudinaryPublicId,
-              overwrite: false
-            });
-            console.log(`  ↑ Uploaded ${id}`);
-          } else {
-            console.log(`  ✓ Exists ${id}`);
-          }
-
-          metaImage = cloudinary.url(cloudinaryPublicId, {
+          // Fetch mode: Cloudinary haalt de bronafbeelding zelf op en past transformaties toe.
+          // Geen upload nodig — maakt feed generatie seconden snel in plaats van uren.
+          metaImage = cloudinary.url(originalImage, {
+            type: 'fetch',
             transformation,
             secure: true,
             format: 'jpg',
             quality: 80
           });
-        } else {
-          console.log(`  ! Skipped Cloudinary for ${id} (not configured)`);
         }
       } catch (err) {
         console.error(`  ✗ Error ${id}:`, err.message);
