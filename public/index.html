@@ -182,6 +182,33 @@
         }
         .btn-link:hover { color: var(--text); border-color: #C4C9D4; }
 
+        .progress-wrap {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 10px;
+        }
+        .progress-wrap.visible { display: flex; }
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--muted);
+        }
+        .progress-bar-bg {
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        .progress-bar-fill {
+            height: 100%;
+            background: var(--orange);
+            border-radius: 2px;
+            width: 0%;
+            transition: width 1s linear;
+        }
+
         .feed-url-row {
             display: flex;
             align-items: center;
@@ -346,6 +373,17 @@
                 <span id="feed-url-display"></span>
                 <button class="btn-copy" onclick="copyFeedUrl()">Kopieer</button>
             </div>
+
+            <div class="progress-wrap" id="progress-wrap">
+                <div class="progress-header">
+                    <span>Verwerken...</span>
+                    <span id="progress-elapsed">0:00</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-bar"></div>
+                </div>
+            </div>
+
             <button class="btn-primary" onclick="forceUpdate()" id="update-btn">Nu synchroniseren</button>
             <a href="/meta-product-feed.xml" class="btn-link" target="_blank">Bekijk XML feed</a>
         </div>
@@ -460,22 +498,53 @@
     }
 
     let statusInterval;
+    let progressInterval;
+
+    function startProgress(startedAt) {
+        const TIMEOUT_MS = 30 * 60 * 1000;
+        const wrap = document.getElementById('progress-wrap');
+        const bar  = document.getElementById('progress-bar');
+        const elapsed = document.getElementById('progress-elapsed');
+        wrap.classList.add('visible');
+
+        if (progressInterval) clearInterval(progressInterval);
+        progressInterval = setInterval(() => {
+            const ms = Date.now() - new Date(startedAt).getTime();
+            const pct = Math.min((ms / TIMEOUT_MS) * 100, 99);
+            bar.style.width = pct + '%';
+            const s = Math.floor(ms / 1000);
+            elapsed.textContent = `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;
+        }, 1000);
+    }
+
+    function stopProgress() {
+        if (progressInterval) { clearInterval(progressInterval); progressInterval = null; }
+        const wrap = document.getElementById('progress-wrap');
+        const bar  = document.getElementById('progress-bar');
+        bar.style.width = '100%';
+        setTimeout(() => {
+            wrap.classList.remove('visible');
+            bar.style.width = '0%';
+        }, 800);
+    }
 
     async function checkStatus() {
         try {
-            const { isProcessing, lastRunFailed } = await fetch('/api/status').then(r => r.json());
+            const { isProcessing, lastRunFailed, runStartedAt } = await fetch('/api/status').then(r => r.json());
             const dot  = document.getElementById('status-dot');
             const text = document.getElementById('status-text');
             const btn  = document.getElementById('update-btn');
 
             if (isProcessing) {
                 dot.className = 'dot run';
-                text.textContent = 'Bezig (2–4 min)';
+                text.textContent = 'Bezig...';
                 btn.disabled = true;
                 btn.textContent = 'Verwerken...';
-                if (!statusInterval) statusInterval = setInterval(checkStatus, 3000);
+                if (runStartedAt) startProgress(runStartedAt);
+                if (!statusInterval) statusInterval = setInterval(checkStatus, 5000);
             } else {
                 if (statusInterval) { clearInterval(statusInterval); statusInterval = null; initDashboard(); }
+                stopProgress();
                 btn.disabled = false;
                 btn.textContent = 'Nu synchroniseren';
                 if (lastRunFailed) {

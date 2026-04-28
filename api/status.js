@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   const WORKFLOW_ID = 'daily-update.yml';
 
   if (!GH_TOKEN || !REPO) {
-    return res.status(200).json({ isProcessing: false, lastRunFailed: false });
+    return res.status(200).json({ isProcessing: false, lastRunFailed: false, runStartedAt: null });
   }
 
   const headers = {
@@ -19,9 +19,16 @@ export default async function handler(req, res) {
       fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW_ID}/runs?per_page=1`, { headers })
     ]);
 
-    const isProcessing = inProgressRes.ok
-      ? (await inProgressRes.json()).total_count > 0
-      : false;
+    let isProcessing = false;
+    let runStartedAt = null;
+
+    if (inProgressRes.ok) {
+      const data = await inProgressRes.json();
+      if (data.total_count > 0) {
+        isProcessing = true;
+        runStartedAt = data.workflow_runs[0].run_started_at;
+      }
+    }
 
     let lastRunFailed = false;
     if (runsRes.ok) {
@@ -30,8 +37,8 @@ export default async function handler(req, res) {
       lastRunFailed = last && last.status === 'completed' && last.conclusion === 'failure';
     }
 
-    return res.status(200).json({ isProcessing, lastRunFailed });
+    return res.status(200).json({ isProcessing, lastRunFailed, runStartedAt });
   } catch {
-    return res.status(200).json({ isProcessing: false, lastRunFailed: false });
+    return res.status(200).json({ isProcessing: false, lastRunFailed: false, runStartedAt: null });
   }
 }
