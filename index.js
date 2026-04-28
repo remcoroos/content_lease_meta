@@ -85,59 +85,54 @@ async function processFeed() {
 
       let metaImage = originalImage;
 
+      const transformation = [
+        { width: 1080, height: 800, crop: 'limit' },
+        { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north' },
+        { overlay: { font_family: 'Inter', font_size: 46, font_weight: 'bold', text: mainOverlayTitle },
+          gravity: 'north_west', x: 60, y: 824, color: '#1a1a1a', width: 960, crop: 'fit' },
+        ...(subOverlayTitle ? [{ overlay: { font_family: 'Inter', font_size: 38, text: subOverlayTitle },
+          gravity: 'north_west', x: 60, y: 888, color: '#555555', width: 960, crop: 'fit' }] : []),
+        { overlay: { font_family: 'Inter', font_size: 42, font_weight: '600', text: description },
+          gravity: 'south_west', x: 60, y: 45, color: '#6d3ef3', width: 500, crop: 'fit' },
+        { overlay: { font_family: 'Inter', font_size: 56, font_weight: 'bold', text: formattedPrice },
+          gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' }
+      ];
+
       try {
         const cloudinaryConfig = cloudinary.config();
         const hasCloudinary = process.env.CLOUDINARY_URL || (cloudinaryConfig.cloud_name && cloudinaryConfig.api_key);
 
         if (originalImage && hasCloudinary) {
-          await cloudinary.uploader.upload(originalImage, {
-            public_id: cloudinaryPublicId,
-            overwrite: true
-          });
-
-          const transformation = [
-            { width: 1080, height: 800, crop: 'limit' },
-            { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north' }
-          ];
-
-          // Add a colored bar at the bottom using a 1x1 image trick
-          // Since we might not have a colored bar image, we can just use colored text backgrounds
-          // Or just use the text colors.
-          
-          transformation.push({
-            overlay: { font_family: 'Inter', font_size: 46, font_weight: 'bold', text: mainOverlayTitle },
-            gravity: 'north_west', x: 60, y: 824, color: '#1a1a1a', width: 960, crop: 'fit'
-          });
-
-          if (subOverlayTitle) {
-            transformation.push({
-              overlay: { font_family: 'Inter', font_size: 38, text: subOverlayTitle },
-              gravity: 'north_west', x: 60, y: 888, color: '#555555', width: 960, crop: 'fit'
-            });
+          // Check if already uploaded — skip re-upload to keep runs fast
+          let alreadyExists = false;
+          try {
+            await cloudinary.api.resource(cloudinaryPublicId);
+            alreadyExists = true;
+          } catch {
+            // Not found — needs upload
           }
 
-          transformation.push({
-            overlay: { font_family: 'Inter', font_size: 42, font_weight: '600', text: description },
-            gravity: 'south_west', x: 60, y: 45, color: '#6d3ef3', width: 500, crop: 'fit' // Purple color
-          });
-          
-          transformation.push({
-            overlay: { font_family: 'Inter', font_size: 56, font_weight: 'bold', text: formattedPrice },
-            gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' // Green color
-          });
+          if (!alreadyExists) {
+            await cloudinary.uploader.upload(originalImage, {
+              public_id: cloudinaryPublicId,
+              overwrite: false
+            });
+            console.log(`  ↑ Uploaded ${id}`);
+          } else {
+            console.log(`  ✓ Exists ${id}`);
+          }
 
           metaImage = cloudinary.url(cloudinaryPublicId, {
-            transformation: transformation,
+            transformation,
             secure: true,
             format: 'jpg',
             quality: 80
           });
-          console.log(`  ✓ Processed image for ${id}`);
         } else {
-          console.log(`  ! Skipped Cloudinary for ${id} (No CLOUDINARY_URL)`);
+          console.log(`  ! Skipped Cloudinary for ${id} (not configured)`);
         }
       } catch (err) {
-        console.error(`Error processing image for ${id}:`, err.message);
+        console.error(`  ✗ Error ${id}:`, err.message);
       }
 
       const finalPrice = `${parseFloat(priceVal || 0).toFixed(2)} EUR`;
