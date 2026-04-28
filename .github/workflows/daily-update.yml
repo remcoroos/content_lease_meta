@@ -1,0 +1,40 @@
+name: Daily Feed Update
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Runs every day at 4:00 AM UTC
+  workflow_dispatch:
+    # Allows manual triggering from Vercel
+
+jobs:
+  generate-feed:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Run feed processor
+        run: node index.js
+        env:
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
+          FEED_URL: ${{ vars.FEED_URL }}
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/meta-product-feed.xml public/last_updated.txt
+          # Only commit if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update meta feed via GitHub Actions" && git push)
