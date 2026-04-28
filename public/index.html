@@ -11,13 +11,15 @@
         :root {
             --navy: #38485F;
             --orange: #E73E1D;
-            --orange-light: rgba(231, 62, 29, 0.08);
+            --orange-light: rgba(231, 62, 29, 0.07);
             --border: #E2E8F0;
             --muted: #807E7D;
             --bg: #F7F8FA;
             --white: #ffffff;
             --green: #2fb25d;
             --yellow: #f4be04;
+            --red: #e03131;
+            --red-light: #fff5f5;
         }
 
         body {
@@ -28,18 +30,26 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start;
-            padding: 48px 16px;
+            padding: 48px 16px 64px;
             -webkit-font-smoothing: antialiased;
         }
 
-        .page {
-            width: 100%;
-            max-width: 560px;
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
+        .page { width: 100%; max-width: 560px; display: flex; flex-direction: column; gap: 12px; }
+
+        /* Alert banner */
+        .alert-banner {
+            display: none;
+            background: var(--red-light);
+            border: 1px solid #fca5a5;
+            border-radius: 10px;
+            padding: 14px 18px;
+            font-size: 13px;
+            color: var(--red);
+            font-weight: 500;
+            line-height: 1.5;
         }
+        .alert-banner.visible { display: block; }
+        .alert-title { font-weight: 700; margin-bottom: 2px; }
 
         /* Header */
         .header {
@@ -48,30 +58,16 @@
             justify-content: space-between;
             margin-bottom: 8px;
         }
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .logo-mark {
-            width: 32px;
-            height: 32px;
-            background: var(--orange);
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .logo-mark svg { width: 18px; height: 18px; fill: white; }
-        .logo-text {
-            font-size: 15px;
+        .logo-group { display: flex; flex-direction: column; gap: 6px; }
+        .logo-title {
+            font-size: 16px;
             font-weight: 700;
             color: var(--navy);
-            letter-spacing: -0.3px;
+            letter-spacing: -0.4px;
         }
-        .logo-text span {
-            color: var(--orange);
-        }
+        .logo-title span { color: var(--orange); }
+        .logo-sub { font-size: 12px; color: var(--muted); font-weight: 400; }
+
         .status-pill {
             display: inline-flex;
             align-items: center;
@@ -85,17 +81,13 @@
             border-radius: 20px;
         }
         .dot {
-            width: 7px;
-            height: 7px;
-            border-radius: 50%;
-            background: #cbd5e1;
-            flex-shrink: 0;
+            width: 7px; height: 7px; border-radius: 50%;
+            background: #cbd5e1; flex-shrink: 0;
         }
         .dot.active { background: var(--green); box-shadow: 0 0 0 3px rgba(47,178,93,0.2); }
-        .dot.error { background: #f87171; box-shadow: 0 0 0 3px rgba(248,113,113,0.2); }
+        .dot.error { background: var(--red); box-shadow: 0 0 0 3px rgba(224,49,49,0.15); }
         .dot.processing {
-            background: var(--yellow);
-            box-shadow: 0 0 0 3px rgba(244,190,4,0.2);
+            background: var(--yellow); box-shadow: 0 0 0 3px rgba(244,190,4,0.2);
             animation: blink 1.4s infinite;
         }
         @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.4} }
@@ -105,23 +97,19 @@
             background: var(--white);
             border: 1px solid var(--border);
             border-radius: 12px;
-            padding: 24px;
+            padding: 22px 24px;
         }
-
         .card-label {
-            font-size: 11px;
+            font-size: 10px;
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 1.2px;
+            letter-spacing: 1.4px;
             color: var(--orange);
-            margin-bottom: 16px;
+            margin-bottom: 14px;
         }
 
-        /* URL input */
-        .input-row {
-            display: flex;
-            gap: 8px;
-        }
+        /* Input */
+        .input-row { display: flex; gap: 8px; }
         .input-row input {
             flex: 1;
             padding: 10px 14px;
@@ -132,8 +120,11 @@
             color: var(--navy);
             outline: none;
             transition: border-color 0.15s;
+            background: var(--bg);
         }
-        .input-row input:focus { border-color: var(--orange); }
+        .input-row input:focus { border-color: var(--navy); background: var(--white); }
+        .input-row input::placeholder { color: #b0b0b0; }
+
         .btn-save {
             background: var(--navy);
             color: white;
@@ -147,149 +138,89 @@
             transition: opacity 0.15s;
             white-space: nowrap;
         }
-        .btn-save:hover { opacity: 0.85; }
+        .btn-save:hover { opacity: 0.82; }
+
+        .field-group { display: flex; flex-direction: column; gap: 12px; }
+        .field-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 6px;
+        }
 
         /* Stats */
-        .stats {
-            display: flex;
-            gap: 0;
-        }
-        .stat {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-        .stat + .stat {
-            padding-left: 24px;
-            border-left: 1px solid var(--border);
-            margin-left: 24px;
-        }
-        .stat-label {
-            font-size: 12px;
-            color: var(--muted);
-            font-weight: 500;
-        }
-        .stat-value {
-            font-size: 18px;
-            font-weight: 700;
-            color: var(--navy);
-            letter-spacing: -0.5px;
-        }
+        .stats { display: flex; gap: 0; }
+        .stat { flex: 1; display: flex; flex-direction: column; gap: 4px; }
+        .stat + .stat { padding-left: 24px; border-left: 1px solid var(--border); margin-left: 24px; }
+        .stat-label { font-size: 12px; color: var(--muted); font-weight: 500; }
+        .stat-value { font-size: 20px; font-weight: 700; color: var(--navy); letter-spacing: -0.5px; }
 
         /* Actions */
         .actions { display: flex; flex-direction: column; gap: 10px; }
-
         .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            padding: 13px 20px;
-            border-radius: 8px;
-            font-family: inherit;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.15s;
-            border: none;
-            text-decoration: none;
-            width: 100%;
+            display: flex; align-items: center; justify-content: center; gap: 8px;
+            padding: 13px 20px; border-radius: 8px;
+            font-family: inherit; font-size: 14px; font-weight: 600;
+            cursor: pointer; transition: all 0.15s; border: none;
+            text-decoration: none; width: 100%;
         }
-        .btn-primary {
-            background: var(--orange);
-            color: white;
-        }
-        .btn-primary:hover { background: #d03317; }
-        .btn-primary:disabled { opacity: 0.55; cursor: not-allowed; }
-        .btn-outline {
-            background: var(--white);
-            color: var(--navy);
-            border: 1.5px solid var(--border);
-        }
+        .btn-primary { background: var(--orange); color: white; }
+        .btn-primary:hover { background: #cf3519; }
+        .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+        .btn-outline { background: var(--white); color: var(--navy); border: 1.5px solid var(--border); }
         .btn-outline:hover { border-color: var(--navy); }
 
-        /* What it does */
-        .explain {
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            overflow: hidden;
-        }
+        /* Explain */
+        .explain { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
         .explain-header {
-            background: var(--navy);
-            padding: 16px 24px;
-            font-size: 13px;
-            font-weight: 700;
-            color: white;
-            letter-spacing: -0.2px;
+            background: var(--navy); padding: 14px 24px;
+            font-size: 12px; font-weight: 700; color: white;
+            text-transform: uppercase; letter-spacing: 1px;
         }
-        .explain-body {
-            background: var(--white);
-            padding: 20px 24px;
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-        }
+        .explain-body { background: var(--white); }
         .explain-row {
-            display: flex;
-            gap: 14px;
-            align-items: flex-start;
+            display: flex; gap: 16px; align-items: flex-start;
+            padding: 18px 24px;
+            border-bottom: 1px solid var(--border);
         }
-        .explain-icon {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
+        .explain-row:last-child { border-bottom: none; }
+        .step-num {
+            width: 26px; height: 26px; border-radius: 6px;
             background: var(--orange-light);
+            color: var(--orange);
+            font-size: 11px; font-weight: 700;
+            display: flex; align-items: center; justify-content: center;
+            flex-shrink: 0; letter-spacing: 0;
+        }
+        .explain-text strong {
+            font-size: 13px; font-weight: 600; color: var(--navy);
+            display: block; margin-bottom: 3px;
+        }
+        .explain-text p { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+        /* Footer */
+        .footer {
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-shrink: 0;
-            font-size: 15px;
+            gap: 10px;
+            padding-top: 8px;
+            font-size: 12px;
+            color: #b0b0b0;
         }
-        .explain-text strong {
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--navy);
-            display: block;
-            margin-bottom: 2px;
-        }
-        .explain-text p {
-            font-size: 13px;
-            color: var(--muted);
-            line-height: 1.5;
-        }
-
-        /* Divider */
-        .divider {
-            border: none;
-            border-top: 1px solid var(--border);
-        }
+        .footer img { height: 18px; opacity: 0.45; }
 
         /* Toast */
         .toast {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: var(--navy);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-size: 13px;
-            font-weight: 600;
+            position: fixed; top: 20px; right: 20px;
+            background: var(--navy); color: white;
+            padding: 10px 18px; border-radius: 8px;
+            font-size: 13px; font-weight: 600;
             box-shadow: 0 4px 16px rgba(56,72,95,0.2);
-            transform: translateY(-80px);
-            opacity: 0;
-            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            transform: translateY(-80px); opacity: 0;
+            transition: all 0.3s cubic-bezier(0.68,-0.55,0.265,1.55);
         }
         .toast.show { transform: translateY(0); opacity: 1; }
-
-        .powered {
-            font-size: 12px;
-            color: var(--muted);
-            text-align: center;
-            padding-top: 4px;
-        }
-        .powered a { color: var(--orange); text-decoration: none; font-weight: 500; }
     </style>
 </head>
 <body>
@@ -298,13 +229,17 @@
 
 <div class="page">
 
+    <!-- Alert banner -->
+    <div class="alert-banner" id="alert-banner">
+        <div class="alert-title" id="alert-title">Fout gedetecteerd</div>
+        <div id="alert-body"></div>
+    </div>
+
     <!-- Header -->
     <div class="header">
-        <div class="logo">
-            <div class="logo-mark">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 3h18v4H3zM3 10h11v4H3zM3 17h14v4H3z"/></svg>
-            </div>
-            <div class="logo-text">Content<span>Lease</span> Feed</div>
+        <div class="logo-group">
+            <div class="logo-title">Content<span>Lease</span> Feed</div>
+            <div class="logo-sub">Meta product feed dashboard</div>
         </div>
         <div class="status-pill">
             <div class="dot" id="status-dot"></div>
@@ -312,18 +247,30 @@
         </div>
     </div>
 
-    <!-- Feed URL -->
+    <!-- Config -->
     <div class="card">
-        <div class="card-label">Bron Feed URL</div>
-        <div class="input-row">
-            <input type="text" id="feed-url" placeholder="https://...">
-            <button class="btn-save" onclick="saveUrl()" id="save-btn">Opslaan</button>
+        <div class="card-label">Instellingen</div>
+        <div class="field-group">
+            <div>
+                <div class="field-label">Bron feed URL</div>
+                <div class="input-row">
+                    <input type="text" id="feed-url" placeholder="https://...">
+                    <button class="btn-save" onclick="saveConfig('feedUrl')" id="save-url-btn">Opslaan</button>
+                </div>
+            </div>
+            <div>
+                <div class="field-label">Alert e-mailadres</div>
+                <div class="input-row">
+                    <input type="email" id="alert-email" placeholder="marketeer@klant.nl">
+                    <button class="btn-save" onclick="saveConfig('alertEmail')" id="save-email-btn">Opslaan</button>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- Stats -->
     <div class="card">
-        <div class="card-label">Statistieken</div>
+        <div class="card-label">Status</div>
         <div class="stats">
             <div class="stat">
                 <div class="stat-label">Laatste sync</div>
@@ -341,10 +288,10 @@
         <div class="card-label">Acties</div>
         <div class="actions">
             <button class="btn btn-primary" onclick="forceUpdate()" id="update-btn">
-                ↻ Nu synchroniseren
+                Nu synchroniseren
             </button>
             <a href="/meta-product-feed.xml" class="btn btn-outline" target="_blank">
-                ↗ Bekijk XML feed
+                Bekijk XML feed
             </a>
         </div>
     </div>
@@ -354,49 +301,47 @@
         <div class="explain-header">Wat doet deze tool?</div>
         <div class="explain-body">
             <div class="explain-row">
-                <div class="explain-icon">📥</div>
+                <div class="step-num">01</div>
                 <div class="explain-text">
-                    <strong>Haalt voertuigdata op</strong>
+                    <strong>Voertuigdata ophalen</strong>
                     <p>De tool leest automatisch de voertuigfeed uit het Google Merchant Center export van jouw klant.</p>
                 </div>
             </div>
-            <hr class="divider">
             <div class="explain-row">
-                <div class="explain-icon">🖼️</div>
+                <div class="step-num">02</div>
                 <div class="explain-text">
-                    <strong>Optimaliseert afbeeldingen voor Meta</strong>
-                    <p>Elke afbeelding wordt omgezet naar 1080×1080 px (vierkant formaat) — het formaat dat het beste presteert in Facebook en Instagram Ads.</p>
+                    <strong>Afbeeldingen optimaliseren voor Meta</strong>
+                    <p>Elke afbeelding wordt omgezet naar 1080×1080 px (vierkant) — het formaat dat het beste presteert in Facebook en Instagram Ads.</p>
                 </div>
             </div>
-            <hr class="divider">
             <div class="explain-row">
-                <div class="explain-icon">✏️</div>
+                <div class="step-num">03</div>
                 <div class="explain-text">
-                    <strong>Plaatst relevante informatie op de afbeelding</strong>
-                    <p>Merk, model, kilometerstand, bouwjaar en vraagprijs worden automatisch als tekst op de foto gezet — zodat de advertentie direct duidelijk is, ook zonder tekst in de caption.</p>
+                    <strong>Relevante informatie op de afbeelding</strong>
+                    <p>Merk, model, kilometerstand, bouwjaar en vraagprijs worden automatisch als tekst op de foto gezet.</p>
                 </div>
             </div>
-            <hr class="divider">
             <div class="explain-row">
-                <div class="explain-icon">📤</div>
+                <div class="step-num">04</div>
                 <div class="explain-text">
-                    <strong>Genereert een kant-en-klare Meta product feed</strong>
-                    <p>De output is een XML feed die direct gekoppeld kan worden aan de Meta Commerce Manager of Business Manager voor dynamische advertenties.</p>
+                    <strong>Kant-en-klare Meta product feed</strong>
+                    <p>De output is een XML feed die direct gekoppeld kan worden aan Meta Commerce Manager voor dynamische advertenties.</p>
                 </div>
             </div>
-            <hr class="divider">
             <div class="explain-row">
-                <div class="explain-icon">🔄</div>
+                <div class="step-num">05</div>
                 <div class="explain-text">
                     <strong>Automatische dagelijkse update</strong>
-                    <p>De feed wordt elke nacht om 06:00 uur vernieuwd, zodat nieuwe voertuigen en prijswijzigingen automatisch in de advertenties verschijnen.</p>
+                    <p>De feed wordt elke nacht om 06:00 uur vernieuwd — nieuwe voertuigen en prijswijzigingen verschijnen automatisch in de advertenties.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="powered">
-        Gebouwd door <a href="https://infotrade.nl" target="_blank">InfoTrade</a> · Cloudinary feed optimalisatie
+    <!-- Footer -->
+    <div class="footer">
+        Gebouwd door
+        <img src="https://infotrade.nl/uploads/logo's/infotrade-logo-dark.svg" alt="InfoTrade">
     </div>
 
 </div>
@@ -409,17 +354,28 @@
         setTimeout(() => t.classList.remove('show'), 3000);
     }
 
-    async function saveUrl() {
-        const input = document.getElementById('feed-url');
-        const btn = document.getElementById('save-btn');
+    function showAlert(title, body) {
+        document.getElementById('alert-title').textContent = title;
+        document.getElementById('alert-body').textContent = body;
+        document.getElementById('alert-banner').classList.add('visible');
+    }
+
+    function clearAlert() {
+        document.getElementById('alert-banner').classList.remove('visible');
+    }
+
+    async function saveConfig(field) {
+        const isUrl = field === 'feedUrl';
+        const input = document.getElementById(isUrl ? 'feed-url' : 'alert-email');
+        const btn = document.getElementById(isUrl ? 'save-url-btn' : 'save-email-btn');
         btn.textContent = '...';
         try {
             const res = await fetch('/api/config', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ feedUrl: input.value })
+                body: JSON.stringify({ [field]: input.value })
             });
-            if (res.ok) showToast('Feed URL opgeslagen');
+            if (res.ok) showToast(isUrl ? 'Feed URL opgeslagen' : 'E-mailadres opgeslagen');
             else throw new Error('Fout bij opslaan');
         } catch (e) {
             alert(e.message);
@@ -431,7 +387,7 @@
     async function forceUpdate() {
         const btn = document.getElementById('update-btn');
         btn.disabled = true;
-        btn.textContent = '⏳ Bezig met starten...';
+        btn.textContent = 'Bezig met starten...';
         try {
             const res = await fetch('/api/trigger', { method: 'POST' });
             const data = await res.json();
@@ -444,7 +400,7 @@
         } catch (e) {
             alert('Fout: ' + e.message);
             btn.disabled = false;
-            btn.textContent = '↻ Nu synchroniseren';
+            btn.textContent = 'Nu synchroniseren';
         }
     }
 
@@ -453,16 +409,17 @@
     async function checkStatus() {
         try {
             const res = await fetch('/api/status');
-            const { isProcessing } = await res.json();
+            const { isProcessing, lastRunFailed } = await res.json();
+
             const dot = document.getElementById('status-dot');
             const text = document.getElementById('status-text');
             const btn = document.getElementById('update-btn');
 
             if (isProcessing) {
                 dot.className = 'dot processing';
-                text.textContent = 'Bezig (2-4 min)...';
+                text.textContent = 'Bezig (2–4 min)';
                 btn.disabled = true;
-                btn.textContent = '⏳ Verwerken via GitHub...';
+                btn.textContent = 'Verwerken via GitHub...';
                 if (!statusInterval) statusInterval = setInterval(checkStatus, 3000);
             } else {
                 if (statusInterval) {
@@ -471,7 +428,13 @@
                     initDashboard();
                 }
                 btn.disabled = false;
-                btn.textContent = '↻ Nu synchroniseren';
+                btn.textContent = 'Nu synchroniseren';
+
+                if (lastRunFailed) {
+                    dot.className = 'dot error';
+                    text.textContent = 'Laatste run mislukt';
+                    showAlert('Synchronisatie mislukt', 'De laatste automatische update is niet gelukt. Controleer de GitHub Actions logs voor details, of start een nieuwe synchronisatie.');
+                }
             }
         } catch (e) {
             console.error(e);
@@ -479,42 +442,58 @@
     }
 
     async function initDashboard() {
+        clearAlert();
+
         try {
             const confRes = await fetch('/api/config');
             if (confRes.ok) {
                 const conf = await confRes.json();
                 document.getElementById('feed-url').value = conf.feedUrl || '';
+                document.getElementById('alert-email').value = conf.alertEmail || '';
             }
 
             const bust = '?' + Date.now();
 
             const txtRes = await fetch('/last_updated.txt' + bust);
+            const dot = document.getElementById('status-dot');
+            const text = document.getElementById('status-text');
+
             if (txtRes.ok) {
                 const dateStr = await txtRes.text();
-                const d = new Date(dateStr.trim());
+                const lastUpdated = new Date(dateStr.trim());
+                const ageHours = (Date.now() - lastUpdated) / 3600000;
+
                 document.getElementById('last-sync').textContent = new Intl.DateTimeFormat('nl-NL', {
                     day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
-                }).format(d);
+                }).format(lastUpdated);
 
-                fetch('/api/status').then(r => r.json()).then(({ isProcessing }) => {
-                    const dot = document.getElementById('status-dot');
-                    const text = document.getElementById('status-text');
-                    if (!isProcessing) {
-                        dot.className = 'dot active';
-                        text.textContent = 'Systeem gereed';
-                    }
-                });
+                if (ageHours > 25) {
+                    dot.className = 'dot error';
+                    text.textContent = 'Feed verouderd';
+                    showAlert(
+                        'Feed is meer dan 25 uur niet bijgewerkt',
+                        `Laatste sync: ${new Intl.DateTimeFormat('nl-NL', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' }).format(lastUpdated)}. Controleer of de automatische synchronisatie correct werkt.`
+                    );
+                } else {
+                    // Let checkStatus determine final dot state
+                    dot.className = 'dot active';
+                    text.textContent = 'Systeem gereed';
+                }
             } else {
                 document.getElementById('last-sync').textContent = 'Nog niet gesynchroniseerd';
-                document.getElementById('status-dot').className = 'dot error';
-                document.getElementById('status-text').textContent = 'Geen feed gevonden';
+                dot.className = 'dot error';
+                text.textContent = 'Geen feed gevonden';
+                showAlert('Geen feed gevonden', 'Er is nog geen gesynchroniseerde feed beschikbaar. Start een handmatige synchronisatie om de feed te genereren.');
             }
 
             const xmlRes = await fetch('/meta-product-feed.xml' + bust);
             if (xmlRes.ok) {
-                const xmlText = await xmlRes.text();
-                const xmlDoc = new DOMParser().parseFromString(xmlText, 'application/xml');
-                document.getElementById('vehicle-count').textContent = xmlDoc.querySelectorAll('item').length;
+                const xmlDoc = new DOMParser().parseFromString(await xmlRes.text(), 'application/xml');
+                const count = xmlDoc.querySelectorAll('item').length;
+                document.getElementById('vehicle-count').textContent = count;
+                if (count === 0) {
+                    showAlert('Lege feed', 'De gegenereerde feed bevat geen voertuigen. Controleer de bron feed URL.');
+                }
             } else {
                 document.getElementById('vehicle-count').textContent = '0';
             }

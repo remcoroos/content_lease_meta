@@ -1,30 +1,37 @@
 export default async function handler(req, res) {
   const GH_TOKEN = process.env.GH_TOKEN;
   const REPO = process.env.GITHUB_REPO;
-  const WORKFLOW_ID = 'daily-update.yml'; 
+  const WORKFLOW_ID = 'daily-update.yml';
 
   if (!GH_TOKEN || !REPO) {
-    // If not configured, just return false so the UI doesn't break
-    return res.status(200).json({ isProcessing: false });
+    return res.status(200).json({ isProcessing: false, lastRunFailed: false });
   }
 
-  try {
-    const response = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW_ID}/runs?status=in_progress`, {
-      headers: {
-        'Accept': 'application/vnd.github.v3+json',
-        'Authorization': `Bearer ${GH_TOKEN}`,
-        'User-Agent': 'Vercel-Serverless-Function'
-      }
-    });
+  const headers = {
+    'Accept': 'application/vnd.github.v3+json',
+    'Authorization': `Bearer ${GH_TOKEN}`,
+    'User-Agent': 'Vercel-Serverless-Function'
+  };
 
-    if (response.ok) {
-      const data = await response.json();
-      const isProcessing = data.total_count > 0;
-      return res.status(200).json({ isProcessing });
-    } else {
-      return res.status(200).json({ isProcessing: false });
+  try {
+    const [inProgressRes, runsRes] = await Promise.all([
+      fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW_ID}/runs?status=in_progress&per_page=1`, { headers }),
+      fetch(`https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW_ID}/runs?per_page=1`, { headers })
+    ]);
+
+    const isProcessing = inProgressRes.ok
+      ? (await inProgressRes.json()).total_count > 0
+      : false;
+
+    let lastRunFailed = false;
+    if (runsRes.ok) {
+      const data = await runsRes.json();
+      const last = data.workflow_runs?.[0];
+      lastRunFailed = last && last.status === 'completed' && last.conclusion === 'failure';
     }
-  } catch (error) {
-    return res.status(200).json({ isProcessing: false });
+
+    return res.status(200).json({ isProcessing, lastRunFailed });
+  } catch {
+    return res.status(200).json({ isProcessing: false, lastRunFailed: false });
   }
 }
