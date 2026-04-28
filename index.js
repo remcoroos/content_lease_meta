@@ -86,13 +86,13 @@ async function processFeed() {
       const transformation = [
         { width: 1080, height: 800, crop: 'limit' },
         { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north' },
-        { overlay: { font_family: 'Inter', font_size: 46, font_weight: 'bold', text: mainOverlayTitle },
+        { overlay: { font_family: 'Arial', font_size: 46, font_weight: 'bold', text: mainOverlayTitle },
           gravity: 'north_west', x: 60, y: 824, color: '#1a1a1a', width: 960, crop: 'fit' },
-        ...(subOverlayTitle ? [{ overlay: { font_family: 'Inter', font_size: 38, text: subOverlayTitle },
+        ...(subOverlayTitle ? [{ overlay: { font_family: 'Arial', font_size: 38, text: subOverlayTitle },
           gravity: 'north_west', x: 60, y: 888, color: '#555555', width: 960, crop: 'fit' }] : []),
-        { overlay: { font_family: 'Inter', font_size: 42, font_weight: '600', text: description },
+        { overlay: { font_family: 'Arial', font_size: 42, font_weight: '600', text: description },
           gravity: 'south_west', x: 60, y: 45, color: '#6d3ef3', width: 500, crop: 'fit' },
-        { overlay: { font_family: 'Inter', font_size: 56, font_weight: 'bold', text: formattedPrice },
+        { overlay: { font_family: 'Arial', font_size: 56, font_weight: 'bold', text: formattedPrice },
           gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' }
       ];
 
