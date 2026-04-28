@@ -182,6 +182,41 @@
         }
         .btn-link:hover { color: var(--text); border-color: #C4C9D4; }
 
+        .feed-url-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0 0 0 12px;
+            margin-bottom: 10px;
+        }
+        .feed-url-row span {
+            flex: 1;
+            font-size: 12px;
+            color: var(--muted);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 36px;
+        }
+        .btn-copy {
+            flex-shrink: 0;
+            height: 36px;
+            padding: 0 14px;
+            background: transparent;
+            border: none;
+            border-left: 1px solid var(--border);
+            font-family: inherit;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--navy);
+            cursor: pointer;
+            transition: color .15s;
+        }
+        .btn-copy:hover { color: var(--orange); }
+
         /* ── Explain ── */
         .explain {
             margin-top: 12px;
@@ -306,6 +341,11 @@
 
         <!-- Actions -->
         <div class="section">
+            <div class="field-label" style="margin-bottom:6px">Meta feed URL</div>
+            <div class="feed-url-row">
+                <span id="feed-url-display"></span>
+                <button class="btn-copy" onclick="copyFeedUrl()">Kopieer</button>
+            </div>
             <button class="btn-primary" onclick="forceUpdate()" id="update-btn">Nu synchroniseren</button>
             <a href="/meta-product-feed.xml" class="btn-link" target="_blank">Bekijk XML feed</a>
         </div>
@@ -362,6 +402,13 @@
 </div>
 
 <script>
+    const FEED_URL = window.location.origin + '/meta-product-feed.xml';
+    document.getElementById('feed-url-display').textContent = FEED_URL;
+
+    function copyFeedUrl() {
+        navigator.clipboard.writeText(FEED_URL).then(() => showToast('Feed URL gekopieerd'));
+    }
+
     function showToast(msg) {
         const t = document.getElementById('toast');
         t.textContent = msg;
