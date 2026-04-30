@@ -125,16 +125,20 @@ async function processFeed() {
         try {
           await cloudinary.uploader.upload(originalImage, {
             public_id: cloudinaryPublicId,
-            overwrite: true,
-            unique_filename: false,
-            transformation,
-            format: 'jpg',
-            quality: 80
+            overwrite: false,
+            unique_filename: false
           });
-          metaImage = cloudinary.url(cloudinaryPublicId, { secure: true });
         } catch (err) {
-          console.error(`  ✗ Failed ${id}: ${err.message}`);
+          if (!err.message?.includes('already exists')) {
+            console.error(`  ✗ Failed ${id}: ${err.message}`);
+          }
         }
+        metaImage = cloudinary.url(cloudinaryPublicId, {
+          transformation,
+          secure: true,
+          format: 'jpg',
+          quality: 80
+        });
       }
 
       const finalPrice = `${parseFloat(priceVal || 0).toFixed(2)} EUR`;
