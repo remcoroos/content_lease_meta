@@ -540,7 +540,7 @@
       <g:model>A4</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>24750.00 EUR</g:price>
+      <g:price>24690.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>107541 KM</g:mileage>
     </item>
@@ -680,21 +680,6 @@
       <g:mileage>17740 KM</g:mileage>
     </item>
     <item>
-      <g:id>T-876-RK</g:id>
-      <g:title>Mercedes A-klasse 250 e|AMG|Pano|Burmester|Memory|Vol Optie!</g:title>
-      <g:description>58.483 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/mercedes-benz/a-class/189200421-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/mercedes-benz/a-class/189200421-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/T-876-RK?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Mercedes-Benz</g:brand>
-      <g:model>A-Klasse</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>29950.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>58483 KM</g:mileage>
-    </item>
-    <item>
       <g:id>J-593-PF</g:id>
       <g:title>Volkswagen Golf VIII 1.5 TSI Style hb 5drs 2020 Virtueel Navi</g:title>
       <g:description>128.201 km • 2020</g:description>
@@ -783,21 +768,6 @@
       <g:price>16900.00 EUR</g:price>
       <g:year>2017</g:year>
       <g:mileage>61839 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>J-780-NR</g:id>
-      <g:title>Audi Q3 Sportback 35 TFSI S edition|Pano|Matrix|Keyless|Trek</g:title>
-      <g:description>92.657 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/q3/85513902-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/q3/85513902-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/J-780-NR?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>Q3</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>38950.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>92657 KM</g:mileage>
     </item>
     <item>
       <g:id>3549828</g:id>
@@ -1233,21 +1203,6 @@
       <g:price>24850.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>5547 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>RZ-120-R</g:id>
-      <g:title>BMW 7-serie 750Li xDrive High Executive|PANO|MASSAGE|B&amp;W|20'</g:title>
-      <g:description>158.144 km • 2018</g:description>
-      <link>https://contentlease.nl/leasevoorraad/bmw/7series/536339125-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/bmw/7series/536339125-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/RZ-120-R?_a=BAMAPqfk0</g:image_link>
-      <g:brand>BMW</g:brand>
-      <g:model>7 Serie</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>39900.00 EUR</g:price>
-      <g:year>2018</g:year>
-      <g:mileage>158144 KM</g:mileage>
     </item>
     <item>
       <g:id>4128762</g:id>
@@ -1895,21 +1850,6 @@
       <g:mileage>106522 KM</g:mileage>
     </item>
     <item>
-      <g:id>RF-669-H</g:id>
-      <g:title>BMW 3-serie Gran Turismo 320i High Executive|M-Sport|Pano|</g:title>
-      <g:description>154.322 km • 2017</g:description>
-      <link>https://contentlease.nl/leasevoorraad/bmw/3series/182960296-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/bmw/3series/182960296-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/RF-669-H?_a=BAMAPqfk0</g:image_link>
-      <g:brand>BMW</g:brand>
-      <g:model>3 Serie</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>23750.00 EUR</g:price>
-      <g:year>2017</g:year>
-      <g:mileage>154322 KM</g:mileage>
-    </item>
-    <item>
       <g:id>4251054</g:id>
       <g:title>Jaguar F-type 3.0 V6 AWD R-Dynamic P380 |PANO|MERIDIAN|20''</g:title>
       <g:description>123.570 km • 2019</g:description>
@@ -2060,21 +2000,6 @@
       <g:mileage>122148 KM</g:mileage>
     </item>
     <item>
-      <g:id>N-231-HN</g:id>
-      <g:title>Mercedes GLC-klasse 200 4MATIC Business Solution AMG|Pano|</g:title>
-      <g:description>129.989 km • 2019</g:description>
-      <link>https://contentlease.nl/leasevoorraad/mercedes-benz/glc/409194109-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/mercedes-benz/glc/409194109-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/N-231-HN?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Mercedes-Benz</g:brand>
-      <g:model>GLC</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>34850.00 EUR</g:price>
-      <g:year>2019</g:year>
-      <g:mileage>129989 KM</g:mileage>
-    </item>
-    <item>
       <g:id>474174391</g:id>
       <g:title>Ds 7 Crossback 300 pk E-Tense 4x4 Performance Line| night vision | navigatie | Hybride | PHEV |adaptive cruise trekhaak</g:title>
       <g:description>99.515 km • 2020</g:description>
@@ -2193,21 +2118,6 @@
       <g:price>25750.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>30864 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>HFD-69-B</g:id>
-      <g:title>BMW 3-serie Touring 330e High Executive|Pano|M-Sport|Laser|H</g:title>
-      <g:description>132.456 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/bmw/3series/321647046-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/bmw/3series/321647046-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/HFD-69-B?_a=BAMAPqfk0</g:image_link>
-      <g:brand>BMW</g:brand>
-      <g:model>3 Serie</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>29850.00 EUR</g:price>
-      <g:year>2021</g:year>
-      <g:mileage>132456 KM</g:mileage>
     </item>
     <item>
       <g:id>ZS-640-T</g:id>
@@ -2765,36 +2675,6 @@
       <g:mileage>86294 KM</g:mileage>
     </item>
     <item>
-      <g:id>T-647-FD</g:id>
-      <g:title>Audi Q5 55 TFSI e quattro Competition|Pano|Luchtv|B&amp;O|HUD|Ke</g:title>
-      <g:description>156.169 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/q5/178597203-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/q5/178597203-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/T-647-FD?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>Q5</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>36950.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>156169 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>S-512-ZV</g:id>
-      <g:title>Volkswagen Polo 2.0 TSI GTI|Pano|Beats|Virtual|Laneast.|Keyl</g:title>
-      <g:description>126.861 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/polo/365045234-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/polo/365045234-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/S-512-ZV?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>Polo</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>21750.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>126861 KM</g:mileage>
-    </item>
-    <item>
       <g:id>3911795</g:id>
       <g:title>Abarth 124 Spider 1.4 170 PK l Navi l Keyles l Record Monza</g:title>
       <g:description>109.716 km • 2018</g:description>
@@ -3170,21 +3050,6 @@
       <g:mileage>43482 KM</g:mileage>
     </item>
     <item>
-      <g:id>R-624-VS</g:id>
-      <g:title>Volkswagen T-Roc 2.0 TSI 4Motion Sport|Pano|Leer|Virtual|ACC</g:title>
-      <g:description>97.844 km • 2018</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/531553574-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/531553574-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/R-624-VS?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>T-Roc</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>25950.00 EUR</g:price>
-      <g:year>2018</g:year>
-      <g:mileage>97844 KM</g:mileage>
-    </item>
-    <item>
       <g:id>S-517-GF</g:id>
       <g:title>Tesla Model 3 | Alle uitvoeringen gezocht | Verkoop uw Tesla</g:title>
       <g:description>500 km • 2019</g:description>
@@ -3198,21 +3063,6 @@
       <g:price>30000.00 EUR</g:price>
       <g:year>2019</g:year>
       <g:mileage>500 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>4329600</g:id>
-      <g:title>BMW X1 xDrive 23i|PANO|M-PAKKET|H&amp;K|360°|MEMORY|CARPLAY|19''</g:title>
-      <g:description>24.202 km • 2022</g:description>
-      <link>https://contentlease.nl/leasevoorraad/bmw/x1/79696235-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/bmw/x1/79696235-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/4329600?_a=BAMAPqfk0</g:image_link>
-      <g:brand>BMW</g:brand>
-      <g:model>X1</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>44900.00 EUR</g:price>
-      <g:year>2022</g:year>
-      <g:mileage>24202 KM</g:mileage>
     </item>
     <item>
       <g:id>K-123-ZK</g:id>
@@ -4430,21 +4280,6 @@
       <g:mileage>140103 KM</g:mileage>
     </item>
     <item>
-      <g:id>K-153-JJ</g:id>
-      <g:title>Audi A3 Sportback 30 TFSI Business edition|Matrix|ACC|Lane-A</g:title>
-      <g:description>99.615 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/a3/470749185-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/a3/470749185-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/K-153-JJ?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>A3</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>22950.00 EUR</g:price>
-      <g:year>2021</g:year>
-      <g:mileage>99615 KM</g:mileage>
-    </item>
-    <item>
       <g:id>4330530</g:id>
       <g:title>Volkswagen T-Roc R 2.0 TSI 4Motion|PANO|ACC|CAMERA|AKRAPOVIC</g:title>
       <g:description>46.749 km • 2022</g:description>
@@ -4805,21 +4640,6 @@
       <g:mileage>114631 KM</g:mileage>
     </item>
     <item>
-      <g:id>XV-268-N</g:id>
-      <g:title>Audi A5 Sportback 2.0 35 TFSI Sport S-Line</g:title>
-      <g:description>153.116 km • 2019</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/a5/150353155-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/a5/150353155-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/XV-268-N?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>A5</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>20940.00 EUR</g:price>
-      <g:year>2019</g:year>
-      <g:mileage>153116 KM</g:mileage>
-    </item>
-    <item>
       <g:id>4134459</g:id>
       <g:title>BMW X3 xDrive20i M-Sport M-Pakket /PANODAK/ACC/CAMERA/CARPLAY/KEYLESS/HUD/TREKHAAK/STOELVERW V+A!</g:title>
       <g:description>96.593 km • 2021</g:description>
@@ -5088,36 +4908,6 @@
       <g:price>44950.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>37150 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>3916808</g:id>
-      <g:title>Audi Q3 45 TFSI e S edition|Matrix|Keyless|Trekhaak|245PK|</g:title>
-      <g:description>35.883 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/q3/498758604-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/q3/498758604-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/3916808?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>Q3</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>38950.00 EUR</g:price>
-      <g:year>2021</g:year>
-      <g:mileage>35883 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>3696954</g:id>
-      <g:title>Mini Countryman 2.0 Cooper S E ALL4 |Pano|Harman/Kardon|18"|</g:title>
-      <g:description>147.211 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/mini/countryman/497491859-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/mini/countryman/497491859-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/3696954?_a=BAMAPqfk0</g:image_link>
-      <g:brand>MINI</g:brand>
-      <g:model>Countryman</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>22950.00 EUR</g:price>
-      <g:year>2021</g:year>
-      <g:mileage>147211 KM</g:mileage>
     </item>
     <item>
       <g:id>JHJ-75-T</g:id>
@@ -5565,7 +5355,7 @@
       <g:model>Twingo</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>8290.00 EUR</g:price>
+      <g:price>7840.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>94742 KM</g:mileage>
     </item>
@@ -6395,21 +6185,6 @@
       <g:mileage>76898 KM</g:mileage>
     </item>
     <item>
-      <g:id>03-ZK-LH</g:id>
-      <g:title>Peugeot 207 1.6 VTi XS|Automaat|Dealer onderhouden|</g:title>
-      <g:description>79.898 km • 2008</g:description>
-      <link>https://contentlease.nl/leasevoorraad/peugeot/207/11338176-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/peugeot/207/11338176-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/03-ZK-LH?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Peugeot</g:brand>
-      <g:model>207</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>4950.00 EUR</g:price>
-      <g:year>2008</g:year>
-      <g:mileage>79898 KM</g:mileage>
-    </item>
-    <item>
       <g:id>4322196</g:id>
       <g:title>Volkswagen Golf 2.0 TSI GTI Performance NAVI*CARPLAY*CRUISE*</g:title>
       <g:description>128.340 km • 2014</g:description>
@@ -6633,21 +6408,6 @@
       <g:price>9950.00 EUR</g:price>
       <g:year>2011</g:year>
       <g:mileage>156211 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>5-TZZ-24</g:id>
-      <g:title>Toyota Supra 3.0i Twin Turbo| Twin Plate Clutch|500PK!|MK4|</g:title>
-      <g:description>83.618 km • 1994</g:description>
-      <link>https://contentlease.nl/leasevoorraad/toyota/supra/228798374-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/toyota/supra/228798374-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/5-TZZ-24?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Toyota</g:brand>
-      <g:model>Supra</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>68500.00 EUR</g:price>
-      <g:year>1994</g:year>
-      <g:mileage>83618 MILES</g:mileage>
     </item>
     <item>
       <g:id>N-066-FX</g:id>
@@ -6930,7 +6690,7 @@
       <g:model>Passat</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>14400.00 EUR</g:price>
+      <g:price>13900.00 EUR</g:price>
       <g:year>2015</g:year>
       <g:mileage>213617 KM</g:mileage>
     </item>
@@ -7383,21 +7143,6 @@
       <g:price>19650.00 EUR</g:price>
       <g:year>2015</g:year>
       <g:mileage>106591 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>79-LXL-6</g:id>
-      <g:title>Volkswagen Golf 2.0 R 4-Motion|Pano|Leer|Dynaudio|19"|310PK!</g:title>
-      <g:description>215.415 km • 2010</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/golf/4769822-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/golf/4769822-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/79-LXL-6?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>Golf</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>12850.00 EUR</g:price>
-      <g:year>2010</g:year>
-      <g:mileage>215415 KM</g:mileage>
     </item>
     <item>
       <g:id>4250226</g:id>
@@ -7863,21 +7608,6 @@
       <g:price>21950.00 EUR</g:price>
       <g:year>2012</g:year>
       <g:mileage>109855 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>KN-218-P</g:id>
-      <g:title>Volkswagen Golf 1.4 TSI GTE|Pano|Leer|Cam|Lane assist|ACC|18</g:title>
-      <g:description>166.858 km • 2015</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/golf/247471320-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/golf/247471320-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KN-218-P?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>Golf</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>14950.00 EUR</g:price>
-      <g:year>2015</g:year>
-      <g:mileage>166858 KM</g:mileage>
     </item>
     <item>
       <g:id>125376930</g:id>
@@ -9380,21 +9110,6 @@
       <g:mileage>500 KM</g:mileage>
     </item>
     <item>
-      <g:id>ND-406-N</g:id>
-      <g:title>Volkswagen Passat Variant 1.4 TSI GTE Highline|Pano|Trekhaak</g:title>
-      <g:description>156.933 km • 2016</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/passat/521466414-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/passat/521466414-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/ND-406-N?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>Passat</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>16250.00 EUR</g:price>
-      <g:year>2016</g:year>
-      <g:mileage>156933 KM</g:mileage>
-    </item>
-    <item>
       <g:id>PD-828-X</g:id>
       <g:title>Škoda Kodiaq 1.4 TSI ACT Style Business / Panoramadak / Leer / N.A.P.</g:title>
       <g:description>141.966 km • 2017</g:description>
@@ -10325,21 +10040,6 @@
       <g:mileage>54620 KM</g:mileage>
     </item>
     <item>
-      <g:id>HHR-17-B</g:id>
-      <g:title>Audi Q8 55 TFSI e quattro Pro Line S|Pano|Matrix|Softclose|</g:title>
-      <g:description>79.787 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/q8/58419726-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/q8/58419726-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/HHR-17-B?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>Q8</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>68750.00 EUR</g:price>
-      <g:year>2021</g:year>
-      <g:mileage>79787 KM</g:mileage>
-    </item>
-    <item>
       <g:id>P-109-FV</g:id>
       <g:title>Lexus ES 300h Preference Line Business|NL-Auto</g:title>
       <g:description>110.178 km • 2022</g:description>
@@ -10560,7 +10260,7 @@
       <g:model>T-Roc</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>35200.00 EUR</g:price>
+      <g:price>34945.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>59777 KM</g:mileage>
     </item>
@@ -11685,7 +11385,7 @@
       <g:model>A4</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>31840.00 EUR</g:price>
+      <g:price>31490.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>74607 KM</g:mileage>
     </item>
@@ -12615,7 +12315,7 @@
       <g:model>Golf</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>21990.00 EUR</g:price>
+      <g:price>21390.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>101946 KM</g:mileage>
     </item>
@@ -12750,7 +12450,7 @@
       <g:model>Karoq</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>30490.00 EUR</g:price>
+      <g:price>30440.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>48368 KM</g:mileage>
     </item>
@@ -12825,7 +12525,7 @@
       <g:model>Kamiq</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>27490.00 EUR</g:price>
+      <g:price>26940.00 EUR</g:price>
       <g:year>2025</g:year>
       <g:mileage>16242 KM</g:mileage>
     </item>
@@ -12993,21 +12693,6 @@
       <g:price>31480.00 EUR</g:price>
       <g:year>2019</g:year>
       <g:mileage>109852 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>374763280</g:id>
-      <g:title>Skoda Kamiq 1.0 TSI / Virtual / Stoelv. / Trekh. / Carplay</g:title>
-      <g:description>46.244 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/skoda/kamiq/374763280-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/skoda/kamiq/374763280-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/374763280?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Škoda</g:brand>
-      <g:model>Kamiq</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>20995.00 EUR</g:price>
-      <g:year>2021</g:year>
-      <g:mileage>46244 KM</g:mileage>
     </item>
     <item>
       <g:id>H-861-RL</g:id>
@@ -13935,7 +13620,7 @@
       <g:model>Kamiq</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>27490.00 EUR</g:price>
+      <g:price>26940.00 EUR</g:price>
       <g:year>2025</g:year>
       <g:mileage>19794 KM</g:mileage>
     </item>
@@ -14010,7 +13695,7 @@
       <g:model>QASHQAI</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>27890.00 EUR</g:price>
+      <g:price>26890.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>56075 KM</g:mileage>
     </item>
@@ -14205,7 +13890,7 @@
       <g:model>Puma</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>18690.00 EUR</g:price>
+      <g:price>17990.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>84861 KM</g:mileage>
     </item>
@@ -14220,7 +13905,7 @@
       <g:model>Leon</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>20890.00 EUR</g:price>
+      <g:price>20490.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>63918 KM</g:mileage>
     </item>
@@ -14430,7 +14115,7 @@
       <g:model>Golf</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>23940.00 EUR</g:price>
+      <g:price>23890.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>66064 KM</g:mileage>
     </item>
@@ -14520,7 +14205,7 @@
       <g:model>Polo</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>14390.00 EUR</g:price>
+      <g:price>14440.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>95407 KM</g:mileage>
     </item>
@@ -14625,7 +14310,7 @@
       <g:model>Fiesta</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>12440.00 EUR</g:price>
+      <g:price>12290.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>101315 KM</g:mileage>
     </item>
@@ -15060,7 +14745,7 @@
       <g:model>Rifter</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>16990.00 EUR</g:price>
+      <g:price>14990.00 EUR</g:price>
       <g:year>2019</g:year>
       <g:mileage>149151 KM</g:mileage>
     </item>
@@ -15090,7 +14775,7 @@
       <g:model>Partner</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>14990.00 EUR</g:price>
+      <g:price>13990.00 EUR</g:price>
       <g:year>2017</g:year>
       <g:mileage>65021 KM</g:mileage>
     </item>
@@ -15150,7 +14835,7 @@
       <g:model>A4</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>27390.00 EUR</g:price>
+      <g:price>26490.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>95258 KM</g:mileage>
     </item>
@@ -15168,6 +14853,21 @@
       <g:price>33790.00 EUR</g:price>
       <g:year>2025</g:year>
       <g:mileage>16025 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>JZX-54-V</g:id>
+      <g:title>Skoda Karoq 1.5 TSI 150pk Automaat Selection  Navigatie Apple Carplay/Android Auto Camera Parkeer sensoren Adaptive Cruise Control Lichtmetalen Velgen Digitale Cockpit</g:title>
+      <g:description>14.828 km • 2025</g:description>
+      <link>https://contentlease.nl/leasevoorraad/skoda/karoq/48442774-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/skoda/karoq/48442774-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/JZX-54-V?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Škoda</g:brand>
+      <g:model>Karoq</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>35890.00 EUR</g:price>
+      <g:year>2025</g:year>
+      <g:mileage>14828 KM</g:mileage>
     </item>
     <item>
       <g:id>40654475</g:id>
@@ -17240,6 +16940,21 @@
       <g:mileage>194693 KM</g:mileage>
     </item>
     <item>
+      <g:id>457178951</g:id>
+      <g:title>Nissan QASHQAI 1.2 115 PK Automaat Acenta, Camera, Trekhaak, PDC</g:title>
+      <g:description>102.267 km • 2017</g:description>
+      <link>https://contentlease.nl/leasevoorraad/nissan/qashqai/457178951-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/nissan/qashqai/457178951-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/457178951?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Nissan</g:brand>
+      <g:model>QASHQAI</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>13450.00 EUR</g:price>
+      <g:year>2017</g:year>
+      <g:mileage>102267 KM</g:mileage>
+    </item>
+    <item>
       <g:id>SK-765-B</g:id>
       <g:title>BMW 3 Serie Touring 318i Automaat High Executive M-Sport, Panoramadak, LED, Leder, Keyless</g:title>
       <g:description>101.644 km • 2017</g:description>
@@ -18750,7 +18465,7 @@
       <g:model>X5</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>62890.00 EUR</g:price>
+      <g:price>59740.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>89020 KM</g:mileage>
     </item>
@@ -18965,21 +18680,6 @@
       <g:mileage>8277 KM</g:mileage>
     </item>
     <item>
-      <g:id>355708761</g:id>
-      <g:title>BMW 3-serie Touring 330e High Executive|M-Sport|19"|Laser Le</g:title>
-      <g:description>98.765 km • 2022</g:description>
-      <link>https://contentlease.nl/leasevoorraad/bmw/3series/355708761-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/bmw/3series/355708761-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/355708761?_a=BAMAPqfk0</g:image_link>
-      <g:brand>BMW</g:brand>
-      <g:model>3 Serie</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>34350.00 EUR</g:price>
-      <g:year>2022</g:year>
-      <g:mileage>98765 KM</g:mileage>
-    </item>
-    <item>
       <g:id>GV-837-D</g:id>
       <g:title>Volkswagen Golf Variant 1.4 TSI 150PK Business Ed. Conn. R</g:title>
       <g:description>148.649 km • 2015</g:description>
@@ -19023,6 +18723,21 @@
       <g:price>24940.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>102994 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>GLD-51-J</g:id>
+      <g:title>Peugeot 208 1.2 PureTech 101pk Allure Pack Navigatie Apple Carplay/Android Auto Climate Control Digitale Cockpit Parkeer sensoren</g:title>
+      <g:description>56.907 km • 2023</g:description>
+      <link>https://contentlease.nl/leasevoorraad/peugeot/208/371131375-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/peugeot/208/371131375-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/GLD-51-J?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Peugeot</g:brand>
+      <g:model>208</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>15390.00 EUR</g:price>
+      <g:year>2023</g:year>
+      <g:mileage>56907 KM</g:mileage>
     </item>
     <item>
       <g:id>J-749-PL</g:id>
@@ -19530,7 +19245,7 @@
       <g:model>Kamiq</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>27490.00 EUR</g:price>
+      <g:price>26940.00 EUR</g:price>
       <g:year>2025</g:year>
       <g:mileage>18063 KM</g:mileage>
     </item>
@@ -20475,7 +20190,7 @@
       <g:model>GLA</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>31750.00 EUR</g:price>
+      <g:price>31690.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>81032 KM</g:mileage>
     </item>
@@ -20775,7 +20490,7 @@
       <g:model>Sportage</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>14990.00 EUR</g:price>
+      <g:price>14890.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>211488 KM</g:mileage>
     </item>
@@ -21560,21 +21275,6 @@
       <g:mileage>134155 KM</g:mileage>
     </item>
     <item>
-      <g:id>KBP-90-R</g:id>
-      <g:title>Opel Corsa 1.2 Turbo 110pk Hybrid Automaat GS Navigatie Airco Cruise control Parkeersensoren Apple Carplay/ Android Auto Camera Lichtmetalen velgen LED</g:title>
-      <g:description>23.940 km • 2025</g:description>
-      <link>https://contentlease.nl/leasevoorraad/opel/corsa/121619975-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/opel/corsa/121619975-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KBP-90-R?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Opel</g:brand>
-      <g:model>Corsa</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>21290.00 EUR</g:price>
-      <g:year>2025</g:year>
-      <g:mileage>23940 KM</g:mileage>
-    </item>
-    <item>
       <g:id>4605099</g:id>
       <g:title>Mitsubishi Eclipse Cross 2.4 PHEV Instyle+ PANORAMADAKLEDER/HUD/360°CAMERA/STOELVW./ETC.!</g:title>
       <g:description>76.228 km • 2022</g:description>
@@ -21680,21 +21380,6 @@
       <g:mileage>49913 KM</g:mileage>
     </item>
     <item>
-      <g:id>37-LXX-2</g:id>
-      <g:title>Volkswagen Crafter 32 2.5 TDI L2H2 9 Personenbus | Rolstoel Invalidelift | Marge Prijs</g:title>
-      <g:description>226.708 km • 2010</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/crafter/479826-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/crafter/479826-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/37-LXX-2?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>Crafter</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>10950.00 EUR</g:price>
-      <g:year>2010</g:year>
-      <g:mileage>226708 KM</g:mileage>
-    </item>
-    <item>
       <g:id>N-781-JD</g:id>
       <g:title>Toyota C-HR 1.8 Hybrid Dynamic | hoge zit | Facelift-model</g:title>
       <g:description>133.126 km • 2020</g:description>
@@ -21735,7 +21420,7 @@
       <g:model>500</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>10490.00 EUR</g:price>
+      <g:price>9940.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>89158 KM</g:mileage>
     </item>
@@ -21780,7 +21465,7 @@
       <g:model>Corsa</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>21490.00 EUR</g:price>
+      <g:price>20890.00 EUR</g:price>
       <g:year>2025</g:year>
       <g:mileage>19621 KM</g:mileage>
     </item>
@@ -22230,7 +21915,7 @@
       <g:model>2008</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>19290.00 EUR</g:price>
+      <g:price>18990.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>80773 KM</g:mileage>
     </item>
@@ -22880,21 +22565,6 @@
       <g:mileage>82018 KM</g:mileage>
     </item>
     <item>
-      <g:id>VLF-56-N</g:id>
-      <g:title>Volvo XC90 2.4 D5 Grijs kenteken Pano ACC Lane Trekhaak</g:title>
-      <g:description>164.056 km • 2018</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volvo/xc90/309613035-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volvo/xc90/309613035-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/VLF-56-N?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volvo</g:brand>
-      <g:model>XC90</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>25450.00 EUR</g:price>
-      <g:year>2018</g:year>
-      <g:mileage>164056 KM</g:mileage>
-    </item>
-    <item>
       <g:id>H-673-XJ</g:id>
       <g:title>Audi Q5 3.0 TFSI 354 PK SQ5 | Stoelventilatie | Luchtvering | B&amp;O | CarPlay | Camera | Carbon inleg | Keyless Go | Elek .trekhaak</g:title>
       <g:description>133.881 km • 2017</g:description>
@@ -23073,6 +22743,21 @@
       <g:price>46690.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>33534 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>JZS-50-L</g:id>
+      <g:title>BMW 1-serie 123 xDrive / Pano / 360' camera / Navi</g:title>
+      <g:description>14.778 km • 2025</g:description>
+      <link>https://contentlease.nl/leasevoorraad/bmw/1series/533083132-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/bmw/1series/533083132-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/JZS-50-L?_a=BAMAPqfk0</g:image_link>
+      <g:brand>BMW</g:brand>
+      <g:model>1 Serie</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>44995.00 EUR</g:price>
+      <g:year>2025</g:year>
+      <g:mileage>14778 KM</g:mileage>
     </item>
     <item>
       <g:id>JZH-63-N</g:id>
@@ -23310,7 +22995,7 @@
       <g:model>XC40</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>33800.00 EUR</g:price>
+      <g:price>32800.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>44458 KM</g:mileage>
     </item>
@@ -23385,7 +23070,7 @@
       <g:model>Touran</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>24890.00 EUR</g:price>
+      <g:price>24690.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>110090 KM</g:mileage>
     </item>
@@ -24405,7 +24090,7 @@
       <g:model>GLC</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>63890.00 EUR</g:price>
+      <g:price>63690.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>23918 KM</g:mileage>
     </item>
@@ -24930,7 +24615,7 @@
       <g:model>Polo</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>15940.00 EUR</g:price>
+      <g:price>15740.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>90387 KM</g:mileage>
     </item>
@@ -25155,7 +24840,7 @@
       <g:model>i10</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>18880.00 EUR</g:price>
+      <g:price>18240.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>21345 KM</g:mileage>
     </item>
@@ -25185,7 +24870,7 @@
       <g:model>Q2</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>24990.00 EUR</g:price>
+      <g:price>24490.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>71932 KM</g:mileage>
     </item>
@@ -25530,7 +25215,7 @@
       <g:model>Polo</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>19990.00 EUR</g:price>
+      <g:price>19690.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>40822 KM</g:mileage>
     </item>
@@ -25755,7 +25440,7 @@
       <g:model>Grandland X</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>13990.00 EUR</g:price>
+      <g:price>13440.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>125909 KM</g:mileage>
     </item>
@@ -26130,7 +25815,7 @@
       <g:model>Scénic</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>20890.00 EUR</g:price>
+      <g:price>20490.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>85292 KM</g:mileage>
     </item>
@@ -26190,7 +25875,7 @@
       <g:model>Cooper</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>19890.00 EUR</g:price>
+      <g:price>19490.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>134827 KM</g:mileage>
     </item>
@@ -26370,7 +26055,7 @@
       <g:model>Astra</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>22690.00 EUR</g:price>
+      <g:price>22490.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>40764 KM</g:mileage>
     </item>
@@ -26400,7 +26085,7 @@
       <g:model>Kodiaq</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>34890.00 EUR</g:price>
+      <g:price>34790.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>72330 KM</g:mileage>
     </item>
@@ -26445,7 +26130,7 @@
       <g:model>X3</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>31190.00 EUR</g:price>
+      <g:price>30890.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>106889 KM</g:mileage>
     </item>
@@ -26460,7 +26145,7 @@
       <g:model>Arona</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>18350.00 EUR</g:price>
+      <g:price>18290.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>63664 KM</g:mileage>
     </item>
@@ -26495,21 +26180,6 @@
       <g:mileage>152334 KM</g:mileage>
     </item>
     <item>
-      <g:id>T-960-XH</g:id>
-      <g:title>Renault Clio 1.0 TCe 90 Equilibre Airco Navi Cruise Control Full LED Carplay</g:title>
-      <g:description>37.936 km • 2023</g:description>
-      <link>https://contentlease.nl/leasevoorraad/renault/clio/156377400-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/renault/clio/156377400-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/T-960-XH?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Renault</g:brand>
-      <g:model>Clio</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>14290.00 EUR</g:price>
-      <g:year>2023</g:year>
-      <g:mileage>37936 KM</g:mileage>
-    </item>
-    <item>
       <g:id>K-505-RN</g:id>
       <g:title>Nissan Qashqai 1.3 DIG-T Premium Edition | Pano| Leder | Stoelverwarming |</g:title>
       <g:description>120.990 km • 2021</g:description>
@@ -26520,7 +26190,7 @@
       <g:model>QASHQAI</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>19880.00 EUR</g:price>
+      <g:price>19890.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>120990 KM</g:mileage>
     </item>
@@ -26670,7 +26340,7 @@
       <g:model>A1</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>19500.00 EUR</g:price>
+      <g:price>18450.00 EUR</g:price>
       <g:year>2019</g:year>
       <g:mileage>100304 KM</g:mileage>
     </item>
@@ -27105,7 +26775,7 @@
       <g:model>Octavia</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>19390.00 EUR</g:price>
+      <g:price>18890.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>89885 KM</g:mileage>
     </item>
@@ -27125,21 +26795,6 @@
       <g:mileage>49929 KM</g:mileage>
     </item>
     <item>
-      <g:id>G-063-FL</g:id>
-      <g:title>Volkswagen e-Golf Edition  Digitale Cockpit Navigatie Apple Caplay/Android Auto Climate control Cruise control Parkeer sensoren Dab Led Lichtmetalen velgen Stoelverwarming Keyless start Bluetooth</g:title>
-      <g:description>111.474 km • 2019</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/e-golf/420002647-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/e-golf/420002647-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/G-063-FL?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>e-Golf</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>11390.00 EUR</g:price>
-      <g:year>2019</g:year>
-      <g:mileage>111474 KM</g:mileage>
-    </item>
-    <item>
       <g:id>S-062-NN</g:id>
       <g:title>Kia Sportage 1.6 T-GDi Plug-in Hybrid AWD DynamicLine | Camera | Adaptief Cruise |</g:title>
       <g:description>160.154 km • 2023</g:description>
@@ -27150,7 +26805,7 @@
       <g:model>Sportage</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>22600.00 EUR</g:price>
+      <g:price>22690.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>160154 KM</g:mileage>
     </item>
@@ -28230,7 +27885,7 @@
       <g:model>Picanto</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>14440.00 EUR</g:price>
+      <g:price>14390.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>76618 KM</g:mileage>
     </item>
@@ -28410,7 +28065,7 @@
       <g:model>Fiesta</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>15350.00 EUR</g:price>
+      <g:price>14890.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>86018 KM</g:mileage>
     </item>
@@ -28590,7 +28245,7 @@
       <g:model>Q2</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>23890.00 EUR</g:price>
+      <g:price>23690.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>74940 KM</g:mileage>
     </item>
@@ -28785,7 +28440,7 @@
       <g:model>3 Serie</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>25890.00 EUR</g:price>
+      <g:price>25490.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>105064 KM</g:mileage>
     </item>
@@ -28800,7 +28455,7 @@
       <g:model>Focus</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>17450.00 EUR</g:price>
+      <g:price>16990.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>135288 KM</g:mileage>
     </item>
@@ -28815,7 +28470,7 @@
       <g:model>A-Klasse</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>25890.00 EUR</g:price>
+      <g:price>25690.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>100360 KM</g:mileage>
     </item>
@@ -28850,21 +28505,6 @@
       <g:mileage>28858 KM</g:mileage>
     </item>
     <item>
-      <g:id>KDX-94-K</g:id>
-      <g:title>Renault Austral 1.3 MHEV Aut. 160pk Techno Airco ECC Navi Carplay PDC VA + Camera 19" LM Velgen Cruise Control</g:title>
-      <g:description>39.396 km • 2023</g:description>
-      <link>https://contentlease.nl/leasevoorraad/renault/austral/399074495-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/renault/austral/399074495-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KDX-94-K?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Renault</g:brand>
-      <g:model>Austral</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>28890.00 EUR</g:price>
-      <g:year>2023</g:year>
-      <g:mileage>39396 KM</g:mileage>
-    </item>
-    <item>
       <g:id>KDG-81-X</g:id>
       <g:title>Renault Captur 1.6 E-Tech Plug-in Hybrid 160 R.S. Line Airco ECC Navi Carplay PDC VA + Camera Cruise Control Full LED</g:title>
       <g:description>34.147 km • 2022</g:description>
@@ -28875,7 +28515,7 @@
       <g:model>Captur</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>21890.00 EUR</g:price>
+      <g:price>21690.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>34147 KM</g:mileage>
     </item>
@@ -28890,7 +28530,7 @@
       <g:model>Passat</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>20650.00 EUR</g:price>
+      <g:price>20590.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>126375 KM</g:mileage>
     </item>
@@ -28923,21 +28563,6 @@
       <g:price>57500.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>22240 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>90548428</g:id>
-      <g:title>Mercedes-Benz EQB 250+ AMG Premium, Pano, 7 persoons, Head-up, Memory, Key-Less</g:title>
-      <g:description>40.909 km • 2023</g:description>
-      <link>https://contentlease.nl/leasevoorraad/mercedes-benz/eqb/90548428-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/mercedes-benz/eqb/90548428-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/90548428?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Mercedes-Benz</g:brand>
-      <g:model>EQB</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>38500.00 EUR</g:price>
-      <g:year>2023</g:year>
-      <g:mileage>40909 KM</g:mileage>
     </item>
     <item>
       <g:id>P-571-NK</g:id>
@@ -29010,7 +28635,7 @@
       <g:model>500C</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>12390.00 EUR</g:price>
+      <g:price>12290.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>83433 KM</g:mileage>
     </item>
@@ -29145,7 +28770,7 @@
       <g:model>A7</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>48900.00 EUR</g:price>
+      <g:price>47900.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>99068 KM</g:mileage>
     </item>
@@ -29160,7 +28785,7 @@
       <g:model>Passat</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>20790.00 EUR</g:price>
+      <g:price>20490.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>95521 KM</g:mileage>
     </item>
@@ -29310,7 +28935,7 @@
       <g:model>GLA</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>30990.00 EUR</g:price>
+      <g:price>30490.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>97508 KM</g:mileage>
     </item>
@@ -29325,7 +28950,7 @@
       <g:model>GLA</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>31750.00 EUR</g:price>
+      <g:price>31690.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>88015 KM</g:mileage>
     </item>
@@ -29602,7 +29227,7 @@
     <item>
       <g:id>XS-214-D</g:id>
       <g:title>Citroen Grand C4 SpaceTourer 130pk I 7-persoons I Trekhaak I</g:title>
-      <g:description>148.284 km • 2019</g:description>
+      <g:description>148.818 km • 2019</g:description>
       <link>https://contentlease.nl/leasevoorraad/citroen/grandc4spacetourer/333014039-0/?store={store_code}</link>
       <g:link>https://contentlease.nl/leasevoorraad/citroen/grandc4spacetourer/333014039-0/?store={store_code}</g:link>
       <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/XS-214-D?_a=BAMAPqfk0</g:image_link>
@@ -29612,7 +29237,7 @@
       <g:availability>in stock</g:availability>
       <g:price>11990.00 EUR</g:price>
       <g:year>2019</g:year>
-      <g:mileage>148284 KM</g:mileage>
+      <g:mileage>148818 KM</g:mileage>
     </item>
     <item>
       <g:id>P-966-BP</g:id>
@@ -29835,7 +29460,7 @@
       <g:model>Kamiq</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>19995.00 EUR</g:price>
+      <g:price>18995.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>43995 KM</g:mileage>
     </item>
@@ -29925,7 +29550,7 @@
       <g:model>Karoq</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>30490.00 EUR</g:price>
+      <g:price>30440.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>44564 KM</g:mileage>
     </item>
@@ -30093,21 +29718,6 @@
       <g:price>35940.00 EUR</g:price>
       <g:year>2025</g:year>
       <g:mileage>8051 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>RV-333-G</g:id>
-      <g:title>Tesla Model X 100D Wit Pano 22' ACC Carplay</g:title>
-      <g:description>128.940 km • 2018</g:description>
-      <link>https://contentlease.nl/leasevoorraad/tesla/modelx/476438282-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/tesla/modelx/476438282-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/RV-333-G?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Tesla</g:brand>
-      <g:model>Model X</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>29950.00 EUR</g:price>
-      <g:year>2018</g:year>
-      <g:mileage>128940 KM</g:mileage>
     </item>
     <item>
       <g:id>KBS-46-V</g:id>
@@ -31700,21 +31310,6 @@
       <g:mileage>138300 KM</g:mileage>
     </item>
     <item>
-      <g:id>4694850</g:id>
-      <g:title>Mercedes CLA-klasse 250 e Premium Plus|PANO|SFEER|INCL BTW</g:title>
-      <g:description>92.934 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/mercedes-benz/cla/487648013-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/mercedes-benz/cla/487648013-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/4694850?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Mercedes-Benz</g:brand>
-      <g:model>CLA-Klasse</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>32900.00 EUR</g:price>
-      <g:year>2021</g:year>
-      <g:mileage>92934 KM</g:mileage>
-    </item>
-    <item>
       <g:id>L-123-LL</g:id>
       <g:title>Volkswagen Polo 1.0 TSI R-Line PANO|LED|ACC|STOELVERW|CARPLAY</g:title>
       <g:description>133.402 km • 2018</g:description>
@@ -31740,7 +31335,7 @@
       <g:model>Touran</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>24890.00 EUR</g:price>
+      <g:price>24490.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>93499 KM</g:mileage>
     </item>
@@ -32435,21 +32030,6 @@
       <g:mileage>10309 KM</g:mileage>
     </item>
     <item>
-      <g:id>291720593</g:id>
-      <g:title>Volvo XC40 2.0 T4 R-Design / Trekhaak / Navi / Camera / Luxe</g:title>
-      <g:description>179.943 km • 2019</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volvo/xc40/291720593-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volvo/xc40/291720593-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/291720593?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volvo</g:brand>
-      <g:model>XC40</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>22450.00 EUR</g:price>
-      <g:year>2019</g:year>
-      <g:mileage>179943 KM</g:mileage>
-    </item>
-    <item>
       <g:id>KGH-89-K</g:id>
       <g:title>Volkswagen Polo 1.0 TSI 70kW DSG Life Edition | Navigatie | Apple Carplay/Android Auto | Camera | Airco | Lichtmetalen Velgen | Extra Getint Glas</g:title>
       <g:description>16.907 km • 2025</g:description>
@@ -32925,7 +32505,7 @@
       <g:model>Q3</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>38995.00 EUR</g:price>
+      <g:price>37995.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>40038 KM</g:mileage>
     </item>
@@ -32943,21 +32523,6 @@
       <g:price>14995.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>105495 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>KDR-54-Z</g:id>
-      <g:title>Audi Q3 Sportback 45 TFSIe 2X S-LINE | 360 | APP CNNCT</g:title>
-      <g:description>95.800 km • 2022</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/q3/62676264-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/q3/62676264-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KDR-54-Z?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>Q3</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>34999.00 EUR</g:price>
-      <g:year>2022</g:year>
-      <g:mileage>95800 KM</g:mileage>
     </item>
     <item>
       <g:id>J-861-LK</g:id>
@@ -33060,7 +32625,7 @@
       <g:model>A3</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>17390.00 EUR</g:price>
+      <g:price>16990.00 EUR</g:price>
       <g:year>2019</g:year>
       <g:mileage>128962 KM</g:mileage>
     </item>
@@ -33255,7 +32820,7 @@
       <g:model>Clubman</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>23890.00 EUR</g:price>
+      <g:price>23880.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>49934 KM</g:mileage>
     </item>
@@ -35375,36 +34940,6 @@
       <g:mileage>23258 KM</g:mileage>
     </item>
     <item>
-      <g:id>517009600</g:id>
-      <g:title>Opel Corsa 1.2 Elegance *1ste Eigenaar*Navigatie*Camera*DAB*Leer*</g:title>
-      <g:description>48.000 km • 2022</g:description>
-      <link>https://contentlease.nl/leasevoorraad/opel/corsa/517009600-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/opel/corsa/517009600-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/517009600?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Opel</g:brand>
-      <g:model>Corsa</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>13500.00 EUR</g:price>
-      <g:year>2022</g:year>
-      <g:mileage>48000 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>XS-787-H</g:id>
-      <g:title>Volkswagen e-Golf Automaat 136pk Navigatie Climate Control Bluetooth Cruise Control Adaptive Lichtmetalen Velgen</g:title>
-      <g:description>110.357 km • 2019</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/e-golf/266754432-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/e-golf/266754432-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/XS-787-H?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>e-Golf</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>11390.00 EUR</g:price>
-      <g:year>2019</g:year>
-      <g:mileage>110357 KM</g:mileage>
-    </item>
-    <item>
       <g:id>J-668-RD</g:id>
       <g:title>Citroen C1 1.0 VTi Feel Navigatie Apple Carplay/Android Auto Camera Bluetooth Airco</g:title>
       <g:description>63.334 km • 2021</g:description>
@@ -35913,21 +35448,6 @@
       <g:price>23950.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>165439 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>HVZ-22-K</g:id>
-      <g:title>Opel Astra 1.2 Automaat GS Line | Climate control | Adaptive cruise control | LED | Voorstoelen verwarmd | Stuurwiel verwarmd | Achteruitrij camera 360* | Sfeer verlichting | Apple carplay/ Android auto</g:title>
-      <g:description>56.205 km • 2023</g:description>
-      <link>https://contentlease.nl/leasevoorraad/opel/astra/40894390-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/opel/astra/40894390-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/HVZ-22-K?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Opel</g:brand>
-      <g:model>Astra</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>22240.00 EUR</g:price>
-      <g:year>2023</g:year>
-      <g:mileage>56205 KM</g:mileage>
     </item>
     <item>
       <g:id>HZV-52-R</g:id>
@@ -36540,7 +36060,7 @@
       <g:model>Superb</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>24890.00 EUR</g:price>
+      <g:price>24690.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>91565 KM</g:mileage>
     </item>
@@ -36735,7 +36255,7 @@
       <g:model>XC40</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>26890.00 EUR</g:price>
+      <g:price>25950.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>132420 KM</g:mileage>
     </item>
@@ -36765,7 +36285,7 @@
       <g:model>Golf</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>20400.00 EUR</g:price>
+      <g:price>19890.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>119076 KM</g:mileage>
     </item>
@@ -36873,21 +36393,6 @@
       <g:price>23450.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>96953 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>J-523-SB</g:id>
-      <g:title>Audi A4 Avant 35 TFSI S edition Automaat | Zwart optiek | LED verlichting | Cruise &amp; climate control | Sportstuur | Getint glas | Quantumgrijs | Lederen/stof bekleding | DAB ontvangst | Parkeersensoren achter</g:title>
-      <g:description>87.547 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/a4/237329691-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/a4/237329691-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/J-523-SB?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>A4</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>28950.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>87547 KM</g:mileage>
     </item>
     <item>
       <g:id>KFD-04-R</g:id>
@@ -37401,7 +36906,7 @@
     </item>
     <item>
       <g:id>R-251-ZV</g:id>
-      <g:title>Tesla Model Y RWD 58 kWh</g:title>
+      <g:title>Tesla Model Y RWD 58 kWh | LFP batterij | Autopilot | Incl.BTW</g:title>
       <g:description>73.331 km • 2022</g:description>
       <link>https://contentlease.nl/leasevoorraad/tesla/modely/531213273-0/?store={store_code}</link>
       <g:link>https://contentlease.nl/leasevoorraad/tesla/modely/531213273-0/?store={store_code}</g:link>
@@ -37535,21 +37040,6 @@
       <g:mileage>60691 KM</g:mileage>
     </item>
     <item>
-      <g:id>528725325</g:id>
-      <g:title>BMW 3-serie 318i Executive Led, Climat, Cruise, Navi, Bluetooth, Pdc, LM..</g:title>
-      <g:description>109.769 km • 2017</g:description>
-      <link>https://contentlease.nl/leasevoorraad/bmw/3series/528725325-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/bmw/3series/528725325-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/528725325?_a=BAMAPqfk0</g:image_link>
-      <g:brand>BMW</g:brand>
-      <g:model>3 Serie</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>14950.00 EUR</g:price>
-      <g:year>2017</g:year>
-      <g:mileage>109769 KM</g:mileage>
-    </item>
-    <item>
       <g:id>S-475-ZB</g:id>
       <g:title>SEAT Ateca 1.5 TSI Style Business Intense Airco Cruise Control Navigatie Virtual Cockpit Privacy Glass PDC VA Camera</g:title>
       <g:description>40.792 km • 2023</g:description>
@@ -37563,21 +37053,6 @@
       <g:price>29890.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>40792 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>JHP-68-K</g:id>
-      <g:title>Peugeot 208 1.2 Hybrid 100PK Automaat Allure Navigatie Apple Carplay/Android Auto Airco Camera Parkeer sensoren Cruise Control Lichtmetalen Velgen</g:title>
-      <g:description>19.486 km • 2025</g:description>
-      <link>https://contentlease.nl/leasevoorraad/peugeot/208/350863080-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/peugeot/208/350863080-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/JHP-68-K?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Peugeot</g:brand>
-      <g:model>208</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>23250.00 EUR</g:price>
-      <g:year>2025</g:year>
-      <g:mileage>19486 KM</g:mileage>
     </item>
     <item>
       <g:id>Ni 8247</g:id>
@@ -37605,7 +37080,7 @@
       <g:model>ADAM</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>9400.00 EUR</g:price>
+      <g:price>8950.00 EUR</g:price>
       <g:year>2016</g:year>
       <g:mileage>144984 KM</g:mileage>
     </item>
@@ -37668,21 +37143,6 @@
       <g:price>8950.00 EUR</g:price>
       <g:year>2018</g:year>
       <g:mileage>148674 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>184166911</g:id>
-      <g:title>Volvo V60 2.0 T6 Recharge AWD Inscription | Leder | 19'' LMV | Trekhaak |</g:title>
-      <g:description>168.780 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volvo/v60/184166911-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volvo/v60/184166911-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/184166911?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volvo</g:brand>
-      <g:model>V60</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>22600.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>168780 KM</g:mileage>
     </item>
     <item>
       <g:id>BM 1105</g:id>
@@ -37755,7 +37215,7 @@
       <g:model>Corsa</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>11990.00 EUR</g:price>
+      <g:price>10940.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>84625 KM</g:mileage>
     </item>
@@ -37905,7 +37365,7 @@
       <g:model>500C</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>12890.00 EUR</g:price>
+      <g:price>12490.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>75564 KM</g:mileage>
     </item>
@@ -37953,21 +37413,6 @@
       <g:price>7950.00 EUR</g:price>
       <g:year>2018</g:year>
       <g:mileage>173944 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>R-655-ZB</g:id>
-      <g:title>Audi A3 Sportback 35 TFSI Pro Line 150pk Automaat | Carplay | Adaptive cruise | Virtual cockpit | Full LED</g:title>
-      <g:description>79.515 km • 2023</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/a3/1940944-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/a3/1940944-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/R-655-ZB?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>A3</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>24800.00 EUR</g:price>
-      <g:year>2023</g:year>
-      <g:mileage>79515 KM</g:mileage>
     </item>
     <item>
       <g:id>JDB-98-L</g:id>
@@ -38283,6 +37728,21 @@
       <g:price>42950.00 EUR</g:price>
       <g:year>2025</g:year>
       <g:mileage>17687 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>JFT-87-B</g:id>
+      <g:title>Tesla Model 3 Long Range RWD 75 kWh | SoH 92,3% | Autopilot | Incl.BTW</g:title>
+      <g:description>83.667 km • 2020</g:description>
+      <link>https://contentlease.nl/leasevoorraad/tesla/model3/277388725-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/tesla/model3/277388725-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/JFT-87-B?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Tesla</g:brand>
+      <g:model>Model 3</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>21950.00 EUR</g:price>
+      <g:year>2020</g:year>
+      <g:mileage>83667 KM</g:mileage>
     </item>
     <item>
       <g:id>VW 1778</g:id>
@@ -38915,21 +38375,6 @@
       <g:mileage>129000 KM</g:mileage>
     </item>
     <item>
-      <g:id>4737012</g:id>
-      <g:title>Volvo XC40 1.5 T5 Plug-in Hybrid Inscription Led, Pano, Camera, LM..</g:title>
-      <g:description>92.462 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volvo/xc40/532145499-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volvo/xc40/532145499-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/4737012?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volvo</g:brand>
-      <g:model>XC40</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>25800.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>92462 KM</g:mileage>
-    </item>
-    <item>
       <g:id>ZB-545-D</g:id>
       <g:title>BMW 5-serie Touring 520i High Executive Edition | 2e eigenaar | NL auto | Adaptive LED | 19 inch | Sportstuur | Comfortstoelen | Memory | Display Key | Navigatie | Bluetooth | PDC</g:title>
       <g:description>180.116 km • 2019</g:description>
@@ -38958,21 +38403,6 @@
       <g:price>21850.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>95000 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>M95317</g:id>
-      <g:title>Volkswagen Polo 2.0 TSI 207pk Automaat GTI Navigatie Apple Carplay/Android Auto Led Adaptive Cruise Control Dab Verwarmde voorstoelen</g:title>
-      <g:description>4.526 km • 2024</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/polo/375489690-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/polo/375489690-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/M95317?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>Polo</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>31390.00 EUR</g:price>
-      <g:year>2024</g:year>
-      <g:mileage>4526 KM</g:mileage>
     </item>
     <item>
       <g:id>Ni 1763</g:id>
@@ -39210,7 +38640,7 @@
       <g:model>Defender</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>98890.00 EUR</g:price>
+      <g:price>98790.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>43900 KM</g:mileage>
     </item>
@@ -39240,24 +38670,9 @@
       <g:model>Kuga</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>18900.00 EUR</g:price>
+      <g:price>18400.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>122285 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>K-184-HR</g:id>
-      <g:title>Volvo XC40 Recharge P8 AWD R-Design | Warmtepomp | Stoel/Stuurverwarming |</g:title>
-      <g:description>106.211 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volvo/xc40/24080864-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volvo/xc40/24080864-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/K-184-HR?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volvo</g:brand>
-      <g:model>XC40</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>23400.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>106211 KM</g:mileage>
     </item>
     <item>
       <g:id>4725375</g:id>
@@ -39375,7 +38790,7 @@
       <g:model>Corolla Touring Sports</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>24950.00 EUR</g:price>
+      <g:price>24890.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>56589 KM</g:mileage>
     </item>
@@ -39405,7 +38820,7 @@
       <g:model>Puma</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>18995.00 EUR</g:price>
+      <g:price>17995.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>66087 KM</g:mileage>
     </item>
@@ -39705,7 +39120,7 @@
       <g:model>Kuga</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>21800.00 EUR</g:price>
+      <g:price>20890.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>110112 KM</g:mileage>
     </item>
@@ -40295,21 +39710,6 @@
       <g:mileage>122000 KM</g:mileage>
     </item>
     <item>
-      <g:id>M50282</g:id>
-      <g:title>Fiat 500 1.0 Hybrid Vita Comfort Airco Cruise control Parkeersensoren achter Elektrische ramen</g:title>
-      <g:description>2.976 km • 2024</g:description>
-      <link>https://contentlease.nl/leasevoorraad/fiat/500/368448304-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/fiat/500/368448304-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/M50282?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Fiat</g:brand>
-      <g:model>500</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>16340.00 EUR</g:price>
-      <g:year>2024</g:year>
-      <g:mileage>2976 KM</g:mileage>
-    </item>
-    <item>
       <g:id>P-828-XB</g:id>
       <g:title>BMW X5 xDrive45e High Executive M-Sport, Massage, Sky-Lounge, Head-up 2022</g:title>
       <g:description>111.507 km • 2022</g:description>
@@ -40490,21 +39890,6 @@
       <g:mileage>64947 KM</g:mileage>
     </item>
     <item>
-      <g:id>T-414-BZ</g:id>
-      <g:title>Audi Q2 35 TFSI Pro Line | Apple Carplay | Draadloze lader | LED | Origineel NL</g:title>
-      <g:description>87.453 km • 2023</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/q2/284982905-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/q2/284982905-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/T-414-BZ?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>Q2</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>24250.00 EUR</g:price>
-      <g:year>2023</g:year>
-      <g:mileage>87453 KM</g:mileage>
-    </item>
-    <item>
       <g:id>150518848</g:id>
       <g:title>Mercedes-Benz GLE Coupé AMG 53 Hybrid 4MATIC+ Premium Plus Massage, MANUFAKTUR, Distronic 2026</g:title>
       <g:description>118 km • 2026</g:description>
@@ -40518,21 +39903,6 @@
       <g:price>143500.00 EUR</g:price>
       <g:year>2026</g:year>
       <g:mileage>118 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>M24836</g:id>
-      <g:title>Volkswagen T-Roc 1.5 TSI R-Line + IQ Drive pakket Automaat Climate control Adaptieve cruise control Camera Parkeersensoren Stuurverwarming Stoelverwarming Keyless LED Apple Carplay/ Android Auto</g:title>
-      <g:description>15.195 km • 2024</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/465378640-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/465378640-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/M24836?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>T-Roc</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>32740.00 EUR</g:price>
-      <g:year>2024</g:year>
-      <g:mileage>15195 KM</g:mileage>
     </item>
     <item>
       <g:id>KFT-06-L</g:id>
@@ -40563,21 +39933,6 @@
       <g:price>23590.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>19374 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>HSB-14-G</g:id>
-      <g:title>Opel Corsa 1.2 Turbo Automaat GS Line Airco Carplay Navi Cruise Control Full LED 16" Black Wheels PDC VA + Camera Virtual Cockpit</g:title>
-      <g:description>37.626 km • 2024</g:description>
-      <link>https://contentlease.nl/leasevoorraad/opel/corsa/10518553-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/opel/corsa/10518553-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/HSB-14-G?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Opel</g:brand>
-      <g:model>Corsa</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>20240.00 EUR</g:price>
-      <g:year>2024</g:year>
-      <g:mileage>37626 KM</g:mileage>
     </item>
     <item>
       <g:id>K-399-NT</g:id>
@@ -40686,7 +40041,7 @@
     </item>
     <item>
       <g:id>7-THT-33</g:id>
-      <g:title>Opel Mokka 1.4 T Cosmo Turbo X, Automaat, Bluetooth, Camera, Cruise, Navi, Trekhaak, NAP</g:title>
+      <g:title>Opel Mokka 1.4 T Cosmo Turbo X, 4x4, Automaat, Bluetooth, Camera, Cruise, Navi, Trekhaak, NAP</g:title>
       <g:description>199.774 km • 2014</g:description>
       <link>https://contentlease.nl/leasevoorraad/opel/mokka/193259949-0/?store={store_code}</link>
       <g:link>https://contentlease.nl/leasevoorraad/opel/mokka/193259949-0/?store={store_code}</g:link>
@@ -40710,7 +40065,7 @@
       <g:model>Taigo</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>26900.00 EUR</g:price>
+      <g:price>25750.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>23203 KM</g:mileage>
     </item>
@@ -40833,21 +40188,6 @@
       <g:price>15500.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>70000 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>N-123-FJ</g:id>
-      <g:title>Audi S5 3.0 TFSI S5 quattro Pro Line Plus | BTW auto | Head-up |</g:title>
-      <g:description>128.274 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/s5/102991567-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/s5/102991567-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/N-123-FJ?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>S5</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>53440.00 EUR</g:price>
-      <g:year>2021</g:year>
-      <g:mileage>128274 KM</g:mileage>
     </item>
     <item>
       <g:id>R-308-TV</g:id>
@@ -41778,21 +41118,6 @@
       <g:price>25440.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>103023 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>HVZ-21-J</g:id>
-      <g:title>Peugeot 2008 1.2 130pk Automaat Active Pack  Navigatie Cruise Control Climate Control Camera Parkeer sensoren Lichtmetalen velgen</g:title>
-      <g:description>23.725 km • 2023</g:description>
-      <link>https://contentlease.nl/leasevoorraad/peugeot/2008/184813934-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/peugeot/2008/184813934-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/HVZ-21-J?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Peugeot</g:brand>
-      <g:model>2008</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>21390.00 EUR</g:price>
-      <g:year>2023</g:year>
-      <g:mileage>23725 KM</g:mileage>
     </item>
     <item>
       <g:id>KGG-75-B</g:id>
@@ -42945,7 +42270,7 @@
       <g:model>V40</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>14995.00 EUR</g:price>
+      <g:price>13995.00 EUR</g:price>
       <g:year>2018</g:year>
       <g:mileage>141991 KM</g:mileage>
     </item>
@@ -43830,7 +43155,7 @@
       <g:model>Karoq</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>29890.00 EUR</g:price>
+      <g:price>29440.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>32508 KM</g:mileage>
     </item>
@@ -44645,21 +43970,6 @@
       <g:mileage>144576 KM</g:mileage>
     </item>
     <item>
-      <g:id>HDR-73-G</g:id>
-      <g:title>Volkswagen Golf 1.5 eTSI 150pk DSG R-Line  Panorama dak Navigatie Apple Carplay/Android Auto Climate Control Camera Dab Extra Getint Glas Adaptive Cruise Control Virtual Cockpit Lichtmetalen Velgen</g:title>
-      <g:description>50.447 km • 2024</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/golf/259690402-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/golf/259690402-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/HDR-73-G?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>Golf</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>33890.00 EUR</g:price>
-      <g:year>2024</g:year>
-      <g:mileage>50447 KM</g:mileage>
-    </item>
-    <item>
       <g:id>4766793</g:id>
       <g:title>Lexus NX 300h AWD E-Four F Sport MARK LEVINSON/PANORAMADAK/VOL LEDER/LED/ACC/ETC.!</g:title>
       <g:description>96.457 km • 2016</g:description>
@@ -44718,21 +44028,6 @@
       <g:price>29925.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>69877 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>M36778</g:id>
-      <g:title>Peugeot 408 1.6 PHEV GT 225pk Automaat Climate control Cruise control LED Parkeersensoren Camera Leder Apple Carplay/ Android Auto Vitual cockpit Lichtmetalen velgen</g:title>
-      <g:description>25.742 km • 2024</g:description>
-      <link>https://contentlease.nl/leasevoorraad/peugeot/408/202733048-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/peugeot/408/202733048-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/M36778?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Peugeot</g:brand>
-      <g:model>408</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>28890.00 EUR</g:price>
-      <g:year>2024</g:year>
-      <g:mileage>25742 KM</g:mileage>
     </item>
     <item>
       <g:id>XR-047-Z</g:id>
@@ -44883,21 +44178,6 @@
       <g:price>26799.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>87207 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>RG-932-Z</g:id>
-      <g:title>Audi Q2 1.0 TFSI Riem vervangen! Navi, Airco, Bluetooth, Pdc, LM..</g:title>
-      <g:description>214.481 km • 2017</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/q2/225253029-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/q2/225253029-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/RG-932-Z?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>Q2</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>11600.00 EUR</g:price>
-      <g:year>2017</g:year>
-      <g:mileage>214481 KM</g:mileage>
     </item>
     <item>
       <g:id>S-012-FV</g:id>
@@ -45243,21 +44523,6 @@
       <g:price>22900.00 EUR</g:price>
       <g:year>2017</g:year>
       <g:mileage>296882 KM</g:mileage>
-    </item>
-    <item>
-      <g:id>M62603</g:id>
-      <g:title>Volkswagen Polo 1.0 TSI DSG Style Digitale Cockpit Climate Control Navigatie Apple Carplay/Android Auto Parkeer sensoren Led Cruise Control Parkeer sensoren</g:title>
-      <g:description>8.378 km • 2025</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/polo/244113175-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/polo/244113175-0/?store={store_code}</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/M62603?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>Polo</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>25890.00 EUR</g:price>
-      <g:year>2025</g:year>
-      <g:mileage>8378 KM</g:mileage>
     </item>
     <item>
       <g:id>4769799</g:id>
@@ -46417,7 +45682,7 @@
     <item>
       <g:id>TG-522-H</g:id>
       <g:title>Volkswagen Polo 1.2 TSI Comfortline</g:title>
-      <g:description>171.870 km • 2012</g:description>
+      <g:description>171.893 km • 2012</g:description>
       <link>https://contentlease.nl/leasevoorraad/volkswagen/polo/403629445-0/?store={store_code}</link>
       <g:link>https://contentlease.nl/leasevoorraad/volkswagen/polo/403629445-0/?store={store_code}</g:link>
       <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/TG-522-H?_a=BAMAPqfk0</g:image_link>
@@ -46427,7 +45692,7 @@
       <g:availability>in stock</g:availability>
       <g:price>5750.00 EUR</g:price>
       <g:year>2012</g:year>
-      <g:mileage>171870 KM</g:mileage>
+      <g:mileage>171893 KM</g:mileage>
     </item>
     <item>
       <g:id>041782</g:id>
@@ -46515,7 +45780,7 @@
       <g:model>Model Y</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>32890.00 EUR</g:price>
+      <g:price>33890.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>60000 KM</g:mileage>
     </item>
@@ -46585,7 +45850,7 @@
       <g:description>59.850 km • 2024</g:description>
       <link>https://contentlease.nl/leasevoorraad/nissan/qashqai/420566388-0/?store={store_code}</link>
       <g:link>https://contentlease.nl/leasevoorraad/nissan/qashqai/420566388-0/?store={store_code}</g:link>
-      <g:image_link>https://media-googlemerchantcenter.export.dv.nl/21914090939/image1.jpg</g:image_link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KGF-11-L?_a=BAMAPqfk0</g:image_link>
       <g:brand>Nissan</g:brand>
       <g:model>QASHQAI</g:model>
       <g:condition>used</g:condition>
@@ -46600,7 +45865,7 @@
       <g:description>51.450 km • 2023</g:description>
       <link>https://contentlease.nl/leasevoorraad/nissan/qashqai/57522857-0/?store={store_code}</link>
       <g:link>https://contentlease.nl/leasevoorraad/nissan/qashqai/57522857-0/?store={store_code}</g:link>
-      <g:image_link>https://media-googlemerchantcenter.export.dv.nl/21914123200/image1.jpg</g:image_link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KFT-22-Z?_a=BAMAPqfk0</g:image_link>
       <g:brand>Nissan</g:brand>
       <g:model>QASHQAI</g:model>
       <g:condition>used</g:condition>
@@ -46878,6 +46143,21 @@
       <g:price>13800.00 EUR</g:price>
       <g:year>2018</g:year>
       <g:mileage>111929 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>KGJ-63-S</g:id>
+      <g:title>Mazda CX-60 2.5 e-SkyActiv PHEV Homura | Driver Assist | Comfort en Convience Pack | 20 inch</g:title>
+      <g:description>50.345 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/mazda/cx-60/266772298-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/mazda/cx-60/266772298-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KGJ-63-S?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Mazda</g:brand>
+      <g:model>CX-60</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>37950.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>50345 KM</g:mileage>
     </item>
     <item>
       <g:id>M30461</g:id>
@@ -47601,7 +46881,7 @@
     </item>
     <item>
       <g:id>4782027</g:id>
-      <g:title>BMW 1-serie 120 M Sport Design|PANO|H&amp;K|SFEER.|MEMORY|LEDER</g:title>
+      <g:title>BMW 1-serie 120i M Sport Design|PANO|H&amp;K|SFEER.|MEMORY|LEDER</g:title>
       <g:description>24.148 km • 2024</g:description>
       <link>https://contentlease.nl/leasevoorraad/bmw/1series/29606409-0/?store={store_code}</link>
       <g:link>https://contentlease.nl/leasevoorraad/bmw/1series/29606409-0/?store={store_code}</g:link>
@@ -47618,11 +46898,11 @@
       <g:id>4782204</g:id>
       <g:title>Audi A6 Avant RS6 TFSI Quattro|KERAMISCH|PANO|B&amp;O|360°|22''</g:title>
       <g:description>97.718 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/a6/429995832-0/?store={store_code}</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/a6/429995832-0/?store={store_code}</g:link>
+      <link>https://contentlease.nl/leasevoorraad/audi/rs6/429995832-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/audi/rs6/429995832-0/?store={store_code}</g:link>
       <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/4782204?_a=BAMAPqfk0</g:image_link>
       <g:brand>Audi</g:brand>
-      <g:model>A6</g:model>
+      <g:model>RS6</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
       <g:price>99900.00 EUR</g:price>
@@ -48048,6 +47328,681 @@
       <g:price>53950.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>86005 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>K-583-PN</g:id>
+      <g:title>Toyota Yaris 1.6 GR Performance|300pk|Milltek|Carbon|Cam|BBS</g:title>
+      <g:description>45.950 km • 2020</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/yaris/224780626-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/yaris/224780626-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/K-583-PN?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Yaris</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>37950.00 EUR</g:price>
+      <g:year>2020</g:year>
+      <g:mileage>45950 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>DA 8672</g:id>
+      <g:title>Dacia Sandero Stepway 0.9 TCe Lauréate *Airco*Nieuwe APK*</g:title>
+      <g:description>227.000 km • 2014</g:description>
+      <link>https://contentlease.nl/leasevoorraad/dacia/sanderostepway/254807477-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/dacia/sanderostepway/254807477-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/DA_8672?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Dacia</g:brand>
+      <g:model>SANDERO Stepway</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>3850.00 EUR</g:price>
+      <g:year>2014</g:year>
+      <g:mileage>227000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>Z-295-DV</g:id>
+      <g:title>Volkswagen Passat Variant 1.4 TSI PHEV GTE Business AUT. | navigatie | trekhaak | leder/alcantara | elektr. a. klep | stoel/stuurverwarming</g:title>
+      <g:description>108.763 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/passat/303507274-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/passat/303507274-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/Z-295-DV?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>Passat</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>22950.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>108763 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>MB 8827</g:id>
+      <g:title>Mercedes-Benz GLB 200 *1ste Eigenaar*Navigatie*Leer*Stoelverwarming*PDC*</g:title>
+      <g:description>89.000 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/mercedes-benz/glb/438487389-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/mercedes-benz/glb/438487389-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/MB_8827?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Mercedes-Benz</g:brand>
+      <g:model>GLB</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>29800.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>89000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>95-SPX-5</g:id>
+      <g:title>BMW 3-serie 318i Corporate Lease Luxury Line NAVI LEER ORIGINEEL NL AUTO</g:title>
+      <g:description>151.496 km • 2011</g:description>
+      <link>https://contentlease.nl/leasevoorraad/bmw/3series/249271239-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/bmw/3series/249271239-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/95-SPX-5?_a=BAMAPqfk0</g:image_link>
+      <g:brand>BMW</g:brand>
+      <g:model>3 Serie</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>7945.00 EUR</g:price>
+      <g:year>2011</g:year>
+      <g:mileage>151496 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>J-174-XF</g:id>
+      <g:title>Audi A3 Sportback 35 TFSI edition one S line Automaat | Panoramadak | Stoelverwarming | Bang&amp;olufsen Audio | Sfeerverlichting | Cruise control adaptief | Getint glas | DAB | LED verlichting | Parkeersensoren achter</g:title>
+      <g:description>101.726 km • 2020</g:description>
+      <link>https://contentlease.nl/leasevoorraad/audi/a3/153654448-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/audi/a3/153654448-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/J-174-XF?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Audi</g:brand>
+      <g:model>A3</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>25950.00 EUR</g:price>
+      <g:year>2020</g:year>
+      <g:mileage>101726 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>4783869</g:id>
+      <g:title>Volkswagen Polo 1.0 TSI Life</g:title>
+      <g:description>18.574 km • 2024</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/polo/165008353-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/polo/165008353-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/4783869?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>Polo</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>22950.00 EUR</g:price>
+      <g:year>2024</g:year>
+      <g:mileage>18574 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>ZR-024-K</g:id>
+      <g:title>BMW 3-serie Touring 340i 326 pk Automaat Sport-Line | Navigatie | Climate Control | Cruise Control | Led | Electrisch bedienbare achterklep | Extra Getint Glas | Lichtmetalen velgen 18" | Stoelverwarming</g:title>
+      <g:description>137.912 km • 2018</g:description>
+      <link>https://contentlease.nl/leasevoorraad/bmw/3series/134230815-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/bmw/3series/134230815-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/ZR-024-K?_a=BAMAPqfk0</g:image_link>
+      <g:brand>BMW</g:brand>
+      <g:model>3 Serie</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>26890.00 EUR</g:price>
+      <g:year>2018</g:year>
+      <g:mileage>137912 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>H-472-FX</g:id>
+      <g:title>Volkswagen T-Roc 1.0 TSI Style Navigatiesysteem | Achteruitrijcamera | 17 inch velgen | Climate control | Cruise control adaptief | Afwijkende dakkleur | DAB ontvanger | Apple Carplay/Android Auto | Getint glas | Parkeersensoren voor en achter</g:title>
+      <g:description>53.791 km • 2020</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/254572848-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/254572848-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/H-472-FX?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>T-Roc</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>19950.00 EUR</g:price>
+      <g:year>2020</g:year>
+      <g:mileage>53791 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>PE 8237</g:id>
+      <g:title>Peugeot 208 1.2 Active *1ste Eigenaar*Navigatie*Camera*Cruise Control*</g:title>
+      <g:description>79.000 km • 2020</g:description>
+      <link>https://contentlease.nl/leasevoorraad/peugeot/208/126161087-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/peugeot/208/126161087-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/PE_8237?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Peugeot</g:brand>
+      <g:model>208</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>11750.00 EUR</g:price>
+      <g:year>2020</g:year>
+      <g:mileage>79000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>4783428</g:id>
+      <g:title>Audi Q3 35 TFSI S Line Led, Leer, ACC, Climat, Trekhaak, LM..</g:title>
+      <g:description>126.327 km • 2019</g:description>
+      <link>https://contentlease.nl/leasevoorraad/audi/q3/238433392-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/audi/q3/238433392-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/4783428?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Audi</g:brand>
+      <g:model>Q3</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>22800.00 EUR</g:price>
+      <g:year>2019</g:year>
+      <g:mileage>126327 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>XR-240-H</g:id>
+      <g:title>Volvo V60 2.0 T8 Twin Engine 390 pk AWD Inscription | 1e eigenaar | dealer onderh. | panoramadak | leder elektr. stoelen | HUD</g:title>
+      <g:description>48.206 km • 2019</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volvo/v60/459693825-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volvo/v60/459693825-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/XR-240-H?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volvo</g:brand>
+      <g:model>V60</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>33450.00 EUR</g:price>
+      <g:year>2019</g:year>
+      <g:mileage>48206 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>P-550-XD</g:id>
+      <g:title>Volkswagen T-Roc 1.5 TSI R-Line Business+ Automaat | Stoelverwarming | Climate control | Cruise control adaptief | Virtual cockpit | LED koplampen | Apple CarPlay/Android Auto | Parkeersensoren voor en achter | Achteruitrijcamera</g:title>
+      <g:description>126.743 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/315377237-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/315377237-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/P-550-XD?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>T-Roc</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>25950.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>126743 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>SK 6184</g:id>
+      <g:title>Škoda Superb Combi 1.4 TSI iV *1ste Eigenaar*Navigatie*Stoelverwarming*Camera*Carplay*</g:title>
+      <g:description>74.000 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/skoda/superb/127943890-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/skoda/superb/127943890-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/SK_6184?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Škoda</g:brand>
+      <g:model>Superb</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>21400.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>74000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>KGH-29-J</g:id>
+      <g:title>Audi RS 3 2.5 TFSI RS 3 quattro PANO|HUD|SONOS|SFEER|CARBON|</g:title>
+      <g:description>5.350 km • 2025</g:description>
+      <link>https://contentlease.nl/leasevoorraad/audi/rs3/283614383-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/audi/rs3/283614383-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KGH-29-J?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Audi</g:brand>
+      <g:model>RS3</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>95900.00 EUR</g:price>
+      <g:year>2025</g:year>
+      <g:mileage>5350 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>J-951-SJ</g:id>
+      <g:title>Volkswagen Polo 1.0 TSI R Line 116 pk AUT. | 1e eigenaar | 3x R Line | navigatie | virtual cockpit | stoelverwarming | sportstoelen</g:title>
+      <g:description>97.521 km • 2020</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/polo/476114710-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/polo/476114710-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/J-951-SJ?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>Polo</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>19950.00 EUR</g:price>
+      <g:year>2020</g:year>
+      <g:mileage>97521 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>G-377-HT</g:id>
+      <g:title>Volkswagen Polo 1.0 TSI Comfortline Camera, App Connect, Navi</g:title>
+      <g:description>150.834 km • 2019</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/polo/340383908-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/polo/340383908-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/G-377-HT?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>Polo</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>11450.00 EUR</g:price>
+      <g:year>2019</g:year>
+      <g:mileage>150834 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>KGG-79-B</g:id>
+      <g:title>Ford Kuga 2.5 PHEV Titanium | Elek. wegklapbare trekhaak | Winterpack</g:title>
+      <g:description>89.887 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/ford/kuga/436516757-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/ford/kuga/436516757-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KGG-79-B?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Ford</g:brand>
+      <g:model>Kuga</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>20940.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>89887 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>SE 6217</g:id>
+      <g:title>SEAT Leon ST 1.0 TSI Move *1ste Eigenaar*Navigatie*PDC*Carplay*DAB*</g:title>
+      <g:description>97.000 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/seat/leon/328795374-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/seat/leon/328795374-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/SE_6217?_a=BAMAPqfk0</g:image_link>
+      <g:brand>SEAT</g:brand>
+      <g:model>Leon</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>16600.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>97000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>PE 9180</g:id>
+      <g:title>Peugeot 308 SW 1.2 Active Pack *1ste Eigenaar*Navigatie*PDC*Carplay*</g:title>
+      <g:description>84.000 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/peugeot/308/198366181-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/peugeot/308/198366181-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/PE_9180?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Peugeot</g:brand>
+      <g:model>308</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>15800.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>84000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>S-943-JX</g:id>
+      <g:title>Kia Picanto 1.0 DPi Automaat DynamicLine | Navigatie | Apple Carplay/Android Auto | Airco | Camera | DAB | Lichtmetalen velgen | Bluetooth</g:title>
+      <g:description>91.642 km • 2023</g:description>
+      <link>https://contentlease.nl/leasevoorraad/kia/picanto/465792921-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/kia/picanto/465792921-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/S-943-JX?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Kia</g:brand>
+      <g:model>Picanto</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>14250.00 EUR</g:price>
+      <g:year>2023</g:year>
+      <g:mileage>91642 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>9150031</g:id>
+      <g:title>Volkswagen Golf 1.5 eTSI 150pk DSG R-Line  Panorama dak Navigatie Apple Carplay/Android Auto Climate Control Camera Dab Extra Getint Glas Adaptive Cruise Control Virtual Cockpit Lichtmetalen Velgen</g:title>
+      <g:description>50.447 km • 2024</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/golf/9150031-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/golf/9150031-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/9150031?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>Golf</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>33890.00 EUR</g:price>
+      <g:year>2024</g:year>
+      <g:mileage>50447 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>X-027-FT</g:id>
+      <g:title>Tesla Model Y Long Range AWD 75 kWh | FSD | Trekhaak | Incl.BTW</g:title>
+      <g:description>117.406 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/tesla/modely/207702654-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/tesla/modely/207702654-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/X-027-FT?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Tesla</g:brand>
+      <g:model>Model Y</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>34950.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>117406 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>VW 2686</g:id>
+      <g:title>Volkswagen T-Cross 1.0 TSI Life *1ste eigenaar*Navigatie*Camera*Carplay*</g:title>
+      <g:description>39.000 km • 2023</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/t-cross/482448435-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/t-cross/482448435-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/VW_2686?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>T-Cross</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>22750.00 EUR</g:price>
+      <g:year>2023</g:year>
+      <g:mileage>39000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>187809</g:id>
+      <g:title>Toyota Yaris 1.5 Hybrid Tokyo Spirit | ACC | Carplay | LED | Camera | Clima</g:title>
+      <g:description>42.189 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/yaris/529881487-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/yaris/529881487-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/187809?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Yaris</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>21950.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>42189 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>GJP-65-G</g:id>
+      <g:title>Volkswagen T-Roc 1.5 TSI 150pk DSG R-Line  Navigatie Apple Carplay/Android Auto Parkeersensoren Camera Adaptive Cruise Control Elektrische achterklep Stoel- en stuurverwarming Climate Control Ledverlichting Virtual Cockpit</g:title>
+      <g:description>63.341 km • 2023</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/124706513-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/124706513-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/GJP-65-G?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>T-Roc</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>29890.00 EUR</g:price>
+      <g:year>2023</g:year>
+      <g:mileage>63341 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>R-294-GT</g:id>
+      <g:title>CUPRA Born Business 62 kWh  Navigatie Climate Control Camera Adaptive Cruise Control Full Led Stoelverwarming</g:title>
+      <g:description>56.496 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/cupra/born/296516462-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/cupra/born/296516462-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/R-294-GT?_a=BAMAPqfk0</g:image_link>
+      <g:brand>CUPRA</g:brand>
+      <g:model>Born</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>23440.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>56496 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>RE 0918</g:id>
+      <g:title>Renault Arkana 1.6 E-Tech Hybrid 145 Zen *1ste Eigenaar*Navigatie*PDC*</g:title>
+      <g:description>35.000 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/renault/arkana/225624913-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/renault/arkana/225624913-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/RE_0918?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Renault</g:brand>
+      <g:model>Arkana</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>20600.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>35000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>L-455-ZZ</g:id>
+      <g:title>Volvo XC40 1.5 T4 Recharge Inscription Expression | Panoramadak | Camera | Apple Carplay</g:title>
+      <g:description>164.243 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volvo/xc40/25054858-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volvo/xc40/25054858-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/L-455-ZZ?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volvo</g:brand>
+      <g:model>XC40</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>22880.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>164243 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>N-023-NP</g:id>
+      <g:title>Volvo XC40 1.5 T5 Recharge Inscription | Leder | Camera | Trekhaak | Stoel/Stuurverw.</g:title>
+      <g:description>153.691 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volvo/xc40/117903530-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volvo/xc40/117903530-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/N-023-NP?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volvo</g:brand>
+      <g:model>XC40</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>23880.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>153691 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>Ki 0450</g:id>
+      <g:title>Kia Ceed Sportswagon 1.0 T-GDi ExecutiveLine *1ste eigenaar*Leer*Navigatie*Camera*</g:title>
+      <g:description>67.000 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/kia/ceedsportswagon/448152091-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/kia/ceedsportswagon/448152091-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/Ki_0450?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Kia</g:brand>
+      <g:model>Ceed Sportswagon</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>17850.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>67000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>082036</g:id>
+      <g:title>Toyota Corolla Touring Sports 2.0 Hybrid GR-Sport Plus | Pano | Camera | JBL Audio | 18 inch | Carplay</g:title>
+      <g:description>64.851 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/corollatouringsports/121898513-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/corollatouringsports/121898513-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/082036?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Corolla Touring Sports</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>29950.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>64851 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>KGS-33-G</g:id>
+      <g:title>Toyota Yaris 1.5 Hybrid Dynamic | Trekhaak | CarPlay | ACC | Camera | Keyless | 16 inch</g:title>
+      <g:description>45.273 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/yaris/415315353-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/yaris/415315353-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KGS-33-G?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Yaris</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>21450.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>45273 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>KGP-53-L</g:id>
+      <g:title>Suzuki S-Cross 1.5 Hybrid AllGrip Style | Pano | ACC | 360* Camera | Keyless | LED</g:title>
+      <g:description>8.670 km • 2023</g:description>
+      <link>https://contentlease.nl/leasevoorraad/suzuki/s-cross/221081539-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/suzuki/s-cross/221081539-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/KGP-53-L?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Suzuki</g:brand>
+      <g:model>S-Cross</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>27950.00 EUR</g:price>
+      <g:year>2023</g:year>
+      <g:mileage>8670 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>019425</g:id>
+      <g:title>Toyota Yaris Cross 1.5 Hybrid Team D | CarPlay | ACC | Camera | LED | DAB+</g:title>
+      <g:description>54.571 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/yariscross/535657386-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/yariscross/535657386-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/019425?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Yaris Cross</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>23950.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>54571 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>164018</g:id>
+      <g:title>Toyota Corolla Touring Sports Hybrid 140 Dynamic | Navi | Carplay | Camera | ACC | Dodehoek | Winter Pack</g:title>
+      <g:description>10.631 km • 2025</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/corollatouringsports/217183301-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/corollatouringsports/217183301-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/164018?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Corolla Touring Sports</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>31950.00 EUR</g:price>
+      <g:year>2025</g:year>
+      <g:mileage>10631 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>023724</g:id>
+      <g:title>Toyota Yaris Cross 1.5 Hybrid Team D | Navi | ACC | CarPlay | Camera | Keyless</g:title>
+      <g:description>41.739 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/yariscross/261144976-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/yariscross/261144976-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/023724?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Yaris Cross</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>24950.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>41739 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>BM 9991</g:id>
+      <g:title>BMW X1 sDrive16d *1ste Eigenaar*PDC*Navigatie*DAB*</g:title>
+      <g:description>100.000 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/bmw/x1/260202686-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/bmw/x1/260202686-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/BM_9991?_a=BAMAPqfk0</g:image_link>
+      <g:brand>BMW</g:brand>
+      <g:model>X1</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>22700.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>100000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>080834</g:id>
+      <g:title>Toyota C-HR 2.0 Hybrid Team D | Trekhaak | Premium LED | Carplay | ACC | Camera | Dodehoek</g:title>
+      <g:description>32.201 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/c-hr/199776471-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/c-hr/199776471-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/080834?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>C-HR</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>26950.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>32201 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>162456</g:id>
+      <g:title>Toyota Corolla Touring Sports Hybrid 140 Dynamic | Navi | ACC | Camera | Keyless | LED | 17 inch</g:title>
+      <g:description>4.648 km • 2025</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/corollatouringsports/472458020-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/corollatouringsports/472458020-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/162456?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Corolla Touring Sports</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>32950.00 EUR</g:price>
+      <g:year>2025</g:year>
+      <g:mileage>4648 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>216442</g:id>
+      <g:title>Toyota Yaris 1.5 Hybrid Tokyo Spirit | LED | Camera | Carplay</g:title>
+      <g:description>41.739 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/yaris/3052822-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/yaris/3052822-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/216442?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Yaris</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>21950.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>41739 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>005207</g:id>
+      <g:title>Toyota Yaris 1.5 Hybrid Team D | ACC | CarPlay | Camera | Keyless | LED</g:title>
+      <g:description>84.532 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/yaris/90459485-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/yaris/90459485-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/005207?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Yaris</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>18950.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>84532 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>HSF-47-T</g:id>
+      <g:title>Fiat 500 1.0 Hybrid Dolcevita Finale  Panorama dak Climate Control Cruise Control Navigatie Apple Carplay/Android Auto Dab Digitale Cockpit Parkeer Sensoren Lichtmetalen Velgen | Led</g:title>
+      <g:description>33.027 km • 2024</g:description>
+      <link>https://contentlease.nl/leasevoorraad/fiat/500/28104406-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/fiat/500/28104406-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/HSF-47-T?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Fiat</g:brand>
+      <g:model>500</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>15390.00 EUR</g:price>
+      <g:year>2024</g:year>
+      <g:mileage>33027 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>MB 9696</g:id>
+      <g:title>Mercedes-Benz A-Klasse 180 d Business Solution *1ste Eigenaar*Navigatie*Stoelverwarming*Camera*</g:title>
+      <g:description>106.000 km • 2020</g:description>
+      <link>https://contentlease.nl/leasevoorraad/mercedes-benz/a-class/171154249-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/mercedes-benz/a-class/171154249-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/MB_9696?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Mercedes-Benz</g:brand>
+      <g:model>A-Klasse</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>19400.00 EUR</g:price>
+      <g:year>2020</g:year>
+      <g:mileage>106000 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>T-267-NS</g:id>
+      <g:title>Volkswagen Polo 1.0 TSI Life Navigatie Apple Carplay / Android Auto Camera Parkeersensoren Adaptive Cruise Control Full Led Virtual Cockpit Airco</g:title>
+      <g:description>73.834 km • 2023</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/polo/518809011-0/?store={store_code}</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/polo/518809011-0/?store={store_code}</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/v1/content_lease_meta/T-267-NS?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>Polo</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>17440.00 EUR</g:price>
+      <g:year>2023</g:year>
+      <g:mileage>73834 KM</g:mileage>
     </item>
   </channel>
 </rss>
