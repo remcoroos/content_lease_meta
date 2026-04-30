@@ -93,7 +93,9 @@ async function processFeed() {
         { overlay: { font_family: 'Arial', font_size: 42, font_weight: '600', text: description },
           gravity: 'south_west', x: 60, y: 45, color: '#6d3ef3', width: 500, crop: 'fit' },
         { overlay: { font_family: 'Arial', font_size: 56, font_weight: 'bold', text: formattedPrice },
-          gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' }
+          gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' },
+        { overlay: { fetch: 'https://contentlease.nl/wp-content/uploads/2025/07/favicon-content-lease-300x300.png' },
+          gravity: 'north_west', x: 20, y: 20, width: 60, crop: 'fit' }
       ];
 
       const cloudinaryPublicId = `content_lease_meta/${id.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
@@ -103,12 +105,12 @@ async function processFeed() {
         const hasCloudinary = process.env.CLOUDINARY_URL || (cloudinaryConfig.cloud_name && cloudinaryConfig.api_key);
 
         if (originalImage && hasCloudinary) {
-          // Upload bronafbeelding als die nog niet bestaat, anders skip
           try {
             await cloudinary.uploader.upload(originalImage, {
               public_id: cloudinaryPublicId,
               overwrite: false,
-              unique_filename: false
+              unique_filename: false,
+              eager: [{ transformation, format: 'jpg', quality: 80 }]
             });
             console.log(`  ↑ Uploaded ${id}`);
           } catch (uploadErr) {
@@ -120,7 +122,6 @@ async function processFeed() {
           }
 
           metaImage = cloudinary.url(cloudinaryPublicId, {
-            transformation,
             secure: true,
             format: 'jpg',
             quality: 80

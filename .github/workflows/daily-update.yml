@@ -40,11 +40,16 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add public/meta-product-feed.xml public/last_updated.txt
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update meta feed via GitHub Actions" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update meta feed via GitHub Actions" && git pull --rebase && git push)
 
-      - name: Notify on failure
+      - name: Create failure issue
         if: failure()
-        run: |
-          curl -s -X POST https://content-lease-meta.vercel.app/api/notify \
-            -H "Content-Type: application/json" \
-            -d "{\"secret\":\"${{ secrets.NOTIFY_SECRET }}\",\"run_url\":\"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}"
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '❌ Feed generation failed',
+              body: `Workflow run failed: [View logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})`
+            })
