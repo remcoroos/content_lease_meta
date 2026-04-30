@@ -125,13 +125,11 @@ async function processFeed() {
         try {
           await cloudinary.uploader.upload(originalImage, {
             public_id: cloudinaryPublicId,
-            overwrite: false,
+            overwrite: true,
             unique_filename: false
           });
         } catch (err) {
-          if (!err.message?.includes('already exists')) {
-            console.error(`  ✗ Failed ${id}: ${err.message}`);
-          }
+          console.error(`  ✗ Failed ${id}: ${err.message}`);
         }
         metaImage = cloudinary.url(cloudinaryPublicId, {
           transformation,
