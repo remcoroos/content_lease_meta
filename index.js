@@ -17,9 +17,30 @@ if (process.env.CLOUDINARY_URL) {
   });
 }
 
+const LOGO_PUBLIC_ID = 'content_lease_meta/_logo';
+
+async function ensureLogoUploaded() {
+  const cloudinaryConfig = cloudinary.config();
+  const hasCloudinary = process.env.CLOUDINARY_URL || (cloudinaryConfig.cloud_name && cloudinaryConfig.api_key);
+  if (!hasCloudinary) return false;
+  try {
+    await cloudinary.uploader.upload(
+      'https://contentlease.nl/wp-content/uploads/2025/07/favicon-content-lease-300x300.png',
+      { public_id: LOGO_PUBLIC_ID, overwrite: true }
+    );
+    console.log('Logo uploaded to Cloudinary');
+    return true;
+  } catch (err) {
+    console.error('Logo upload failed:', err.message);
+    return false;
+  }
+}
+
 async function processFeed() {
   try {
     const feedUrl = process.env.FEED_URL || "https://googlemerchantcenter.export.dv.nl/4ea2fef4-a44b-47cc-bbff-a5363144a581-vehicles-nl.xml";
+
+    const logoOk = await ensureLogoUploaded();
 
     console.log(`Fetching source feed from: ${feedUrl}...`);
     const response = await axios.get(feedUrl);
@@ -94,8 +115,8 @@ async function processFeed() {
           gravity: 'south_west', x: 60, y: 45, color: '#6d3ef3', width: 500, crop: 'fit' },
         { overlay: { font_family: 'Arial', font_size: 56, font_weight: 'bold', text: formattedPrice },
           gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' },
-        { overlay: `fetch:${Buffer.from('https://contentlease.nl/wp-content/uploads/2025/07/favicon-content-lease-300x300.png').toString('base64url')}`,
-          gravity: 'north_west', x: 20, y: 20, width: 60, crop: 'fit' }
+        ...(logoOk ? [{ overlay: LOGO_PUBLIC_ID.replace(/\//g, ':'),
+          gravity: 'north_west', x: 20, y: 20, width: 60, crop: 'fit' }] : [])
       ];
 
       const cloudinaryPublicId = `content_lease_meta/${id.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
