@@ -57,18 +57,18 @@ async function processFeed() {
 
     console.log(`Processing ${itemsToProcess.length} items...`);
 
-    const processedItems = [];
+    const cloudinaryConfig = cloudinary.config();
+    const hasCloudinary = process.env.CLOUDINARY_URL || (cloudinaryConfig.cloud_name && cloudinaryConfig.api_key);
 
-    for (let i = 0; i < itemsToProcess.length; i++) {
-      const item = itemsToProcess[i];
+    async function processItem(item) {
       const id = item['g:id'];
-      if (!id) continue;
+      if (!id) return null;
 
       const rawBrand = item['g:brand'] || '';
       const rawModel = item['g:model'] || '';
       const rawTitle = item['g:title'] || `${rawBrand} ${rawModel}`;
-      
-      const priceString = item['g:price'] || ''; 
+
+      const priceString = item['g:price'] || '';
       const originalImage = item['g:image_link'];
 
       const rawMileage = item['g:mileage'] || '';
@@ -82,7 +82,6 @@ async function processFeed() {
       const year = item['g:year'] || '';
       const description = [mileage, year].filter(Boolean).join(' • ') || `Bekijk alle details bij Content Lease.`;
 
-      // Format price
       const priceVal = priceString.split(' ')[0] || '0';
       const formattedPrice = `€ ${new Intl.NumberFormat('nl-NL').format(priceVal)},-`;
 
@@ -97,7 +96,7 @@ async function processFeed() {
         subOverlayTitle = cleaned.replace(/\s+[\|I]\s+/g, ' • ');
       }
 
-      const MAX_SUB_LENGTH = 75; 
+      const MAX_SUB_LENGTH = 75;
       if (subOverlayTitle.length > MAX_SUB_LENGTH) {
         subOverlayTitle = subOverlayTitle.substring(0, MAX_SUB_LENGTH).replace(/\s+\S*$/, '') + ' ...';
       }
@@ -121,34 +120,25 @@ async function processFeed() {
 
       const cloudinaryPublicId = `content_lease_meta/${id.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
 
-      try {
-        const cloudinaryConfig = cloudinary.config();
-        const hasCloudinary = process.env.CLOUDINARY_URL || (cloudinaryConfig.cloud_name && cloudinaryConfig.api_key);
-
-        if (originalImage && hasCloudinary) {
-          try {
-            await cloudinary.uploader.upload(originalImage, {
-              public_id: cloudinaryPublicId,
-              overwrite: true,
-              unique_filename: false,
-              transformation,
-              format: 'jpg',
-              quality: 80
-            });
-            console.log(`  ↑ Processed ${id}`);
-          } catch (uploadErr) {
-            console.error(`  ✗ Failed ${id}: ${uploadErr.message}`);
-          }
-
+      if (originalImage && hasCloudinary) {
+        try {
+          await cloudinary.uploader.upload(originalImage, {
+            public_id: cloudinaryPublicId,
+            overwrite: true,
+            unique_filename: false,
+            transformation,
+            format: 'jpg',
+            quality: 80
+          });
           metaImage = cloudinary.url(cloudinaryPublicId, { secure: true });
+        } catch (err) {
+          console.error(`  ✗ Failed ${id}: ${err.message}`);
         }
-      } catch (err) {
-        console.error(`  ✗ Error ${id}:`, err.message);
       }
 
       const finalPrice = `${parseFloat(priceVal || 0).toFixed(2)} EUR`;
 
-      processedItems.push({
+      return {
         'g:id': id,
         'g:title': rawTitle,
         'g:description': description,
@@ -162,7 +152,17 @@ async function processFeed() {
         'g:price': finalPrice,
         'g:year': year,
         'g:mileage': rawMileage
-      });
+      };
+    }
+
+    const CONCURRENCY = 12;
+    const processedItems = [];
+    for (let i = 0; i < itemsToProcess.length; i += CONCURRENCY) {
+      const batch = itemsToProcess.slice(i, i + CONCURRENCY);
+      const results = await Promise.all(batch.map(processItem));
+      processedItems.push(...results.filter(Boolean));
+      const done = Math.min(i + CONCURRENCY, itemsToProcess.length);
+      console.log(`  ${done}/${itemsToProcess.length} processed`);
     }
 
     console.log('Generating Meta Feed XML...');
