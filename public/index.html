@@ -484,13 +484,22 @@
 
     async function forceUpdate() {
         const btn = document.getElementById('update-btn');
+        const dot = document.getElementById('status-dot');
+        const text = document.getElementById('status-text');
         btn.disabled = true;
         btn.textContent = 'Bezig...';
         try {
             const res  = await fetch('/api/trigger', { method: 'POST' });
             const data = await res.json();
-            if (res.ok) { showToast('Synchronisatie gestart'); checkStatus(); }
-            else throw new Error(data.error || 'Server error');
+            if (res.ok) {
+                showToast('Synchronisatie gestart');
+                dot.className = 'dot run';
+                text.textContent = 'Bezig...';
+                btn.textContent = 'Verwerken...';
+                startProgress(new Date().toISOString());
+                if (!statusInterval) statusInterval = setInterval(checkStatus, 5000);
+                setTimeout(checkStatus, 8000);
+            } else throw new Error(data.error || 'Server error');
         } catch (e) {
             alert('Fout: ' + e.message);
             btn.disabled = false;
