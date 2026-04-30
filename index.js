@@ -129,25 +129,18 @@ async function processFeed() {
           try {
             await cloudinary.uploader.upload(originalImage, {
               public_id: cloudinaryPublicId,
-              overwrite: false,
-              unique_filename: false
+              overwrite: true,
+              unique_filename: false,
+              transformation,
+              format: 'jpg',
+              quality: 80
             });
-            console.log(`  ↑ Uploaded ${id}`);
+            console.log(`  ↑ Processed ${id}`);
           } catch (uploadErr) {
-            if (uploadErr.message?.includes('already exists')) {
-              console.log(`  ✓ Exists  ${id}`);
-            } else {
-              console.error(`  ✗ Upload failed ${id}: ${uploadErr.message}`);
-              throw uploadErr;
-            }
+            console.error(`  ✗ Failed ${id}: ${uploadErr.message}`);
           }
 
-          metaImage = cloudinary.url(cloudinaryPublicId, {
-            transformation,
-            secure: true,
-            format: 'jpg',
-            quality: 80
-          });
+          metaImage = cloudinary.url(cloudinaryPublicId, { secure: true });
         }
       } catch (err) {
         console.error(`  ✗ Error ${id}:`, err.message);
