@@ -94,7 +94,7 @@ async function processFeed() {
           gravity: 'south_west', x: 60, y: 45, color: '#6d3ef3', width: 500, crop: 'fit' },
         { overlay: { font_family: 'Arial', font_size: 56, font_weight: 'bold', text: formattedPrice },
           gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' },
-        { overlay: { fetch: 'https://contentlease.nl/wp-content/uploads/2025/07/favicon-content-lease-300x300.png' },
+        { overlay: `fetch:${Buffer.from('https://contentlease.nl/wp-content/uploads/2025/07/favicon-content-lease-300x300.png').toString('base64url')}`,
           gravity: 'north_west', x: 20, y: 20, width: 60, crop: 'fit' }
       ];
 
@@ -109,19 +109,20 @@ async function processFeed() {
             await cloudinary.uploader.upload(originalImage, {
               public_id: cloudinaryPublicId,
               overwrite: false,
-              unique_filename: false,
-              eager: [{ transformation, format: 'jpg', quality: 80 }]
+              unique_filename: false
             });
             console.log(`  ↑ Uploaded ${id}`);
           } catch (uploadErr) {
-            if (uploadErr.http_code === 400 || uploadErr.message?.includes('already exists')) {
+            if (uploadErr.message?.includes('already exists')) {
               console.log(`  ✓ Exists  ${id}`);
             } else {
+              console.error(`  ✗ Upload failed ${id}: ${uploadErr.message}`);
               throw uploadErr;
             }
           }
 
           metaImage = cloudinary.url(cloudinaryPublicId, {
+            transformation,
             secure: true,
             format: 'jpg',
             quality: 80
