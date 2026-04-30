@@ -482,6 +482,7 @@
         finally { btn.textContent = 'Opslaan'; }
     }
 
+    let justTriggeredAt = 0;
     async function forceUpdate() {
         const btn = document.getElementById('update-btn');
         const dot = document.getElementById('status-dot');
@@ -492,13 +493,17 @@
             const res  = await fetch('/api/trigger', { method: 'POST' });
             const data = await res.json();
             if (res.ok) {
+                justTriggeredAt = Date.now();
                 showToast('Synchronisatie gestart');
                 dot.className = 'dot run';
                 text.textContent = 'Bezig...';
                 btn.textContent = 'Verwerken...';
                 startProgress(new Date().toISOString());
-                if (!statusInterval) statusInterval = setInterval(checkStatus, 5000);
-                setTimeout(checkStatus, 8000);
+                if (statusInterval) { clearInterval(statusInterval); statusInterval = null; }
+                setTimeout(() => {
+                    if (!statusInterval) statusInterval = setInterval(checkStatus, 5000);
+                    checkStatus();
+                }, 12000);
             } else throw new Error(data.error || 'Server error');
         } catch (e) {
             alert('Fout: ' + e.message);
