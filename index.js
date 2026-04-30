@@ -104,7 +104,7 @@ async function processFeed() {
       let metaImage = originalImage;
 
       const transformation = [
-        { width: 1080, height: 720, crop: 'fit' },
+        { width: 1080, height: 670, crop: 'fit' },
         { width: 1080, height: 800, crop: 'pad', background: 'white', gravity: 'south' },
         { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north' },
         { overlay: { font_family: 'Arial', font_size: 46, font_weight: 'bold', text: mainOverlayTitle },
@@ -116,7 +116,7 @@ async function processFeed() {
         { overlay: { font_family: 'Arial', font_size: 56, font_weight: 'bold', text: formattedPrice },
           gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' },
         ...(logoOk ? [{ overlay: LOGO_PUBLIC_ID.replace(/\//g, ':'),
-          gravity: 'north_west', x: 30, y: 15, height: 50, crop: 'fit' }] : [])
+          gravity: 'north_west', x: 40, y: 25, height: 80, crop: 'fit' }] : [])
       ];
 
       const cloudinaryPublicId = `content_lease_meta/${id.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
