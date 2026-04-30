@@ -104,7 +104,7 @@ async function processFeed() {
       let metaImage = originalImage;
 
       const transformation = [
-        { width: 1080, height: 720, crop: 'fill', gravity: 'auto' },
+        { width: 1080, height: 720, crop: 'fit' },
         { width: 1080, height: 800, crop: 'pad', background: 'white', gravity: 'south' },
         { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north' },
         { overlay: { font_family: 'Arial', font_size: 46, font_weight: 'bold', text: mainOverlayTitle },
