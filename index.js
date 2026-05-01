@@ -126,6 +126,7 @@ async function processFeed() {
           await cloudinary.uploader.upload(originalImage, {
             public_id: cloudinaryPublicId,
             overwrite: true,
+            invalidate: true,
             unique_filename: false
           });
         } catch (err) {
