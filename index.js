@@ -104,9 +104,8 @@ async function processFeed() {
       let metaImage = originalImage;
 
       const transformation = [
-        { width: 1080, height: 670, crop: 'fit' },
-        { width: 1080, height: 800, crop: 'pad', background: 'white', gravity: 'south' },
-        { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north' },
+        { width: 1080, height: 670, crop: 'lpad', background: 'white' },
+        { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north', y: 130 },
         { overlay: { font_family: 'Arial', font_size: 46, font_weight: 'bold', text: mainOverlayTitle },
           gravity: 'north_west', x: 60, y: 824, color: '#1a1a1a', width: 960, crop: 'fit' },
         ...(subOverlayTitle ? [{ overlay: { font_family: 'Arial', font_size: 38, text: subOverlayTitle },
