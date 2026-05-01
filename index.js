@@ -89,6 +89,10 @@ async function processFeed() {
       const priceVal = priceString.split(' ')[0] || '0';
       const formattedPrice = `€ ${new Intl.NumberFormat('nl-NL').format(priceVal)},-`;
 
+      const rawDescription = item['g:description'] || '';
+      const leasePriceMatch = rawDescription.match(/Leaseprijs.*?vanaf[^0-9]*([\d.,]+)\s*p\/m/i);
+      const leaseLabel = leasePriceMatch ? `v.a. € ${leasePriceMatch[1]} p/m` : '';
+
       const brandModelPrefix = `${rawBrand} ${rawModel}`.trim();
       let mainOverlayTitle = rawTitle;
       let subOverlayTitle = '';
@@ -117,8 +121,12 @@ async function processFeed() {
           gravity: 'north_west', x: 60, y: 875, color: '#3a3a3a', width: 960, crop: 'fit' }] : []),
         { overlay: { font_family: 'Arial', font_size: 38, font_weight: '600', text: description },
           gravity: 'south_west', x: 60, y: 50, color: '#3a3a3a', width: 500, crop: 'fit' },
-        { overlay: { font_family: 'Arial', font_size: 68, font_weight: 'bold', text: formattedPrice },
-          gravity: 'south_east', x: 60, y: 38, color: '#2fb25d' },
+        { overlay: { font_family: 'Arial', font_size: 36, text: formattedPrice },
+          gravity: 'south_east', x: 60, y: 130, color: '#3a3a3a' },
+        ...(leaseLabel ? [{ overlay: { font_family: 'Arial', font_size: 68, font_weight: 'bold', text: leaseLabel },
+          gravity: 'south_east', x: 60, y: 38, color: '#2fb25d' }] : []),
+        { overlay: { font_family: 'Arial', font_size: 38, font_weight: 'bold', text: 'Financial Lease' },
+          gravity: 'north_east', x: 60, y: 30, color: '#1c0a30' },
         ...(logoOk ? [{ overlay: LOGO_PUBLIC_ID.replace(/\//g, ':'),
           gravity: 'north_west', x: 60, y: 20, height: 90, crop: 'fit' }] : [])
       ];

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Image preview — Content Lease</title>
+  <style>
+    body { margin: 0; background: #f0f0f0; display: flex; flex-direction: column; align-items: center; padding: 40px; font-family: Arial, sans-serif; }
+    h2 { color: #1c0a30; margin-bottom: 8px; }
+    p { color: #555; margin-bottom: 30px; font-size: 14px; }
+    .frame {
+      position: relative;
+      width: 540px;
+      height: 540px;
+      background: white;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+      overflow: hidden;
+    }
+    .gray-band {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 195px;
+      background: #e5e5e5;
+    }
+    .car-area {
+      position: absolute;
+      top: 65px; left: 0; right: 0;
+      height: 333px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .car-area img {
+      max-width: 100%; max-height: 100%; object-fit: contain;
+    }
+    .logo {
+      position: absolute;
+      top: 10px; left: 30px;
+      height: 45px;
+    }
+    .financial-lease-label {
+      position: absolute;
+      top: 15px; right: 30px;
+      font-size: 19px; font-weight: bold;
+      color: #1c0a30;
+    }
+    .title-main {
+      position: absolute;
+      left: 30px; right: 30px;
+      top: 408px;
+      font-size: 25px; font-weight: bold;
+      color: #1c0a30;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .title-sub {
+      position: absolute;
+      left: 30px; right: 30px;
+      top: 438px;
+      font-size: 17px;
+      color: #3a3a3a;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .specs {
+      position: absolute;
+      left: 30px;
+      bottom: 25px;
+      font-size: 19px; font-weight: 600;
+      color: #3a3a3a;
+    }
+    .buy-price {
+      position: absolute;
+      right: 30px;
+      bottom: 65px;
+      font-size: 18px;
+      color: #3a3a3a;
+      text-align: right;
+    }
+    .lease-price {
+      position: absolute;
+      right: 30px;
+      bottom: 19px;
+      font-size: 34px; font-weight: bold;
+      color: #2fb25d;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <h2>Voorbeeld — aangepaste afbeelding</h2>
+  <p>Schaalmodel (50%) van de 1080×1080 px Cloudinary output.</p>
+
+  <div class="frame">
+    <div class="gray-band"></div>
+    <div class="car-area">
+      <img src="https://media-googlemerchantcenter.export.dv.nl/21786536634/image1.jpg" alt="voorbeeld auto" onerror="this.style.opacity=0.1">
+    </div>
+    <img class="logo" src="/content-lease-logo_icon_753bfb.svg" alt="Content Lease" onerror="this.style.display='none'">
+    <div class="financial-lease-label">Financial Lease</div>
+    <div class="title-main">Toyota Corolla Touring Sports</div>
+    <div class="title-sub">1.8 Hybrid 122pk Business Plus • CarPlay ECC Navi</div>
+    <div class="specs">122.812 km • 2020</div>
+    <div class="buy-price">€ 19.995,-</div>
+    <div class="lease-price">v.a. € 264,39 p/m</div>
+  </div>
+
+  <p style="margin-top:20px; font-size:12px; color:#999;">
+    "Financial Lease" rechtsboven in dark-purple naast het logo. Leaseprijs groot groen dominant onderaan. Koopprijs klein grijs erboven.
+  </p>
+</body>
+</html>
