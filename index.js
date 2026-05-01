@@ -112,9 +112,9 @@ async function processFeed() {
         ...(subOverlayTitle ? [{ overlay: { font_family: 'Arial', font_size: 34, text: subOverlayTitle },
           gravity: 'north_west', x: 60, y: 875, color: '#3a3a3a', width: 960, crop: 'fit' }] : []),
         { overlay: { font_family: 'Arial', font_size: 38, font_weight: '600', text: description },
-          gravity: 'south_west', x: 60, y: 45, color: '#753bfb', width: 500, crop: 'fit' },
-        { overlay: { font_family: 'Arial', font_size: 56, font_weight: 'bold', text: formattedPrice },
-          gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' },
+          gravity: 'south_west', x: 60, y: 50, color: '#3a3a3a', width: 500, crop: 'fit' },
+        { overlay: { font_family: 'Arial', font_size: 68, font_weight: 'bold', text: formattedPrice },
+          gravity: 'south_east', x: 60, y: 38, color: '#2fb25d' },
         ...(logoOk ? [{ overlay: LOGO_PUBLIC_ID.replace(/\//g, ':'),
           gravity: 'north_west', x: 60, y: 20, height: 90, crop: 'fit' }] : [])
       ];
