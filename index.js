@@ -66,7 +66,11 @@ async function processFeed() {
 
       const rawBrand = item['g:brand'] || '';
       const rawModel = item['g:model'] || '';
-      const rawTitle = item['g:title'] || `${rawBrand} ${rawModel}`;
+      let rawTitle = item['g:title'] || `${rawBrand} ${rawModel}`;
+      const MAX_TITLE_LENGTH = 150;
+      if (rawTitle.length > MAX_TITLE_LENGTH) {
+        rawTitle = rawTitle.substring(0, MAX_TITLE_LENGTH).replace(/\s+\S*$/, '').trim();
+      }
 
       const priceString = item['g:price'] || '';
       const originalImage = item['g:image_link'];
@@ -145,6 +149,7 @@ async function processFeed() {
 
       return {
         'g:id': id,
+        'g:item_group_id': id,
         'g:title': rawTitle,
         'g:description': description,
         'link': item['link'] || item['g:link_template'] || item['g:link'] || '',
