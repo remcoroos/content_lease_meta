@@ -97,7 +97,8 @@ async function processFeed() {
       let mainOverlayTitle = rawTitle;
       let subOverlayTitle = '';
 
-      if (brandModelPrefix && rawTitle.toLowerCase().startsWith(brandModelPrefix.toLowerCase())) {
+      const stripAccents = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+      if (brandModelPrefix && stripAccents(rawTitle).startsWith(stripAccents(brandModelPrefix))) {
         mainOverlayTitle = rawTitle.substring(0, brandModelPrefix.length).trim();
         let remaining = rawTitle.substring(brandModelPrefix.length).trim();
         let cleaned = remaining.replace(/^[-|I]\s*/i, '');
