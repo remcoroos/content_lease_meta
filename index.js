@@ -25,7 +25,7 @@ async function ensureLogoUploaded() {
   if (!hasCloudinary) return false;
   try {
     await cloudinary.uploader.upload(
-      'https://content-lease-meta.vercel.app/content-lease-logo.svg',
+      'https://content-lease-meta.vercel.app/content-lease-logo_icon_753bfb.svg',
       { public_id: LOGO_PUBLIC_ID, overwrite: true, invalidate: true }
     );
     console.log('Logo uploaded to Cloudinary');
