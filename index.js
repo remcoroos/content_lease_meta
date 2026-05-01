@@ -136,7 +136,8 @@ async function processFeed() {
           transformation,
           secure: true,
           format: 'jpg',
-          quality: 80
+          quality: 80,
+          force_version: false
         });
       }
 
