@@ -25,8 +25,8 @@ async function ensureLogoUploaded() {
   if (!hasCloudinary) return false;
   try {
     await cloudinary.uploader.upload(
-      'https://contentlease.nl/wp-content/uploads/2025/07/favicon-content-lease-300x300.png',
-      { public_id: LOGO_PUBLIC_ID, overwrite: true }
+      'https://content-lease-meta.vercel.app/content-lease-logo.svg',
+      { public_id: LOGO_PUBLIC_ID, overwrite: true, invalidate: true }
     );
     console.log('Logo uploaded to Cloudinary');
     return true;
