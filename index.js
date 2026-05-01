@@ -104,18 +104,19 @@ async function processFeed() {
       let metaImage = originalImage;
 
       const transformation = [
-        { width: 1080, height: 670, crop: 'lpad', background: 'white' },
+        { width: 1080, height: 666, crop: 'lpad', background: 'white' },
+        { width: 1080, height: 670, crop: 'pad', background: 'rgb:e5e5e5' },
         { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north', y: 130 },
-        { overlay: { font_family: 'Arial', font_size: 46, font_weight: 'bold', text: mainOverlayTitle },
-          gravity: 'north_west', x: 60, y: 824, color: '#1a1a1a', width: 960, crop: 'fit' },
-        ...(subOverlayTitle ? [{ overlay: { font_family: 'Arial', font_size: 38, text: subOverlayTitle },
-          gravity: 'north_west', x: 60, y: 888, color: '#555555', width: 960, crop: 'fit' }] : []),
-        { overlay: { font_family: 'Arial', font_size: 42, font_weight: '600', text: description },
-          gravity: 'south_west', x: 60, y: 45, color: '#6d3ef3', width: 500, crop: 'fit' },
+        { overlay: { font_family: 'Arial', font_size: 50, font_weight: 'bold', text: mainOverlayTitle },
+          gravity: 'north_west', x: 60, y: 810, color: '#1c0a30', width: 960, crop: 'fit' },
+        ...(subOverlayTitle ? [{ overlay: { font_family: 'Arial', font_size: 34, text: subOverlayTitle },
+          gravity: 'north_west', x: 60, y: 875, color: '#3a3a3a', width: 960, crop: 'fit' }] : []),
+        { overlay: { font_family: 'Arial', font_size: 38, font_weight: '600', text: description },
+          gravity: 'south_west', x: 60, y: 45, color: '#753bfb', width: 500, crop: 'fit' },
         { overlay: { font_family: 'Arial', font_size: 56, font_weight: 'bold', text: formattedPrice },
           gravity: 'south_east', x: 60, y: 45, color: '#2fb25d' },
         ...(logoOk ? [{ overlay: LOGO_PUBLIC_ID.replace(/\//g, ':'),
-          gravity: 'north_west', x: 40, y: 25, height: 80, crop: 'fit' }] : [])
+          gravity: 'north_west', x: 60, y: 20, height: 90, crop: 'fit' }] : [])
       ];
 
       const cloudinaryPublicId = `content_lease_meta/${id.replace(/[^a-zA-Z0-9_-]/g, '_')}`;
