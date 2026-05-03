@@ -97,20 +97,47 @@ async function processFeed() {
       let mainOverlayTitle = rawTitle;
       let subOverlayTitle = '';
 
-      const normStr = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[-\s]+/g, ' ').toLowerCase().trim();
-      if (brandModelPrefix && normStr(rawTitle).startsWith(normStr(brandModelPrefix))) {
-        // Count words in prefix, then find matching position in original title (tolerates hyphens vs spaces)
-        const prefixWordCount = normStr(brandModelPrefix).split(' ').length;
-        let pos = 0, words = 0;
-        while (pos < rawTitle.length && words < prefixWordCount) {
-          while (pos < rawTitle.length && /[\s\-]/.test(rawTitle[pos])) pos++;
-          while (pos < rawTitle.length && !/[\s\-]/.test(rawTitle[pos])) pos++;
-          words++;
+      const normStr = s => s.normalize('NFD')
+        .replace(/[̀-ͯ]/g, '')
+        .replace(/[-\s]+/g, ' ')
+        .toLowerCase()
+        .replace(/([a-z])(\d)/g, '$1 $2')
+        .replace(/(\d)([a-z])/g, '$1 $2')
+        .trim();
+
+      if (brandModelPrefix) {
+        const normTitle = normStr(rawTitle);
+        const normBrand = normStr(rawBrand);
+        const normModel = normStr(rawModel);
+        const brandParts = rawBrand.split(/[-\s]/);
+        const modelParts = rawModel.split(/[-\s]/);
+
+        // Try prefixes from specific to general until one matches
+        const candidates = [
+          normStr(rawBrand + ' ' + rawModel),
+          modelParts.length > 1 ? normStr(rawBrand + ' ' + modelParts[0]) : null,
+          brandParts.length > 1 ? normStr(brandParts[0] + ' ' + rawModel) : null,
+          brandParts.length > 1 && modelParts.length > 1 ? normStr(brandParts[0] + ' ' + modelParts[0]) : null,
+          (normModel.startsWith(normBrand + ' ') || normModel === normBrand) ? normModel : null,
+        ].filter(Boolean);
+
+        let prefixWordCount = 0;
+        for (const c of candidates) {
+          if (c && normTitle.startsWith(c)) { prefixWordCount = c.split(' ').filter(Boolean).length; break; }
         }
-        mainOverlayTitle = rawTitle.substring(0, pos).trim();
-        let remaining = rawTitle.substring(pos).trim();
-        let cleaned = remaining.replace(/^[-|I]\s*/i, '');
-        subOverlayTitle = cleaned.replace(/\s+[\|I]\s+/g, ' • ');
+
+        if (prefixWordCount > 0) {
+          let pos = 0, words = 0;
+          while (pos < rawTitle.length && words < prefixWordCount) {
+            while (pos < rawTitle.length && /[\s\-]/.test(rawTitle[pos])) pos++;
+            while (pos < rawTitle.length && !/[\s\-]/.test(rawTitle[pos])) pos++;
+            words++;
+          }
+          mainOverlayTitle = rawTitle.substring(0, pos).trim();
+          let remaining = rawTitle.substring(pos).trim();
+          let cleaned = remaining.replace(/^[-|I]\s*/i, '');
+          subOverlayTitle = cleaned.replace(/\s+[\|I]\s+/g, ' • ');
+        }
       }
 
       const MAX_SUB_LENGTH = 75;
