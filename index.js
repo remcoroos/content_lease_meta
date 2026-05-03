@@ -97,10 +97,18 @@ async function processFeed() {
       let mainOverlayTitle = rawTitle;
       let subOverlayTitle = '';
 
-      const stripAccents = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
-      if (brandModelPrefix && stripAccents(rawTitle).startsWith(stripAccents(brandModelPrefix))) {
-        mainOverlayTitle = rawTitle.substring(0, brandModelPrefix.length).trim();
-        let remaining = rawTitle.substring(brandModelPrefix.length).trim();
+      const normStr = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[-\s]+/g, ' ').toLowerCase().trim();
+      if (brandModelPrefix && normStr(rawTitle).startsWith(normStr(brandModelPrefix))) {
+        // Count words in prefix, then find matching position in original title (tolerates hyphens vs spaces)
+        const prefixWordCount = normStr(brandModelPrefix).split(' ').length;
+        let pos = 0, words = 0;
+        while (pos < rawTitle.length && words < prefixWordCount) {
+          while (pos < rawTitle.length && /[\s\-]/.test(rawTitle[pos])) pos++;
+          while (pos < rawTitle.length && !/[\s\-]/.test(rawTitle[pos])) pos++;
+          words++;
+        }
+        mainOverlayTitle = rawTitle.substring(0, pos).trim();
+        let remaining = rawTitle.substring(pos).trim();
         let cleaned = remaining.replace(/^[-|I]\s*/i, '');
         subOverlayTitle = cleaned.replace(/\s+[\|I]\s+/g, ' • ');
       }
