@@ -606,17 +606,66 @@
                 if (runStartedAt) startProgress(runStartedAt);
                 if (!statusInterval) statusInterval = setInterval(checkStatus, 5000);
             } else {
-                if (statusInterval) { clearInterval(statusInterval); statusInterval = null; initDashboard(); }
-                stopProgress();
-                btn.disabled = false;
-                btn.textContent = 'Nu synchroniseren';
-                if (lastRunFailed) {
-                    dot.className = 'dot off';
-                    text.textContent = 'Run mislukt';
-                    showAlert('Synchronisatie mislukt', 'De laatste automatische update is niet gelukt. Start een nieuwe synchronisatie of controleer de GitHub Actions logs.');
+                if (statusInterval) {
+                    clearInterval(statusInterval); statusInterval = null;
+                    if (lastRunFailed) {
+                        stopProgress();
+                        btn.disabled = false;
+                        btn.textContent = 'Nu synchroniseren';
+                        dot.className = 'dot off';
+                        text.textContent = 'Run mislukt';
+                        showAlert('Synchronisatie mislukt', 'De laatste automatische update is niet gelukt. Start een nieuwe synchronisatie of controleer de GitHub Actions logs.');
+                    } else {
+                        dot.className = 'dot run';
+                        text.textContent = 'Vercel wordt bijgewerkt...';
+                        btn.disabled = true;
+                        btn.textContent = 'Verwerken...';
+                        waitForVercelDeploy();
+                    }
+                } else {
+                    stopProgress();
+                    btn.disabled = false;
+                    btn.textContent = 'Nu synchroniseren';
+                    if (lastRunFailed) {
+                        dot.className = 'dot off';
+                        text.textContent = 'Run mislukt';
+                        showAlert('Synchronisatie mislukt', 'De laatste automatische update is niet gelukt. Start een nieuwe synchronisatie of controleer de GitHub Actions logs.');
+                    }
                 }
             }
         } catch (e) { console.error(e); }
+    }
+
+    async function waitForVercelDeploy() {
+        const triggered = justTriggeredAt || Date.now();
+        const deadline  = triggered + 5 * 60 * 1000;
+        const btn  = document.getElementById('update-btn');
+        const dot  = document.getElementById('status-dot');
+        const text = document.getElementById('status-text');
+
+        const poll = async () => {
+            try {
+                const raw = await fetch('/last_updated.txt?' + Date.now()).then(r => r.text());
+                if (new Date(raw.trim()).getTime() > triggered) {
+                    stopProgress();
+                    btn.disabled = false;
+                    btn.textContent = 'Nu synchroniseren';
+                    initDashboard();
+                    return;
+                }
+            } catch(e) {}
+            if (Date.now() < deadline) {
+                setTimeout(poll, 10000);
+            } else {
+                stopProgress();
+                btn.disabled = false;
+                btn.textContent = 'Nu synchroniseren';
+                dot.className = 'dot on';
+                text.textContent = 'Systeem gereed';
+                initDashboard();
+            }
+        };
+        setTimeout(poll, 15000);
     }
 
     async function initDashboard() {
