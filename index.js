@@ -181,7 +181,7 @@ async function processFeed() {
             overwrite: true,
             invalidate: true,
             unique_filename: false,
-            ...(bgRemoval ? { eager: [{ transformation, format: 'jpg', quality: 80 }], eager_async: false } : {})
+            ...(bgRemoval ? { eager: [transformation], eager_async: false } : {})
           });
           metaImage = cloudinary.url(cloudinaryPublicId, {
             transformation,
