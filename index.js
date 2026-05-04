@@ -196,13 +196,18 @@ async function processFeed() {
 
       const finalPrice = `${parseFloat(priceVal || 0).toFixed(2)} EUR`;
 
+      const cleanLink = (item['g:link_template'] || item['g:link'] || item['link'] || '')
+        .replace(/[?&][^?&]*\{[^}]+\}[^?&]*/g, '')  // remove params with template vars
+        .replace(/\{[^}]+\}/g, '')                    // remove any remaining template vars
+        .replace(/[?&]$/, '');                         // clean trailing ? or &
+
       return {
         'g:id': id,
         'g:item_group_id': id,
         'g:title': rawTitle,
         'g:description': description,
-        'link': item['link'] || item['g:link_template'] || item['g:link'] || '',
-        'g:link': item['g:link_template'] || item['g:link'] || '',
+        'link': cleanLink,
+        'g:link': cleanLink,
         'g:image_link': metaImage,
         'g:brand': rawBrand,
         'g:model': rawModel,
