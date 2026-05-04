@@ -182,16 +182,16 @@ async function processFeed() {
             invalidate: true,
             unique_filename: false
           });
+          metaImage = cloudinary.url(cloudinaryPublicId, {
+            transformation,
+            secure: true,
+            format: 'jpg',
+            quality: 80,
+            force_version: false
+          });
         } catch (err) {
           console.error(`  ✗ Failed ${id}: ${err.message}`);
         }
-        metaImage = cloudinary.url(cloudinaryPublicId, {
-          transformation,
-          secure: true,
-          format: 'jpg',
-          quality: 80,
-          force_version: false
-        });
       }
 
       const finalPrice = `${parseFloat(priceVal || 0).toFixed(2)} EUR`;
