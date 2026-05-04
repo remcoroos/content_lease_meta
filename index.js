@@ -144,7 +144,7 @@ async function processFeed() {
         }
       }
 
-      const MAX_SUB_LENGTH = 75;
+      const MAX_SUB_LENGTH = 60;
       if (subOverlayTitle.length > MAX_SUB_LENGTH) {
         subOverlayTitle = subOverlayTitle.substring(0, MAX_SUB_LENGTH).replace(/\s+\S*$/, '') + ' ...';
       }
@@ -159,7 +159,7 @@ async function processFeed() {
         { overlay: { font_family: 'Arial', font_size: 50, font_weight: 'bold', text: mainOverlayTitle },
           gravity: 'north_west', x: 60, y: 840, color: '#1c0a30', width: 960, crop: 'fit' },
         ...(subOverlayTitle ? [{ overlay: { font_family: 'Arial', font_size: 34, text: subOverlayTitle },
-          gravity: 'north_west', x: 60, y: 904, color: '#555555', width: 600, crop: 'fit' }] : []),
+          gravity: 'north_west', x: 60, y: 904, color: '#555555', width: 700, crop: 'fit' }] : []),
         { overlay: { font_family: 'Arial', font_size: 34, text: formattedPrice },
           gravity: 'north_east', x: 60, y: 916, color: '#555555' },
         { overlay: { font_family: 'Arial', font_size: 36, font_weight: '600', text: description },
