@@ -152,14 +152,14 @@ async function processFeed() {
       let metaImage = originalImage;
 
       const transformation = [
-        ...(bgRemoval ? [{ effect: 'background_removal' }] : []),
-        { width: 1080, height: 666, crop: 'lpad', background: 'rgb:f2f0ed' },
-        { width: 1080, height: 670, crop: 'pad', background: 'rgb:f2f0ed' },
+        ...(bgRemoval ? [{ effect: 'background_removal' }, { effect: 'trim:10' }] : []),
+        { width: 1080, height: 700, crop: 'lpad', background: 'rgb:f2f0ed' },
+        { width: 1080, height: 704, crop: 'pad', background: 'rgb:f2f0ed' },
         { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north', y: 130 },
         { overlay: { font_family: 'Arial', font_size: 50, font_weight: 'bold', text: mainOverlayTitle },
-          gravity: 'north_west', x: 60, y: 816, color: '#1c0a30', width: 960, crop: 'fit' },
+          gravity: 'north_west', x: 60, y: 840, color: '#1c0a30', width: 960, crop: 'fit' },
         ...(subOverlayTitle ? [{ overlay: { font_family: 'Arial', font_size: 34, text: subOverlayTitle },
-          gravity: 'north_west', x: 60, y: 878, color: '#555555', width: 960, crop: 'fit' }] : []),
+          gravity: 'north_west', x: 60, y: 904, color: '#555555', width: 960, crop: 'fit' }] : []),
         { overlay: { font_family: 'Arial', font_size: 36, font_weight: '600', text: description },
           gravity: 'south_west', x: 60, y: 52, color: '#555555', width: 500, crop: 'fit' },
         { overlay: { font_family: 'Arial', font_size: 34, text: formattedPrice },
