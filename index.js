@@ -40,7 +40,7 @@ async function processFeed() {
   try {
     const feedUrl = process.env.FEED_URL || "https://googlemerchantcenter.export.dv.nl/4ea2fef4-a44b-47cc-bbff-a5363144a581-vehicles-nl.xml";
     const maxItems = process.env.MAX_ITEMS ? parseInt(process.env.MAX_ITEMS, 10) : 0;
-    const bgRemoval = process.env.BG_REMOVAL === 'true';
+    const bgRemoval = process.env.BG_REMOVAL === 'true' && maxItems > 0;
 
     const logoOk = await ensureLogoUploaded();
 
