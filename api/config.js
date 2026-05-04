@@ -43,13 +43,17 @@ export default async function handler(req, res) {
 
   if (req.method === 'GET') {
     try {
-      const [feedUrl, alertEmail] = await Promise.all([
+      const [feedUrl, alertEmail, maxItems, bgRemoval] = await Promise.all([
         getVar(REPO, GH_TOKEN, 'FEED_URL'),
-        getVar(REPO, GH_TOKEN, 'ALERT_EMAIL')
+        getVar(REPO, GH_TOKEN, 'ALERT_EMAIL'),
+        getVar(REPO, GH_TOKEN, 'MAX_ITEMS'),
+        getVar(REPO, GH_TOKEN, 'BG_REMOVAL')
       ]);
       return res.status(200).json({
         feedUrl: feedUrl ?? 'https://googlemerchantcenter.export.dv.nl/4ea2fef4-a44b-47cc-bbff-a5363144a581-vehicles-nl.xml',
-        alertEmail: alertEmail ?? ''
+        alertEmail: alertEmail ?? '',
+        maxItems: maxItems ?? '',
+        bgRemoval: bgRemoval === 'true'
       });
     } catch (err) {
       return res.status(500).json({ error: err.message });
@@ -57,10 +61,12 @@ export default async function handler(req, res) {
   }
 
   if (req.method === 'POST') {
-    const { feedUrl, alertEmail } = req.body ?? {};
+    const { feedUrl, alertEmail, maxItems, bgRemoval } = req.body ?? {};
     try {
       if (feedUrl !== undefined) await setVar(REPO, GH_TOKEN, 'FEED_URL', feedUrl);
       if (alertEmail !== undefined) await setVar(REPO, GH_TOKEN, 'ALERT_EMAIL', alertEmail);
+      if (maxItems !== undefined) await setVar(REPO, GH_TOKEN, 'MAX_ITEMS', String(maxItems));
+      if (bgRemoval !== undefined) await setVar(REPO, GH_TOKEN, 'BG_REMOVAL', bgRemoval ? 'true' : 'false');
       return res.status(200).json({ success: true });
     } catch (err) {
       return res.status(500).json({ error: err.message });

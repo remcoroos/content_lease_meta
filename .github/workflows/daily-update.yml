@@ -36,6 +36,8 @@ jobs:
           CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
           CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
           FEED_URL: ${{ vars.FEED_URL }}
+          MAX_ITEMS: ${{ vars.MAX_ITEMS }}
+          BG_REMOVAL: ${{ vars.BG_REMOVAL }}
 
       - name: Commit and push changes
         run: |

@@ -353,6 +353,28 @@
             </div>
         </div>
 
+        <!-- Test modus -->
+        <div class="section" id="test-section">
+            <div class="field-label" style="margin-bottom:10px;display:flex;align-items:center;gap:8px">
+                Test modus
+                <span id="test-badge" style="display:none;font-size:11px;background:#753bfb;color:white;padding:2px 8px;border-radius:10px;font-weight:600">ACTIEF</span>
+            </div>
+            <div class="field" style="margin-bottom:10px">
+                <div class="field-label" style="font-size:12px;color:#888;margin-bottom:6px">Max. voertuigen (leeg = alle ~3.200)</div>
+                <div class="input-row">
+                    <input type="number" id="max-items" placeholder="bijv. 10" min="1" max="3200" style="width:120px">
+                </div>
+            </div>
+            <div class="field" style="margin-bottom:10px">
+                <div class="field-label" style="font-size:12px;color:#888;margin-bottom:6px">AI achtergrond verwijdering</div>
+                <label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+                    <input type="checkbox" id="bg-removal" style="width:16px;height:16px;cursor:pointer">
+                    <span style="font-size:13px;color:#ccc">Dealer branding automatisch verwijderen (vereist Cloudinary AI add-on)</span>
+                </label>
+            </div>
+            <button class="btn-save" onclick="saveTestSettings()" id="save-test-btn">Instellingen opslaan</button>
+        </div>
+
         <!-- Stats -->
         <div class="section">
             <div class="stats">
@@ -463,6 +485,32 @@
 
     function clearAlert() {
         document.getElementById('alert-banner').classList.remove('visible');
+    }
+
+    async function saveTestSettings() {
+        const btn = document.getElementById('save-test-btn');
+        btn.textContent = '...';
+        try {
+            const maxItems = document.getElementById('max-items').value;
+            const bgRemoval = document.getElementById('bg-removal').checked;
+            const res = await fetch('/api/config', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ maxItems, bgRemoval })
+            });
+            if (res.ok) {
+                updateTestBadge();
+                showToast('Test instellingen opgeslagen');
+            } else throw new Error('Fout bij opslaan');
+        } catch (e) { alert(e.message); }
+        finally { btn.textContent = 'Instellingen opslaan'; }
+    }
+
+    function updateTestBadge() {
+        const maxItems = document.getElementById('max-items').value;
+        const bgRemoval = document.getElementById('bg-removal').checked;
+        const badge = document.getElementById('test-badge');
+        badge.style.display = (maxItems || bgRemoval) ? 'inline' : 'none';
     }
 
     async function saveConfig(field) {
@@ -578,6 +626,9 @@
             if (conf) {
                 document.getElementById('feed-url').value    = conf.feedUrl    || '';
                 document.getElementById('alert-email').value = conf.alertEmail || '';
+                document.getElementById('max-items').value   = conf.maxItems   || '';
+                document.getElementById('bg-removal').checked = conf.bgRemoval || false;
+                updateTestBadge();
             }
 
             const bust   = '?' + Date.now();

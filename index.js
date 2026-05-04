@@ -39,10 +39,15 @@ async function ensureLogoUploaded() {
 async function processFeed() {
   try {
     const feedUrl = process.env.FEED_URL || "https://googlemerchantcenter.export.dv.nl/4ea2fef4-a44b-47cc-bbff-a5363144a581-vehicles-nl.xml";
+    const maxItems = process.env.MAX_ITEMS ? parseInt(process.env.MAX_ITEMS, 10) : 0;
+    const bgRemoval = process.env.BG_REMOVAL === 'true';
 
     const logoOk = await ensureLogoUploaded();
 
     console.log(`Fetching source feed from: ${feedUrl}...`);
+    if (maxItems > 0) console.log(`Test modus: max ${maxItems} voertuigen`);
+    if (bgRemoval) console.log('AI achtergrond verwijdering actief');
+
     const response = await axios.get(feedUrl);
     const xml = response.data;
 
@@ -50,10 +55,9 @@ async function processFeed() {
     const parser = new xml2js.Parser({ explicitArray: false });
     const result = await parser.parseStringPromise(xml);
     const allItems = result.rss.channel.item || [];
-    
-    // Process all items for Content Lease
-    // Limit to max 500 if there are thousands, but let's process all for now.
-    const itemsToProcess = Array.isArray(allItems) ? allItems : [allItems];
+
+    const allItemsArr = Array.isArray(allItems) ? allItems : [allItems];
+    const itemsToProcess = maxItems > 0 ? allItemsArr.slice(0, maxItems) : allItemsArr;
 
     console.log(`Processing ${itemsToProcess.length} items...`);
 
@@ -148,6 +152,7 @@ async function processFeed() {
       let metaImage = originalImage;
 
       const transformation = [
+        ...(bgRemoval ? [{ effect: 'background_removal' }] : []),
         { width: 1080, height: 666, crop: 'lpad', background: 'white' },
         { width: 1080, height: 670, crop: 'pad', background: 'rgb:e5e5e5' },
         { width: 1080, height: 1080, crop: 'pad', background: 'white', gravity: 'north', y: 130 },
