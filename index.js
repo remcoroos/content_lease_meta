@@ -105,8 +105,6 @@ async function processFeed() {
         .replace(/[̀-ͯ]/g, '')
         .replace(/[-\s]+/g, ' ')
         .toLowerCase()
-        .replace(/([a-z])(\d)/g, '$1 $2')
-        .replace(/(\d)([a-z])/g, '$1 $2')
         .trim();
 
       if (brandModelPrefix) {
