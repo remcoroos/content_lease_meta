@@ -117,22 +117,6 @@
       <g:mileage>73769 KM</g:mileage>
     </item>
     <item>
-      <g:id>4182114</g:id>
-      <g:item_group_id>4182114</g:item_group_id>
-      <g:title>Ford Kuga 2.5 PHEV ST-Line Aut*Pano*Navi*Leder*Led*Car-Play</g:title>
-      <g:description>52.689 km • 2021</g:description>
-      <link>https://contentlease.nl/leasevoorraad/ford/kuga/135480444-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/ford/kuga/135480444-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Ford%20Kuga,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:2.5%20PHEV%20ST-Line%20Aut*Pano*Navi*Leder*Led*Car-Play,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2022.950%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:52.689%20km%20%E2%80%A2%202021,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20365%252C12%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/4182114.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Ford</g:brand>
-      <g:model>Kuga</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>22950.00 EUR</g:price>
-      <g:year>2021</g:year>
-      <g:mileage>52689 KM</g:mileage>
-    </item>
-    <item>
       <g:id>JKN-74-L</g:id>
       <g:item_group_id>JKN-74-L</g:item_group_id>
       <g:title>Volkswagen Up! 1.0 TSI GTI PANO|STOELVERW|LED|CRUISECONTROL|</g:title>
@@ -163,6 +147,22 @@
       <g:price>19750.00 EUR</g:price>
       <g:year>2020</g:year>
       <g:mileage>85121 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>JKH-50-H</g:id>
+      <g:item_group_id>JKH-50-H</g:item_group_id>
+      <g:title>Toyota Corolla 2.0 Hybrid Team D GR Navi+BT| Camera| Dealer onderhouden</g:title>
+      <g:description>29.889 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/toyota/corolla/122625165-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/toyota/corolla/122625165-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Toyota%20Corolla,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:2.0%20Hybrid%20Team%20D%20GR%20Navi%2BBT%7C%20Camera%7C%20Dealer%20onderhouden,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2025.950%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:29.889%20km%20%E2%80%A2%202022,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20412%252C85%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/JKH-50-H.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Toyota</g:brand>
+      <g:model>Corolla</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>25950.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>29889 KM</g:mileage>
     </item>
   </channel>
 </rss>
