@@ -53,22 +53,6 @@
       <g:mileage>13093 KM</g:mileage>
     </item>
     <item>
-      <g:id>JFT-05-V</g:id>
-      <g:item_group_id>JFT-05-V</g:item_group_id>
-      <g:title>Skoda Kamiq 1.5 TSI ACT Monte Carlo / Pano / Carplay / Trekh</g:title>
-      <g:description>1.674 km • 2025</g:description>
-      <link>https://contentlease.nl/leasevoorraad/skoda/kamiq/313295889-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/skoda/kamiq/313295889-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Skoda%20Kamiq,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:1.5%20TSI%20ACT%20Monte%20Carlo%20%252F%20Pano%20%252F%20Carplay%20%252F%20Trekh,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2032.495%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:1.674%20km%20%E2%80%A2%202025,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20516%252C97%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/JFT-05-V.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Škoda</g:brand>
-      <g:model>Kamiq</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>32495.00 EUR</g:price>
-      <g:year>2025</g:year>
-      <g:mileage>1674 KM</g:mileage>
-    </item>
-    <item>
       <g:id>HJF-09-B</g:id>
       <g:item_group_id>HJF-09-B</g:item_group_id>
       <g:title>Mitsubishi Outlander 2.4 PHEV Intense+ standkachel alcantara navigatie stoelverwarming camera</g:title>
@@ -163,6 +147,22 @@
       <g:price>25950.00 EUR</g:price>
       <g:year>2022</g:year>
       <g:mileage>29889 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>GBN-41-V</g:id>
+      <g:item_group_id>GBN-41-V</g:item_group_id>
+      <g:title>Peugeot Partner Tepee 1.2 PureTech Allure 110 pk navigatie en airco PDC Carplay Mirror link</g:title>
+      <g:description>91.016 km • 2018</g:description>
+      <link>https://contentlease.nl/leasevoorraad/peugeot/partner/233490325-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/peugeot/partner/233490325-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Peugeot%20Partner,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:Tepee%201.2%20PureTech%20Allure%20110%20pk%20navigatie%20en%20airco%20PDC%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2014.950%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:91.016%20km%20%E2%80%A2%202018,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20237%252C84%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/GBN-41-V.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Peugeot</g:brand>
+      <g:model>Partner</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>14950.00 EUR</g:price>
+      <g:year>2018</g:year>
+      <g:mileage>91016 KM</g:mileage>
     </item>
   </channel>
 </rss>
