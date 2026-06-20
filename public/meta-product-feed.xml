@@ -37,22 +37,6 @@
       <g:mileage>36722 KM</g:mileage>
     </item>
     <item>
-      <g:id>HHZ-90-D</g:id>
-      <g:item_group_id>HHZ-90-D</g:item_group_id>
-      <g:title>Citroen C4 1.2 Puretech Shine 130 pk automaat leer navigatie massagestoelen stuurverwarming</g:title>
-      <g:description>13.093 km • 2023</g:description>
-      <link>https://contentlease.nl/leasevoorraad/citroen/c4/180004977-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/citroen/c4/180004977-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Citroen%20C4,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:1.2%20Puretech%20Shine%20130%20pk%20automaat%20leer%20navigatie%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2022.900%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:13.093%20km%20%E2%80%A2%202023,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20305%252C09%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/HHZ-90-D.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Citroën</g:brand>
-      <g:model>C4</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>22900.00 EUR</g:price>
-      <g:year>2023</g:year>
-      <g:mileage>13093 KM</g:mileage>
-    </item>
-    <item>
       <g:id>HJF-09-B</g:id>
       <g:item_group_id>HJF-09-B</g:item_group_id>
       <g:title>Mitsubishi Outlander 2.4 PHEV Intense+ standkachel alcantara navigatie stoelverwarming camera</g:title>
@@ -163,6 +147,22 @@
       <g:price>14950.00 EUR</g:price>
       <g:year>2018</g:year>
       <g:mileage>91016 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>JFH-87-R</g:id>
+      <g:item_group_id>JFH-87-R</g:item_group_id>
+      <g:title>Lamborghini Huracán STO 5.2 V10 LIFT|Carbon|AD PERSONAM|60th AN|VAT/BTW|GARANTIE 05-2026</g:title>
+      <g:description>2.942 km • 2023</g:description>
+      <link>https://contentlease.nl/leasevoorraad/lamborghini/huracan/84669615-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/lamborghini/huracan/84669615-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Lamborghini%20Hurac%C3%A1n,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:STO%205.2%20V10%20LIFT%7CCarbon%7CAD%20PERSONAM%7C60th%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%20499.950%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:2.942%20km%20%E2%80%A2%202023,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%206.689%252C69%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/JFH-87-R.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Lamborghini</g:brand>
+      <g:model>Huracan</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>499950.00 EUR</g:price>
+      <g:year>2023</g:year>
+      <g:mileage>2942 KM</g:mileage>
     </item>
   </channel>
 </rss>
