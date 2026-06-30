@@ -53,22 +53,6 @@
       <g:mileage>57899 KM</g:mileage>
     </item>
     <item>
-      <g:id>HZL-80-L</g:id>
-      <g:item_group_id>HZL-80-L</g:item_group_id>
-      <g:title>Opel Vivaro Combi 1.5 CDTI L3H1 9persoons PERSONENBUS Prijs is incl. BTW/BPM Navigatie Apple Carplay/ Android Auto Airco Cruise control Radio</g:title>
-      <g:description>37.136 km • 2022</g:description>
-      <link>https://contentlease.nl/leasevoorraad/opel/vivaro/225459849-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/opel/vivaro/225459849-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Opel%20Vivaro,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:Combi%201.5%20CDTI%20L3H1%209persoons%20PERSONENBUS%20Prijs%20is%20incl.%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2039.890%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:37.136%20km%20%E2%80%A2%202022,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20537%252C52%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/HZL-80-L.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Opel</g:brand>
-      <g:model>Vivaro</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>39890.00 EUR</g:price>
-      <g:year>2022</g:year>
-      <g:mileage>37136 KM</g:mileage>
-    </item>
-    <item>
       <g:id>4134429</g:id>
       <g:item_group_id>4134429</g:item_group_id>
       <g:title>Audi S3 2.0 TFSI S3 quattro ACC*LED*PANO-DAK*CAMERA*19-INCH*</g:title>
@@ -163,6 +147,22 @@
       <g:price>499950.00 EUR</g:price>
       <g:year>2023</g:year>
       <g:mileage>2942 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>GBJ-42-L</g:id>
+      <g:item_group_id>GBJ-42-L</g:item_group_id>
+      <g:title>Volkswagen Golf 2.0 TDI 147kW/200PK GTD Pano/Leder/IQ.Light/HK/Camera/Headup/Elek. stoel/DCC/19"/Trekhaak wegkl.</g:title>
+      <g:description>73.909 km • 2024</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/golf/313288341-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/golf/313288341-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Volkswagen%20Golf,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:2.0%20TDI%20147kW%252F200PK%20GTD%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2043.945%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:73.909%20km%20%E2%80%A2%202024,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20593%252C25%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/GBJ-42-L.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>Golf</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>43945.00 EUR</g:price>
+      <g:year>2024</g:year>
+      <g:mileage>73909 KM</g:mileage>
     </item>
   </channel>
 </rss>
