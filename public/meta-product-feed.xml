@@ -69,22 +69,6 @@
       <g:mileage>73769 KM</g:mileage>
     </item>
     <item>
-      <g:id>JKN-74-L</g:id>
-      <g:item_group_id>JKN-74-L</g:item_group_id>
-      <g:title>Volkswagen Up! 1.0 TSI GTI PANO|STOELVERW|LED|CRUISECONTROL|</g:title>
-      <g:description>93.248 km • 2019</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/up/157672196-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/up/157672196-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Volkswagen%20Up!,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:1.0%20TSI%20GTI%20PANO%7CSTOELVERW%7CLED%7CCRUISECONTROL%7C,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2013.700%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:93.248%20km%20%E2%80%A2%202019,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20217%252C95%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/JKN-74-L.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>up!</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>13700.00 EUR</g:price>
-      <g:year>2019</g:year>
-      <g:mileage>93248 KM</g:mileage>
-    </item>
-    <item>
       <g:id>JHJ-02-X</g:id>
       <g:item_group_id>JHJ-02-X</g:item_group_id>
       <g:title>Hyundai Kona 1.6 GDI HEV Premium Sky Leder| Trekhaak| HUD</g:title>
@@ -163,6 +147,22 @@
       <g:price>43945.00 EUR</g:price>
       <g:year>2024</g:year>
       <g:mileage>73909 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>HDN-43-S</g:id>
+      <g:item_group_id>HDN-43-S</g:item_group_id>
+      <g:title>Audi A4 allroad quattro 45 TFSI NAV ECC PANO LEER LED DEALER</g:title>
+      <g:description>104.134 km • 2019</g:description>
+      <link>https://contentlease.nl/leasevoorraad/audi/a4/277451371-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/audi/a4/277451371-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Audi%20A4%20allroad,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:quattro%2045%20TFSI%20NAV%20ECC%20PANO%20LEER%20LED%20DEALER,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2027.490%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:104.134%20km%20%E2%80%A2%202019,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20363%252C49%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/HDN-43-S.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Audi</g:brand>
+      <g:model>A4 Allroad</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>27490.00 EUR</g:price>
+      <g:year>2019</g:year>
+      <g:mileage>104134 KM</g:mileage>
     </item>
   </channel>
 </rss>
