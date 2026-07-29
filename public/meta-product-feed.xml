@@ -149,20 +149,20 @@
       <g:mileage>104134 KM</g:mileage>
     </item>
     <item>
-      <g:id>JHJ-84-K</g:id>
-      <g:item_group_id>JHJ-84-K</g:item_group_id>
-      <g:title>Kia Niro 1.6 GDi Hybrid TREKHAAK|CAMERA|NAVIGATIE|KEYLESS|CARPLAY|ADAPTIVE CRUISECONTROL</g:title>
-      <g:description>151.239 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/kia/niro/269053414-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/kia/niro/269053414-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Kia%20Niro,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:1.6%20GDi%20Hybrid%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2016.749%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:151.239%20km%20%E2%80%A2%202020,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20266%252C45%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/JHJ-84-K.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Kia</g:brand>
-      <g:model>Niro</g:model>
+      <g:id>N-580-HF</g:id>
+      <g:item_group_id>N-580-HF</g:item_group_id>
+      <g:title>BMW 1 Serie 116i Business Edition | Zwarte grill | Apple Carplay | DAB+ | PDC V+A</g:title>
+      <g:description>169.040 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/bmw/1series/46564230-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/bmw/1series/46564230-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:BMW%201%20Serie,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:116i%20Business%20Edition%20%E2%80%A2%20Zwarte%20grill%20%E2%80%A2%20Apple%20Carplay%20%E2%80%A2%20DAB%2B%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2014.950%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:169.040%20km%20%E2%80%A2%202021,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20201%252C04%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/N-580-HF.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>BMW</g:brand>
+      <g:model>1 Serie</g:model>
       <g:condition>used</g:condition>
       <g:availability>in stock</g:availability>
-      <g:price>16749.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>151239 KM</g:mileage>
+      <g:price>14950.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>169040 KM</g:mileage>
     </item>
   </channel>
 </rss>
