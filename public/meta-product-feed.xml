@@ -5,22 +5,6 @@
     <description>Geoptimaliseerde feed (Facebook/Instagram Ads)</description>
     <link>https://www.contentlease.nl</link>
     <item>
-      <g:id>Ayvens NL</g:id>
-      <g:item_group_id>Ayvens NL</g:item_group_id>
-      <g:title>Toyota Corolla Touring Sports 1.8 Hybrid 122pk Business Plus | CarPlay ECC Navi 17" LMV LED ACC Camera Metallic | Hybrid Voorschoten</g:title>
-      <g:description>122.812 km • 2020</g:description>
-      <link>https://contentlease.nl/leasevoorraad/toyota/corollatouringsports/362605344-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/toyota/corollatouringsports/362605344-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Toyota%20Corolla%20Touring%20Sports,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:1.8%20Hybrid%20122pk%20Business%20Plus%20%E2%80%A2%20CarPlay%20ECC%20Navi%2017%22%20LMV%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2019.995%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:122.812%20km%20%E2%80%A2%202020,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20264%252C31%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/Ayvens_NL.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Toyota</g:brand>
-      <g:model>Corolla Touring Sports</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>19995.00 EUR</g:price>
-      <g:year>2020</g:year>
-      <g:mileage>122812 KM</g:mileage>
-    </item>
-    <item>
       <g:id>T-422-NL</g:id>
       <g:item_group_id>T-422-NL</g:item_group_id>
       <g:title>Toyota C-HR 1.8 Hybrid Active AUT. | 1e eigenaar | navigatie | camera | apple carplay | cruise control | 36.000 KM</g:title>
@@ -163,6 +147,22 @@
       <g:price>14800.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>169040 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>TB-013-S</g:id>
+      <g:item_group_id>TB-013-S</g:item_group_id>
+      <g:title>Porsche Panamera Sport Turismo 4.0 Turbo S E-Hybrid | 1e eigenaar | NL auto | Dealer Historie | Burmester | Matrix-LED | Dakraam | 21 inch |</g:title>
+      <g:description>193.187 km • 2018</g:description>
+      <link>https://contentlease.nl/leasevoorraad/porsche/panamera/468450324-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/porsche/panamera/468450324-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Porsche%20Panamera,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:Sport%20Turismo%204.0%20Turbo%20S%20E-Hybrid%20%E2%80%A2%201e%20eigenaar%20%E2%80%A2%20NL%20auto%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2069.950%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:193.187%20km%20%E2%80%A2%202018,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%201.112%252C84%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/TB-013-S.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Porsche</g:brand>
+      <g:model>Panamera</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>69950.00 EUR</g:price>
+      <g:year>2018</g:year>
+      <g:mileage>193187 KM</g:mileage>
     </item>
   </channel>
 </rss>
