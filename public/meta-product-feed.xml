@@ -37,22 +37,6 @@
       <g:mileage>57899 KM</g:mileage>
     </item>
     <item>
-      <g:id>4134429</g:id>
-      <g:item_group_id>4134429</g:item_group_id>
-      <g:title>Audi S3 2.0 TFSI S3 quattro ACC*LED*PANO-DAK*CAMERA*19-INCH*</g:title>
-      <g:description>73.769 km • 2018</g:description>
-      <link>https://contentlease.nl/leasevoorraad/audi/s3/235835986-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/audi/s3/235835986-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Audi%20S3,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:2.0%20TFSI%20S3%20quattro%20ACC*LED*PANO-DAK*CAMERA*19-INCH*,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2032.950%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:73.769%20km%20%E2%80%A2%202018,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20524%252C2%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/4134429.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Audi</g:brand>
-      <g:model>S3</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>32950.00 EUR</g:price>
-      <g:year>2018</g:year>
-      <g:mileage>73769 KM</g:mileage>
-    </item>
-    <item>
       <g:id>JKH-50-H</g:id>
       <g:item_group_id>JKH-50-H</g:item_group_id>
       <g:title>Toyota Corolla 2.0 Hybrid Team D GR Navi+BT| Camera| Dealer onderhouden</g:title>
@@ -163,6 +147,22 @@
       <g:price>69950.00 EUR</g:price>
       <g:year>2018</g:year>
       <g:mileage>193187 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>S-080-SV</g:id>
+      <g:item_group_id>S-080-SV</g:item_group_id>
+      <g:title>DS DS 3 1.2 100PK Bastille | DAB+ | Apple Carplay | Head UP Display</g:title>
+      <g:description>38.585 km • 2023</g:description>
+      <link>https://contentlease.nl/leasevoorraad/ds/ds3/57918135-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/ds/ds3/57918135-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:DS%20DS%203,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:1.2%20100PK%20Bastille%20%E2%80%A2%20DAB%2B%20%E2%80%A2%20Apple%20Carplay%20%E2%80%A2%20Head%20UP%20Display,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2018.800%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:38.585%20km%20%E2%80%A2%202023,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20253%252C14%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/S-080-SV.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>DS</g:brand>
+      <g:model>DS 3</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>18800.00 EUR</g:price>
+      <g:year>2023</g:year>
+      <g:mileage>38585 KM</g:mileage>
     </item>
   </channel>
 </rss>
