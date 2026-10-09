@@ -37,22 +37,6 @@
       <g:mileage>169040 KM</g:mileage>
     </item>
     <item>
-      <g:id>S-080-SV</g:id>
-      <g:item_group_id>S-080-SV</g:item_group_id>
-      <g:title>DS DS 3 1.2 100PK Bastille | DAB+ | Apple Carplay | Head UP Display</g:title>
-      <g:description>38.585 km • 2023</g:description>
-      <link>https://contentlease.nl/leasevoorraad/ds/ds3/57918135-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/ds/ds3/57918135-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:DS%20DS%203,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:1.2%20100PK%20Bastille%20%E2%80%A2%20DAB%2B%20%E2%80%A2%20Apple%20Carplay%20%E2%80%A2%20Head%20UP%20Display,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2018.800%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:38.585%20km%20%E2%80%A2%202023,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20253%252C1%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/S-080-SV.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>DS</g:brand>
-      <g:model>DS 3</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>18800.00 EUR</g:price>
-      <g:year>2023</g:year>
-      <g:mileage>38585 KM</g:mileage>
-    </item>
-    <item>
       <g:id>JHZ-75-F</g:id>
       <g:item_group_id>JHZ-75-F</g:item_group_id>
       <g:title>Audi A4 Avant 40 TFSI S-Tronic Business Aut New Model 2021! Airco ECC Navi Cruise Control Facelift 204 pk</g:title>
@@ -163,6 +147,22 @@
       <g:price>49745.00 EUR</g:price>
       <g:year>2025</g:year>
       <g:mileage>6001 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>X-108-XS</g:id>
+      <g:item_group_id>X-108-XS</g:item_group_id>
+      <g:title>Volkswagen T-Cross 1.5 TSI DSG Style Team Navigatie Apple Carplay/Android Auto Adaptive cruise control Parkeersensoren Camera Stoelverwarming Virtual</g:title>
+      <g:description>92.987 km • 2021</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volkswagen/t-cross/506538726-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/t-cross/506538726-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Volkswagen%20T-Cross,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:1.5%20TSI%20DSG%20Style%20Team%20Navigatie%20Apple%20Carplay%252FAndroid%20Auto%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2019.450%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:92.987%20km%20%E2%80%A2%202021,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20257%252C78%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/X-108-XS.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volkswagen</g:brand>
+      <g:model>T-Cross</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>19450.00 EUR</g:price>
+      <g:year>2021</g:year>
+      <g:mileage>92987 KM</g:mileage>
     </item>
   </channel>
 </rss>
