@@ -69,22 +69,6 @@
       <g:mileage>105412 KM</g:mileage>
     </item>
     <item>
-      <g:id>T-836-VX</g:id>
-      <g:item_group_id>T-836-VX</g:item_group_id>
-      <g:title>Volkswagen T-Roc 1.5 TSI 150pk DSG Style Consignatie auto Navigatie Climate Control Parkeer sensoren Adaptive Cruise Control Led Dab</g:title>
-      <g:description>41.141 km • 2022</g:description>
-      <link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/359923906-0/</link>
-      <g:link>https://contentlease.nl/leasevoorraad/volkswagen/t-roc/359923906-0/</g:link>
-      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Volkswagen%20T-Roc,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:1.5%20TSI%20150pk%20DSG%20Style%20Consignatie%20auto%20Navigatie%20Climate%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2023.940%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:41.141%20km%20%E2%80%A2%202022,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20380%252C86%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/T-836-VX.jpg?_a=BAMAPqfk0</g:image_link>
-      <g:brand>Volkswagen</g:brand>
-      <g:model>T-Roc</g:model>
-      <g:condition>used</g:condition>
-      <g:availability>in stock</g:availability>
-      <g:price>23940.00 EUR</g:price>
-      <g:year>2022</g:year>
-      <g:mileage>41141 KM</g:mileage>
-    </item>
-    <item>
       <g:id>R-301-RK</g:id>
       <g:item_group_id>R-301-RK</g:item_group_id>
       <g:title>Opel Vivaro-e Combi L3H1 75 kWh 9-persoons PERSONENBUS Airco Navi PDCA</g:title>
@@ -163,6 +147,22 @@
       <g:price>19450.00 EUR</g:price>
       <g:year>2021</g:year>
       <g:mileage>92987 KM</g:mileage>
+    </item>
+    <item>
+      <g:id>HVR-50-P</g:id>
+      <g:item_group_id>HVR-50-P</g:item_group_id>
+      <g:title>Volvo V60 2.0 B4 R-Design Navigatie Climate control Cruise control adaptive Parkeersensoren Achteruitrijcamera Keyless Navigatie Apple Carplay/</g:title>
+      <g:description>93.546 km • 2022</g:description>
+      <link>https://contentlease.nl/leasevoorraad/volvo/v60/24889794-0/</link>
+      <g:link>https://contentlease.nl/leasevoorraad/volvo/v60/24889794-0/</g:link>
+      <g:image_link>https://res.cloudinary.com/dbcf66fsf/image/upload/b_rgb:f2f0ed,c_lpad,h_700,w_1080/b_rgb:f2f0ed,c_pad,h_704,w_1080/b_white,c_pad,g_north,h_1080,w_1080,y_130/c_fit,co_rgb:1c0a30,g_north_west,l_text:Arial_50_bold:Volvo%20V60,w_960,x_60,y_840/c_fit,co_rgb:555555,g_north_west,l_text:Arial_34:2.0%20B4%20R-Design%20Navigatie%20Climate%20control%20Cruise%20control%20...,w_700,x_60,y_904/co_rgb:555555,g_north_east,l_text:Arial_34:%E2%82%AC%2027.890%252C-,x_60,y_916/c_fit,co_rgb:555555,g_south_west,l_text:Arial_36_600:93.546%20km%20%E2%80%A2%202022,w_500,x_60,y_52/co_rgb:2fb25d,g_south_east,l_text:Arial_68_bold:v.a.%20%E2%82%AC%20370%252C6%20p%252Fm,x_60,y_38/co_rgb:1c0a30,g_north_east,l_text:Arial_38_bold:Financial%20Lease,x_60,y_30/c_fit,g_north_west,h_90,l_content_lease_meta:_logo,x_60,y_20/q_80/content_lease_meta/HVR-50-P.jpg?_a=BAMAPqfk0</g:image_link>
+      <g:brand>Volvo</g:brand>
+      <g:model>V60</g:model>
+      <g:condition>used</g:condition>
+      <g:availability>in stock</g:availability>
+      <g:price>27890.00 EUR</g:price>
+      <g:year>2022</g:year>
+      <g:mileage>93546 KM</g:mileage>
     </item>
   </channel>
 </rss>
